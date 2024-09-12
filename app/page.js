@@ -1,12 +1,10 @@
 import Image from "next/image";
-import Header from '../components/Header';
 import marlinPhoto from '../public/images/marlin-photo.jpg';
+import ContactUs from '@/components/ContactUs';
 
 export default function Home() {
   return (
     <div className="font-sans">
-      <Header />
-
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
@@ -27,7 +25,7 @@ export default function Home() {
       {/* Blue Marlin Fishing Section */}
       <section id="blue-marlin-fishing" className="py-16 bg-gray-200">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing in Bahia</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing on the coast of Bahia</h2>
           <p className="text-xl mb-8">Experience the thrill of catching the majestic Blue Marlin in the waters of Bahia, Brazil. Our expert guides and state-of-the-art equipment ensure a memorable fishing adventure.</p>
           <div className="flex flex-col items-center">
             <Image
@@ -112,6 +110,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Contact Us Section */}
+      <ContactUs />
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">

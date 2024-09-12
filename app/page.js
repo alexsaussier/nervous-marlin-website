@@ -16,9 +16,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
           <h1 className="text-5xl font-bold mb-4">Incredible Blue Marlin Fishing</h1>
           <p className="text-xl mb-8">Discover the world-renowned fishing coast of Brazil</p>
-          <a href="#book" className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
-            Book Now
-          </a>
+          <div className="flex space-x-4">
+            <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300">
+              Contact Us
+            </a>
+            <a href="#book" className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
+              Book Now
+            </a>
+          </div>
         </div>
       </section>
 

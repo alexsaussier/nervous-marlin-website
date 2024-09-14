@@ -111,17 +111,18 @@ export default function ContactUs() {
               label="Country" 
               name="country" 
               options={[
-                { value: 'us', label: 'United States' },
-                { value: 'ca', label: 'Canada' },
-                { value: 'br', label: 'Brazil' },
-                { value: 'uk', label: 'United Kingdom' },
+                
                 { value: 'au', label: 'Australia' },
+                { value: 'br', label: 'Brazil' },
+                { value: 'ca', label: 'Canada' },
                 { value: 'de', label: 'Germany' },
                 { value: 'fr', label: 'France' },
                 { value: 'it', label: 'Italy' },
-                { value: 'es', label: 'Spain' },
                 { value: 'pt', label: 'Portugal' },
+                { value: 'es', label: 'Spain' },
                 { value: 'ch', label: 'Switzerland' },
+                { value: 'uk', label: 'United Kingdom' },
+                { value: 'us', label: 'United States' },
                 { value: 'other', label: 'Other' },
               ]} 
               value={formData.country}
@@ -152,10 +153,10 @@ export default function ContactUs() {
             <textarea 
               id="message" 
               name="message" 
-              rows="3" 
+              rows="5" 
               value={formData.message}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 px-3 py-2 block w-full rounded-md border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
             ></textarea>
           </div>
           <div className="flex justify-center mt-6">

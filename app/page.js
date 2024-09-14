@@ -1,6 +1,7 @@
 import Image from "next/image";
 import marlinPhoto from '../public/images/marlin-photo.jpg';
 import ContactUs from '@/components/ContactUs';
+import WhyChooseUs from '@/components/WhyChooseUs';
 
 export default function Home() {
   return (
@@ -80,19 +81,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="about" className="py-16">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Us?</h2>
-          <ul className="list-disc pl-6">
-            <li className="mb-2">World-class Blue Marlin fishing experiences</li>
-            <li className="mb-2">Luxurious accommodations</li>
-            <li className="mb-2">Expert guides and staff</li>
-            <li className="mb-2">Unforgettable culinary experiences</li>
-            <li className="mb-2">Many various activities, even for non-fishers</li>
-
-          </ul>
-        </div>
-      </section>
+      <WhyChooseUs />
 
       {/* Testimonials Section */}
       <section className="py-16 bg-gray-100">
@@ -119,20 +108,7 @@ export default function Home() {
       {/* Contact Us Section */}
       <ContactUs />
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="container mx-auto flex justify-between">
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <p>Phone: +1 234 567 8900</p>
-            <p>Email: info@yourdomain.com</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
-            {/* Add social media icons here */}
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 }

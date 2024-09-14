@@ -32,11 +32,14 @@ export default function Header() {
         </Link>
         <div className="flex items-center">
           <ul className="flex space-x-8 mr-8">
-            <li><Link href="#activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
+            <li><Link href="/#activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
             <li><Link href="/trip-planning" className="text-lg font-semibold hover:text-red-400 transition duration-300">Trip Planning</Link></li>
-            <li><Link href="#about" className="text-lg font-semibold hover:text-red-400 transition duration-300">Why Choose Us?</Link></li>
+            <li><Link href="/#about" className="text-lg font-semibold hover:text-red-400 transition duration-300">Why Choose Us?</Link></li>
+            <li><Link href="/packages" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
+
+
           </ul>
-          <Link href="#book" className="bg-red-600 text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
+          <Link href="/book-now" className="bg-red-600 text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
             Book Now
           </Link>
         </div>

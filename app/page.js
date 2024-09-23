@@ -34,14 +34,14 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing on the coast of Bahia</h2>
           <p className="text-xl mb-8">Experience the thrill of catching the majestic Blue Marlin in the waters of Bahia, Brazil. Our expert guides and state-of-the-art equipment ensure a memorable fishing adventure.</p>
           <div className="flex flex-col items-center">
-            <Image
+            {/*<Image
               src="/blue-marlin-fishing.jpg"
               alt="Blue Marlin Fishing"
               width={500}
               height={300}
               objectFit="cover"
               className="mb-8"
-            />
+            />*/}
             <p className="text-lg">Our fishing excursions cater to both beginners and experienced anglers, offering a unique opportunity to catch this iconic species in its natural habitat.</p>
           </div>
         </div>

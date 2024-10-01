@@ -36,7 +36,7 @@ export default function Header({ alwaysDark = false }) {
         </Link>
         <div className="flex items-center">
           <ul className="flex space-x-8 mr-8">
-            <li><Link href="/#activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
+            <li><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
             <li><Link href="/trip-planning" className="text-lg font-semibold hover:text-red-400 transition duration-300">Trip Planning</Link></li>
             <li><Link href="/#about" className="text-lg font-semibold hover:text-red-400 transition duration-300">Why Choose Us?</Link></li>
             {/*

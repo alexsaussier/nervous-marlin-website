@@ -1,13 +1,13 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './carousel.css';
 
-// Import all images from the accommodation folder
 function importAll(r) {
   return r.keys().map(r);
 }
@@ -24,6 +24,8 @@ const activities = [
 ];
 
 export default function AccommodationAndActivities() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -31,34 +33,70 @@ export default function AccommodationAndActivities() {
     });
   }, []);
 
+  const handleSlideClick = (index) => {
+    if (index < currentSlide) {
+      setCurrentSlide(currentSlide - 1);
+    } else if (index > currentSlide) {
+      setCurrentSlide(currentSlide + 1);
+    }
+  };
+
   return (
     <div className="font-sans">
       <section className="pt-28 bg-gray-100">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-12">Accommodation and Activities</h1>
           
           {/* Accommodation Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-semibold text-center mb-8">Your Luxurious Stay</h2>
-            <div className="max-w-3xl mx-auto" data-aos="fade-up">
-              <Carousel showArrows={true} showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={true} interval={5000}>
-                {accommodationImages.map((img, index) => (
-                  <div key={index}>
-                    <Image src={img.default} alt={`Accommodation ${index + 1}`} width={800} height={600} objectFit="cover" />
-                  </div>
-                ))}
-              </Carousel>
+            <p className="text-center mb-6 text-lg">Experience comfort and luxury in our beautifully appointed accommodations.</p>
+            <div className="max-w-4xl mx-auto relative" data-aos="fade-up">
+              <div className="carousel-container relative">
+                <Carousel 
+                  showArrows={true} 
+                  showStatus={false} 
+                  showThumbs={false} 
+                  infiniteLoop={true} 
+                  autoPlay={true} 
+                  interval={10000}
+                  centerMode={true}
+                  centerSlidePercentage={75}
+                  className="custom-carousel"
+                >
+                  {accommodationImages.map((img, index) => (
+                    <div key={index} className="px-5">
+                      <div className="relative overflow-hidden rounded-2xl">
+                        <Image 
+                          src={img.default} 
+                          alt={`Accommodation ${index + 1}`} 
+                          width={800} 
+                          height={600} 
+                          objectFit="cover"
+                          className="rounded-2xl"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </Carousel>
+                <div className="absolute inset-0 pointer-events-none carousel-overlay"></div>
+              </div>
             </div>
-            <p className="text-center mt-6 text-lg">Experience comfort and luxury in our beautifully appointed accommodations.</p>
           </div>
 
           {/* Activities Section */}
-          <div>
+          <div className="pb-16">
             <h2 className="text-3xl font-semibold text-center mb-8">Exciting Activities</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {activities.map((activity, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100}>
-                  <Image src={activity.image} alt={activity.name} width={400} height={300} objectFit="cover" />
+                  <div className="relative h-48">
+                    <Image 
+                      src={activity.image} 
+                      alt={activity.name} 
+                      layout="fill" 
+                      objectFit="cover" 
+                    />
+                  </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold mb-2">{activity.name}</h3>
                     <p>{activity.description}</p>

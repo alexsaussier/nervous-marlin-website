@@ -1,7 +1,7 @@
 'use client';
 import MarlinPhoto from '../../public/images/marlin-photo.jpg';
 import Image from 'next/image';
-import InputField from '../../components/InputFieldDark';
+import InputField from '../../components/InputField';
 import { useState } from 'react';
 
 export default function BookNow() {

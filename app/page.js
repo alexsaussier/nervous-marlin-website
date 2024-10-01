@@ -1,5 +1,5 @@
 import Image from "next/image";
-import marlinPhoto from '../public/images/marlin-photo.jpg';
+import MarlinPhoto from '../public/images/marlin-photo.jpg';
 import ContactUs from '@/components/ContactUs';
 import WhyChooseUs from '@/components/WhyChooseUs';
 
@@ -9,7 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen">
         <Image
-          src={marlinPhoto}
+          src={MarlinPhoto}
           alt="Hero Image"
           layout="fill"
           objectFit="cover"
@@ -21,7 +21,7 @@ export default function Home() {
             <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300">
               Contact Us
             </a>
-            <a href="#book" className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
+            <a href="/book-now" className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
               Book Now
             </a>
           </div>
@@ -77,6 +77,11 @@ export default function Home() {
               <p>Private transfers to the best local restaurants and bars</p>
             </div>
           </div>
+        <div className="text-center mt-12">
+          <a href="/accomodation-and-activities" className="bg-transparent border-2 border-gray-800 text-grey-800 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 hover:text-white transition duration-300">
+            See accomodation and activities
+          </a>
+        </div>
         </div>
       </section>
 

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-export default function Header() {
+export default function Header({ alwaysDark = false }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -21,10 +21,14 @@ export default function Header() {
     };
   }, [scrolled]);
 
+  const headerClass = alwaysDark
+    ? 'bg-gray-800 text-white'
+    : scrolled
+    ? 'bg-gray-800 text-white'
+    : 'bg-transparent text-white';
+
   return (
-    <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${
-      scrolled ? 'bg-gray-800 text-white' : 'bg-transparent text-white'
-    }`}>
+    <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${headerClass}`}>
       <nav className="flex justify-between items-center max-w-7xl mx-auto p-4">
         <Link href="/" className="flex flex-col cursor-pointer">
           <span className="text-2xl font-bold">Nervous Marlin</span>

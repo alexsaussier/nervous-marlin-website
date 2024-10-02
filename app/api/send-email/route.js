@@ -18,7 +18,7 @@ export async function POST(request) {
   // Compose the email
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: 'asaussier99@gmail.com', // Replace with your email address
+    to: process.env.EMAIL_TO, // Replace with your email address
     subject: 'New Booking Inquiry from Nervous Marlin Website',
     text: `
       New booking inquiry received fron the webpage:

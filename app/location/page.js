@@ -7,7 +7,7 @@ export default function Location() {
   return (
     <div className="font-sans">
       {/* Hero Section */}
-      <section className="relative h-[calc(80vh-6rem)]">
+      <section className="relative h-[60vh]">
         <Image
           src={MarlinPhoto}
           alt="Blue Marlin Fishing"
@@ -21,6 +21,8 @@ export default function Location() {
           <p className="text-xl mb-8">Experience the pristine waters of <b>Bahia, Brazil</b></p>
         </div>
       </section>
+
+      
 
       {/* Fishing Spot Description */}
       <section className="py-16 bg-gray-100">

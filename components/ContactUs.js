@@ -59,7 +59,7 @@ export default function ContactUs() {
 
   return (
     <section id="contact" className="py-16 bg-gray-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="flex flex-col md:flex-row md:space-x-4">

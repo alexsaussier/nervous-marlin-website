@@ -14,9 +14,9 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-          <h1 className="text-5xl font-bold mb-4">Incredible Blue Marlin Fishing</h1>
-          <p className="text-xl mb-8">Discover the world-renowned fishing coast of Brazil</p>
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center px-4">
+          <h1 className="text-5xl font-bold mb-4">Discover Exceptional Blue Marlin Fishing in Bahia, Brazil</h1>
+          <p className="text-xl mb-8">Experience the world-renowned fishing coast of Brazil</p>
           <div className="flex space-x-4">
             <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300">
               Contact Us
@@ -105,27 +105,12 @@ export default function Home() {
       </section>
 
       {/* Contact Us Section */}
-      <ContactUs />
-
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Our Location</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30803.076171462223!2d-39.14942655!3d-16.49005695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73696d7c2b9bc75%3A0x7f4859a199d0c961!2sArraial%20d&#39;Ajuda%2C%20Porto%20Seguro%20-%20BA%2C%20Brazil!5e0!3m2!1sen!2sus!4v1653925234567!5m2!1sen!2sus"
-                width="100%"
-                height="600"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full"
-              ></iframe>
-            </div>
-          </div>
+      <section className="bg-gray-100">
+        <div className="max-w-4xl mx-auto text-lg">        
+            <ContactUs />
         </div>
       </section>
+      
 
       
     </div>

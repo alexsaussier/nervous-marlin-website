@@ -49,7 +49,7 @@ export default function Header({ alwaysDark = false }) {
           <ul className="hidden lg:flex space-x-8">
             <li><Link href="/location" className="text-lg font-semibold hover:text-red-400 transition duration-300">Location</Link></li>
             <li><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
-            <li><Link href="/#about" className="text-lg font-semibold hover:text-red-400 transition duration-300">Why Choose Us?</Link></li>
+            <li><Link href="/about-us" className="text-lg font-semibold hover:text-red-400 transition duration-300">About Us</Link></li>
             {/*
             <li><Link href="/packages" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
             */}

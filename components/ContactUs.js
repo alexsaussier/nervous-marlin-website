@@ -112,18 +112,18 @@ export default function ContactUs() {
               name="country" 
               options={[
                 
-                { value: 'au', label: 'Australia' },
-                { value: 'br', label: 'Brazil' },
-                { value: 'ca', label: 'Canada' },
-                { value: 'de', label: 'Germany' },
-                { value: 'fr', label: 'France' },
-                { value: 'it', label: 'Italy' },
-                { value: 'pt', label: 'Portugal' },
-                { value: 'es', label: 'Spain' },
-                { value: 'ch', label: 'Switzerland' },
-                { value: 'uk', label: 'United Kingdom' },
-                { value: 'us', label: 'United States' },
-                { value: 'other', label: 'Other' },
+                { value: 'Australia', label: 'Australia' },
+                { value: 'Brazil', label: 'Brazil' },
+                { value: 'Canada', label: 'Canada' },
+                { value: 'Germany', label: 'Germany' },
+                { value: 'France', label: 'France' },
+                { value: 'Italy', label: 'Italy' },
+                { value: 'Portugal', label: 'Portugal' },
+                { value: 'Spain', label: 'Spain' },
+                { value: 'Switzerland', label: 'Switzerland' },
+                { value: 'United Kingdom', label: 'United Kingdom' },
+                { value: 'United States', label: 'United States' },
+                { value: 'Other', label: 'Other' },
               ]} 
               value={formData.country}
               onChange={handleChange}

@@ -31,7 +31,7 @@ export default function Location() {
               The coast of Bahia, Brazil, is renowned for its exceptional Blue Marlin fishing conditions. With warm, crystal-clear waters and abundant marine life, this region offers anglers an unparalleled opportunity to catch the majestic Blue Marlin.
             </p>
             <p className="mb-4">
-              Our prime fishing grounds are located just off the coast of Arraial d&apos;Ajuda, where the continental shelf drops off rapidly, creating the perfect habitat for Blue Marlins and other pelagic species.
+              Our prime fishing grounds are located just off the coast of Arraial d&apos;Ajuda and the Royal Charlotte Bank, where the continental shelf drops off rapidly, creating the perfect habitat for Blue Marlins and other pelagic species.
             </p>
             <p>
               Whether you are a seasoned angler or a novice fisherman, our expert guides and top-of-the-line equipment ensure an unforgettable fishing experience in one of the world&apos;s best Blue Marlin hotspots.

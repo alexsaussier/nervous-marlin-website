@@ -48,8 +48,8 @@ export default function Header({ alwaysDark = false }) {
           {/* Desktop menu */}
           <ul className="hidden lg:flex space-x-8">
           <li><Link href="/about-us" className="text-lg font-semibold hover:text-red-400 transition duration-300">About Us</Link></li>
-            <li><Link href="/location" className="text-lg font-semibold hover:text-red-400 transition duration-300">Location</Link></li>
-            <li><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Fishing & Activities</Link></li>
+            <li><Link href="/fishing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Fishing</Link></li>
+            <li><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Accomodation & Activities</Link></li>
             {/*
             <li><Link href="/packages" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
             */}

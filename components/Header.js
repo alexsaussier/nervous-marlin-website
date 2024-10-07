@@ -28,6 +28,10 @@ export default function Header({ alwaysDark = false }) {
     ? 'bg-gray-800 text-white'
     : 'bg-transparent text-white';
 
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${headerClass}`}>
       <nav className="flex justify-between items-center max-w-7xl mx-auto p-4">
@@ -47,13 +51,11 @@ export default function Header({ alwaysDark = false }) {
           </button>
           {/* Desktop menu */}
           <ul className="hidden lg:flex space-x-8">
-          <li><Link href="/about-us" className="text-lg font-semibold hover:text-red-400 transition duration-300">About Us</Link></li>
+            <li><Link href="/about-us" className="text-lg font-semibold hover:text-red-400 transition duration-300">About Us</Link></li>
             <li><Link href="/fishing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Fishing</Link></li>
-            <li><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Accomodation & Activities</Link></li>
-            {/*
+            <li><Link href="/activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Other Activities</Link></li>
+            <li><Link href="/accomodation" className="text-lg font-semibold hover:text-red-400 transition duration-300">Accomodation</Link></li>
             <li><Link href="/packages" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
-            */}
-
           </ul>
           {/* Book Now button - always visible */}
           <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base lg:text-lg font-semibold hover:bg-red-700 transition duration-300">
@@ -62,15 +64,24 @@ export default function Header({ alwaysDark = false }) {
         </div>
       </nav>
       {/* Mobile menu */}
-      {isMenuOpen && (
-        <div className="lg:hidden bg-gray-800 text-white">
-          <ul className="flex flex-col items-center py-4">
-            <li className="py-2"><Link href="/location" className="text-lg font-semibold hover:text-red-400 transition duration-300">Location</Link></li>
-            <li className="py-2"><Link href="/accomodation-and-activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Activities</Link></li>
-            <li className="py-2"><Link href="/#about" className="text-lg font-semibold hover:text-red-400 transition duration-300">Why Choose Us?</Link></li>
+      <div className={`lg:hidden fixed inset-0 bg-gray-900 bg-opacity-90 z-50 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+        <div className={`absolute top-0 right-0 max-w-[250px] w-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out rounded-bl-2xl ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+          <div className="flex justify-between items-center p-4 border-b">
+            <button onClick={() => setIsMenuOpen(false)} className="text-gray-600 hover:text-gray-800">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <ul className="py-4">
+            <li><Link href="/about-us" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">About Us</Link></li>
+            <li><Link href="/fishing" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Fishing</Link></li>
+            <li><Link href="/activities" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Other Activities</Link></li>
+            <li><Link href="/accomodation" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Accomodation</Link></li>
+            <li><Link href="/packages" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Packages</Link></li>
           </ul>
         </div>
-      )}
+      </div>
     </header>
   );
 }

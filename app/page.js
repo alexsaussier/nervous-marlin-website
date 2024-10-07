@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         <div className="text-center mt-12">
           <a href="/accomodation-and-activities" className="bg-transparent border-2 border-gray-800 text-grey-800 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 hover:text-white transition duration-300">
-            See accomodation and activities
+            See the activities we plan for you
           </a>
         </div>
         </div>

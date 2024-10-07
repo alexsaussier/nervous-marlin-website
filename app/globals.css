@@ -24,4 +24,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .scroll-smooth-off {
+    scroll-behavior: auto;
+  }
 }

@@ -1,22 +1,15 @@
 import Image from 'next/image';
 import Pitinga from '@/public/images/activities/beach1.jpg';
-
+import Hero from '@/components/Hero';
 export default function AboutUs() {
   return (
     <div className="font-sans">
-      {/* Hero Section */}
-      <section className="relative h-[60vh]">
-        <Image
-          src={Pitinga}
-          alt="Bahia Coast"
-          fill
-          style={{ objectFit: "cover", objectPosition: "top" }}
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center px-4">
-          <h1 className="text-5xl font-bold mb-4">About Us</h1>
-          <p className="text-xl">Discover the story behind Nervous Marlin Fishing Lodge</p>
-        </div>
-      </section>
+      
+      <Hero
+        imageSrc={Pitinga}
+        title="About Us"
+        subtitle="Discover the story behind Nervous Marlin Fishing Lodge"
+      />
 
       {/* Owner Section */}
       <section className="py-16 bg-white">

@@ -2,27 +2,18 @@ import Image from "next/image";
 import ContactUs from '@/components/ContactUs';
 import MarlinPhoto from '../../public/images/marlin-photo.jpg';
 import Fishing1 from '@/public/images/activities/fishing1.jpg';
-
+import Hero from '@/components/Hero';
 
 export default function Fishing() {
   return (
     <div className="font-sans">
-      {/* Hero Section */}
-      <section className="relative h-[60vh]">
-        <Image
-          src={MarlinPhoto}
-          alt="Blue Marlin Fishing"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center 60%"
-          priority
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white px-4">
-          <h1 className="text-5xl font-bold mb-4 italic">Discover one of the best Blue Marlin fishing spots in the world</h1>
-          <p className="text-xl mb-8">Experience the pristine waters of <b>Bahia, Brazil</b></p>
-        </div>
-      </section>
-
+      
+      <Hero
+        imageSrc={MarlinPhoto}
+        title="Discover one of the best Blue Marlin fishing spots in the world"
+        subtitle="Experience the pristine waters of Bahia, Brazil"
+        objectPosition="center 60%"
+      />
       
 
       {/* Fishing Spot Description */}

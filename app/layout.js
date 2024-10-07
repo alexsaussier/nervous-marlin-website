@@ -24,6 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Analytics />
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <title>Your New Tab Title</title>

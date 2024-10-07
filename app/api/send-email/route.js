@@ -19,23 +19,28 @@ export async function POST(request) {
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: process.env.EMAIL_TO, // Replace with your email address
-    subject: 'New Booking Inquiry from Nervous Marlin Website',
+    subject: 'New Enquiry from Nervous Marlin Website',
     text: `
       New booking inquiry received fron the webpage:
+      Type of request: ${formData.type_of_request.toString()}
       
-      First Name: ${formData.firstName}
-      Last Name: ${formData.lastName}
+      Name: ${formData.name}
       Email: ${formData.email}
       Phone: ${formData.phone}
-      Country: ${formData.country}
-      Approximate Dates: ${formData.dates}
       Group Size: ${formData.groupSize}
+      Date From: ${formData.date_from}
+      Date To: ${formData.date_to}
+      Country: ${formData.country}
       Message: ${formData.message}
     `,
   };
 
   try {
     // Send the email
+    // Verify that name, email, and phone are not empty
+    if (!formData.name || !formData.email || !formData.phone) {
+      return NextResponse.json({ error: 'Name, email, and phone are required.' }, { status: 400 });
+    }
     await transporter.sendMail(mailOptions);
     return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
   } catch (error) {

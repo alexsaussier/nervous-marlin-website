@@ -4,24 +4,21 @@ import { useState } from 'react';
 import InputField from './InputField';
 import InputFieldDropdown from './InputFieldDropdown';
 
-export default function ContactUs() {
+export default function ContactUs({type_of_request = "Information"}) {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    name: '',
     email: '',
     phone: '',
-    country: '',
-    dates: '',
+    date_from: '',
+    date_to: '',
     groupSize: '',
+    country: '',
     message: '',
+    type_of_request: type_of_request,
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
@@ -39,138 +36,133 @@ export default function ContactUs() {
         alert('Thank you for your inquiry. We will get back to you soon!');
         // Reset form
         setFormData({
-          firstName: '',
-          lastName: '',
+          name: '',
           email: '',
           phone: '',
-          country: '',
-          dates: '',
+          date_from: '',
+          date_to: '',
           groupSize: '',
+          country: '',
           message: '',
+          type_of_request: type_of_request
         });
+      } else if (response.status === 400) {
+        alert('Could not send email. Please make sure to fill in your name, email and phone number.');
       } else {
-        throw new Error('Failed to send email');
+        throw new Error('Failed to send email: ' + response.statusText);
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('An error occurred. Please try again later.');
+      alert('An error occurred. Please try again later. ');
     }
   };
 
   return (
-    <section id="contact" className="py-16">
-      <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="flex flex-col md:flex-row md:space-x-4">
-            <div className="flex-1 mb-4 md:mb-0">
-              <InputField 
-                label="First Name" 
-                name="firstName" 
-                type="text" 
-                placeholder="Enter your first name" 
-                value={formData.firstName}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="flex-1">
-              <InputField 
-                label="Last Name" 
-                name="lastName" 
-                type="text" 
-                placeholder="Enter your last name" 
-                value={formData.lastName}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row md:space-x-4">
-            <div className="flex-1 mb-4 md:mb-0">
-              <InputField 
-                label="Email" 
-                name="email" 
-                type="email" 
-                placeholder="Enter your email" 
-                value={formData.email}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="flex-1">
-              <InputField 
-                label="Phone" 
-                name="phone" 
-                type="tel" 
-                placeholder="Enter your phone number" 
-                value={formData.phone}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <InputFieldDropdown 
-              label="Country" 
-              name="country" 
-              options={[
+    <div className="font-sans">
+      <section className="pt-8 pb-16 relative">
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-3xl mx-auto bg-gray-800 rounded-lg shadow-xl p-8 text-white">
+            <form onSubmit={handleSubmit} className="space-y-6">
+                <InputField
+                  label="Name"
+                  name="name"
+                  type="text"
+                  placeholder="Your full name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  darkMode={true}
+                />
                 
-                { value: 'Australia', label: 'Australia' },
-                { value: 'Brazil', label: 'Brazil' },
-                { value: 'Canada', label: 'Canada' },
-                { value: 'Germany', label: 'Germany' },
-                { value: 'France', label: 'France' },
-                { value: 'Italy', label: 'Italy' },
-                { value: 'Portugal', label: 'Portugal' },
-                { value: 'Spain', label: 'Spain' },
-                { value: 'Switzerland', label: 'Switzerland' },
-                { value: 'United Kingdom', label: 'United Kingdom' },
-                { value: 'United States', label: 'United States' },
-                { value: 'Other', label: 'Other' },
-              ]} 
-              value={formData.country}
-              onChange={handleChange}
-            />
-            <InputField 
-              label="Approximate Dates" 
-              name="dates" 
-              type="text" 
-              placeholder="Enter approximate dates" 
-              value={formData.dates}
-              onChange={handleChange}
-            />
-            <InputFieldDropdown 
-              label="Approximate Group Size" 
-              name="groupSize" 
-              options={[
-                { value: '1-6', label: '1 to 6' },
-                { value: '6-10', label: '6 to 10' },
-                { value: '10+', label: '10+' },
-              ]} 
-              value={formData.groupSize}
-              onChange={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-            <textarea 
-              id="message" 
-              name="message" 
-              rows="5" 
-              value={formData.message}
-              onChange={handleChange}
-              className="mt-1 px-3 py-2 block w-full rounded-md border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-              placeholder="Ask us any questions that you have regarding your trip, or if we have availability for your dates!" 
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <InputField
+                  label="Email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                  darkMode={true}
 
-            ></textarea>
+                />
+                <InputField
+                  label="Phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="Your phone number"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  darkMode={true}
+                />
+                
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <InputField
+                label="From"
+                name="date_from"
+                type="date"
+                value={formData.date_from}
+                onChange={handleChange}
+                darkMode={true}
+
+              />
+              <InputField
+                label="To"
+                name="date_to"
+                type="date"
+                value={formData.date_to}
+                onChange={handleChange}
+                darkMode={true}
+
+              />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <InputField
+                  label="Number of Guests"
+                  name="groupSize"  // Changed from "guests" to "groupSize"
+                  type="number"
+                  placeholder="Number of guests"
+                  value={formData.groupSize}
+                  onChange={handleChange}
+                  darkMode={true}
+                />
+                
+                <InputField
+                  label="Country"
+                  name="country"
+                  type="text"
+                  placeholder="Country"
+                  value={formData.country}
+                  onChange={handleChange}
+                  darkMode={true}
+                />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-200">Special Requests</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border-gray-600 bg-gray-700 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  placeholder="Any special requests or additional information"
+                ></textarea>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="w-full bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300"
+                >
+                  Send booking request
+                </button>
+              </div>
+              <div>
+                <p className="text-gray-300">We will get back to you as soon as possible.</p>
+              </div>
+            </form>
           </div>
-          <div className="flex justify-center mt-6">
-            <button 
-              type="submit" 
-              className="px-8 py-3 text-base font-medium text-white bg-red-600 rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-300"
-            >
-              Send
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   );
 }

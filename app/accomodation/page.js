@@ -15,6 +15,7 @@ import Room1 from '@/public/images/house/room1.jpg';
 import Bathroom1 from '@/public/images/house/z_bathroom1.jpg';
 import Fishing1 from '@/public/images/activities/fishing1.jpg';
 import Hero from '@/components/Hero';
+import Beach5 from '@/public/images/activities/beach5.jpg';
 
 export default function Accommodation() {
 
@@ -38,9 +39,10 @@ export default function Accommodation() {
   return (
     <div className="font-sans">
       <Hero
-        imageSrc={Fishing1}
+        imageSrc={Beach5}
         title="Accommodation"
         subtitle="We provide splendid accommodation, right on the beach"
+        objectPosition="40%"
       />
       
       {/* Accommodation Section */}
@@ -219,7 +221,7 @@ export default function Accommodation() {
               Our lodge features:
             </p>
             <ul className="list-disc list-inside text-lg mb-4">
-              <li>Accomodation for up to 13 people</li>
+              <li>Accomodation for up to 13 people, 8 bedrooms</li>
               <li>Swimming pool, jacuzzi, bar and pool table</li>
               <li>Modern amenities for a comfortable stay</li>
               <li>Proximity to prime fishing spots and local attractions</li>

@@ -16,6 +16,7 @@ import Fishing1 from '@/public/images/activities/fishing1.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
 import Night2 from '@/public/images/downtown/night2.jpeg';
 import Hero from '@/components/Hero';
+import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
 
 const activities = [
   { name: 'Nighttime Activities', 
@@ -48,9 +49,10 @@ export default function AccommodationAndActivities() {
       {/* Hero Section */}
       
       <Hero
-        imageSrc={Fishing1}
+        imageSrc={Paragliding2}
         title="Activities"
         subtitle="We lead you on unforgettable activities for the whole family"
+        objectPosition="40%"
       />
 
         

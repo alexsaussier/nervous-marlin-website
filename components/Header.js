@@ -55,7 +55,7 @@ export default function Header({ alwaysDark = false }) {
             <li><Link href="/fishing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Fishing</Link></li>
             <li><Link href="/activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Other Activities</Link></li>
             <li><Link href="/accomodation" className="text-lg font-semibold hover:text-red-400 transition duration-300">Accomodation</Link></li>
-            <li><Link href="/packages" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
+            <li><Link href="/pricing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Packages</Link></li>
           </ul>
           {/* Book Now button - always visible */}
           <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base lg:text-lg font-semibold hover:bg-red-700 transition duration-300">
@@ -78,7 +78,7 @@ export default function Header({ alwaysDark = false }) {
             <li><Link href="/fishing" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Fishing</Link></li>
             <li><Link href="/activities" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Other Activities</Link></li>
             <li><Link href="/accomodation" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Accomodation</Link></li>
-            <li><Link href="/packages" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Packages</Link></li>
+            <li><Link href="/pricing" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Packages</Link></li>
           </ul>
         </div>
       </div>

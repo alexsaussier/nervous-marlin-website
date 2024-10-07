@@ -11,8 +11,8 @@ export default function Packages() {
     <div className='font-sans'>
         <Hero
         imageSrc={Pitinga}
-        title="Packages"
-        subtitle="Discover our packages and choose the one that best suits you"
+        title="Pricing"
+        subtitle=""
         />
 
         {/*Pricing Section*/}

@@ -138,7 +138,7 @@ export const articles = [
       <>
         <h1>Reel in Adventure: Exploring Sport Fishing in Bahia</h1>
 
-<p>Bahia, Brazil is a paradise renowned not only for its breathtaking landscapes and vibrant cultures but also for its exhilarating sport fishing opportunities. Whether you're a seasoned angler or a beginner eager to cast your first line, Bahia offers an unforgettable fishing experience. Welcome to the world of sport fishing in Bahia, where the ocean's depths promise thrilling encounters and make every fishing trip a memorable adventure.</p>
+<p>Bahia, Brazil is a paradise renowned not only for its breathtaking landscapes and vibrant cultures but also for its exhilarating sport fishing opportunities. Whether you&apos;re a seasoned angler or a beginner eager to cast your first line, Bahia offers an unforgettable fishing experience. Welcome to the world of sport fishing in Bahia, where the ocean&apos;s depths promise thrilling encounters and make every fishing trip a memorable adventure.</p>
 
 <h3><strong>The Allure of Bahia&apos;s Waters</strong></h3>
 

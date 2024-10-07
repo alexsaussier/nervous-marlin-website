@@ -2,8 +2,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { articles } from "../_assets/content";
 import BadgeCategory from "../_assets/components/BadgeCategory";
-import Avatar from "../_assets/components/Avatar";
-import { getSEOTags } from "@/libs/seo";
+import { getSEOTags } from "@/utils/seo";
 import config from "@/config";
 
 export async function generateMetadata({ params }) {
@@ -37,10 +36,7 @@ export default async function Article({ params }) {
   const articlesRelated = articles
     .filter(
       (a) =>
-        a.slug !== params.articleId &&
-        a.categories.some((c) =>
-          article.categories.map((c) => c.slug).includes(c.slug)
-        )
+        a.slug !== params.articleId 
     )
     .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
     .slice(0, 3);
@@ -100,13 +96,7 @@ export default async function Article({ params }) {
         {/* HEADER WITH CATEGORIES AND DATE AND TITLE */}
         <section className="my-12 md:my-20 max-w-[800px]">
           <div className="flex items-center gap-4 mb-6">
-            {article.categories.map((category) => (
-              <BadgeCategory
-                category={category}
-                key={category.slug}
-                extraStyle="!badge-lg"
-              />
-            ))}
+            
             <span className="text-base-content/80" itemProp="datePublished">
               {new Date(article.publishedAt).toLocaleDateString("en-US", {
                 month: "long",
@@ -116,7 +106,7 @@ export default async function Article({ params }) {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 md:mb-8">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight md:mb-8">
             {article.title}
           </h1>
 
@@ -131,7 +121,6 @@ export default async function Article({ params }) {
             <p className="text-base-content/80 text-sm mb-2 md:mb-3">
               Posted by
             </p>
-            <Avatar article={article} />
 
             {articlesRelated.length > 0 && (
               <div className="hidden md:block mt-12">
@@ -162,7 +151,7 @@ export default async function Article({ params }) {
           </section>
 
           {/* ARTICLE CONTENT */}
-          <section className="w-full max-md:pt-4 md:pr-20 space-y-12 md:space-y-20">
+          <section className="w-full  md:pr-20 space-y-12 ">
             {article.content}
           </section>
         </div>

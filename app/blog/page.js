@@ -5,9 +5,9 @@ import config from "@/config";
 import { getSEOTags } from "@/utils/seo";
 
 export const metadata = getSEOTags({
-  title: `${config.appName} Blog | The AI companion for your stock investments`,
+  title: `${config.appName} Blog | `,
   description:
-    "Learn tricks and tips about investing, make smarter financial decisions, and use AI to optimize your portfolio",
+    "Experience world-class Blue Marlin fishing in Bahia, Brazil",
   canonicalUrlRelative: "/blog",
 });
 
@@ -17,14 +17,9 @@ export default async function Blog() {
     .slice(0, 6);
   return (
     <>
-      <section className="text-center max-w-xl mx-auto mt-12 mb-24 md:mb-32">
-        <h1 className="font-extrabold text-3xl lg:text-5xl tracking-tight mb-6">
-          The {config.appName} Blog
-        </h1>
-        <p className="text-lg opacity-80 leading-relaxed">
-          Learn about personal finance and about the latest Finterpret features.
-        </p>
-      </section>
+      <div className="max-w-6xl mx-auto flex justify-center items-center py-12">
+        <h1 className="text-3xl font-bold text-center">Blog Articles</h1>
+      </div>
 
       <section className="grid lg:grid-cols-2 mb-24 md:mb-32 gap-8">
         {articlesToDisplay.map((article, i) => (

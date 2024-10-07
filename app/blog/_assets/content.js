@@ -142,7 +142,7 @@ export const articles = [
 
 <h3><strong>The Allure of Bahia&apos;s Waters</strong></h3>
 
-<p>Bahia's waters are a treasure trove for sport fishing enthusiasts. Blessed with a diverse array of marine life, these waters are home to majestic Blue Marlin, Yellowfin Tuna, Dorado, and many more. The variety and abundance of species make Bahia a prime destination for those longing to test their skills and enjoy the majestic beauty of the open sea.</p>
+<p>Bahia&apos;s waters are a treasure trove for sport fishing enthusiasts. Blessed with a diverse array of marine life, these waters are home to majestic Blue Marlin, Yellowfin Tuna, Dorado, and many more. The variety and abundance of species make Bahia a prime destination for those longing to test their skills and enjoy the majestic beauty of the open sea.</p>
 
 <h3><strong>Why Choose Sport Fishing in Bahia?</strong></h3>
 

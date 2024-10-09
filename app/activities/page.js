@@ -17,20 +17,40 @@ import Diving1 from '@/public/images/activities/diving1.jpg';
 import Night2 from '@/public/images/downtown/night2.jpeg';
 import Hero from '@/components/Hero';
 import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
+import Link from 'next/link';
 
 const activities = [
-  { name: 'Nighttime Activities', 
-    description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.", image: Night2 },
+  { 
+    name: 'Nighttime Activities', 
+    slug: 'nighttime-activities',
+    description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.",
+    image: Night2 
+  },
   { name: 'Paragliding', 
-    description: 'You will be paragliding with Ricardo, he is the 2024 champion paraglider in the state of Bahia, he gives the most spectacular flight over the beautiful cliff with an amazing view of the Atlantic Ocean and reefs.', image: Paragliding1 },
+    slug: 'paragliding',
+    description: 'You will be paragliding with Ricardo, he is the 2024 champion paraglider in the state of Bahia, he gives the most spectacular flight over the beautiful cliff with an amazing view of the Atlantic Ocean and reefs.',
+    image: Paragliding1 
+  },
   { name: 'Beach Biking', 
-    description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.', image: BeachBiking1 },
+    description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.',
+    slug: 'beach-biking',
+    image: BeachBiking1 
+  },
   { name: 'Spa Treatments', 
-    description: 'Relax and rejuvenate with our luxurious spa treatments.', image: Spa1 },
+    description: 'Relax and rejuvenate with our luxurious spa treatments.',
+    slug: 'spa-treatments',
+    image: Spa1 
+  },
   { name: 'Diving', 
-    description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', image: Diving1 },
+    description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', 
+    slug: 'diving',
+    image: Diving1 
+  },
   { name: 'Private Excursions', 
-    description: 'We take our four-wheel drive to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.', image: Beach2 },
+    description: 'We take our ATVs to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and its coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.',
+    slug: 'private-excursions',
+    image: Beach2 
+  },
 ];
 
 export default function AccommodationAndActivities() {
@@ -63,21 +83,23 @@ export default function AccommodationAndActivities() {
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 {activities.map((activity, index) => (
-                  <div key={index} className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                    <div className="relative h-48 overflow-hidden">
-                      <Image 
-                        src={activity.image} 
-                        alt={activity.name} 
-                        layout="fill" 
-                        objectFit="cover"
-                        className="" 
-                      />
+                  <Link href={`/activities/${activity.slug}`} key={index}>
+                    <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
+                      <div className="relative h-48 overflow-hidden">
+                        <Image 
+                          src={activity.image} 
+                          alt={activity.name} 
+                          layout="fill" 
+                          objectFit="cover"
+                          className="" 
+                        />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">{activity.name}</h3>
+                        <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">{activity.description}</p>
+                      </div>
                     </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">{activity.name}</h3>
-                      <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">{activity.description}</p>
-                    </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -87,3 +109,6 @@ export default function AccommodationAndActivities() {
     </div>
   );
 }
+
+// Make sure to export the activities array
+export { activities };

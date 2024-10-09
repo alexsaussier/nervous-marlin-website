@@ -76,6 +76,9 @@ export default function Fishing() {
                 className="absolute top-0 left-0 w-full h-full rounded-2xl"
               ></iframe>
             </div>
+          <p className="text-sm text-gray-600 mt-4 italic text-center">
+            Disclaimer: This video is not affiliated with Nervous Marlin Fishing Lodge. It is provided as an indication of the fishing conditions in the area.
+          </p>
           </div>
         </div>
       </section>

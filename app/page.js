@@ -8,7 +8,7 @@ import Beach2 from '@/public/images/activities/beach2.jpg';
 import Spa1 from '@/public/images/activities/spa1.jpg';
 import Fishing1 from '@/public/images/activities/fishing1.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
-import Night2 from '@/public/images/downtown/night2.jpeg';
+import Night1 from '@/public/images/downtown/night1.jpeg';
 import Link from 'next/link';
 
 
@@ -17,7 +17,7 @@ const activities = [
     name: 'Nighttime Activities', 
     slug: 'nighttime-activities',
     description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.",
-    image: Night2 
+    image: Night1 
   },
   { name: 'Paragliding', 
     slug: 'paragliding',

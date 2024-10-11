@@ -9,14 +9,29 @@ import Outside2 from '@/public/images/house/outside2.jpg';
 import Outside3 from '@/public/images/house/outside3.jpg';
 import Room1 from '@/public/images/house/room1.jpg';
 import Paragliding1 from '@/public/images/activities/paragliding1.jpg';
+import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
 import BeachBiking1 from '@/public/images/activities/beach-biking1.jpg';
+import BeachBiking2 from '@/public/images/activities/beach-biking2.jpg';
+import Beach1 from '@/public/images/activities/beach1.jpg';
 import Beach2 from '@/public/images/activities/beach2.jpg';
+import Beach3 from '@/public/images/activities/beach3.jpg';
+import Beach4 from '@/public/images/activities/beach4.jpg';
+import Beach5 from '@/public/images/activities/beach5.jpg';
 import Spa1 from '@/public/images/activities/spa1.jpg';
 import Fishing1 from '@/public/images/activities/fishing1.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
-import Night2 from '@/public/images/downtown/night2.jpeg';
+import Night1 from '@/public/images/downtown/night1.jpeg';
+import Night2 from '@/public/images/downtown/night2.jpg';
+import Night3 from '@/public/images/downtown/night3.jpg';
+import Night4 from '@/public/images/downtown/night4.jpg';
+import Night5 from '@/public/images/downtown/night5.jpg';
+import Night6 from '@/public/images/downtown/night6.jpg';
+import Night7 from '@/public/images/downtown/night7.jpg';
+import Night8 from '@/public/images/downtown/night8.jpg';
+import Quad1 from '@/public/images/activities/quad1.jpg';
+import Quad2 from '@/public/images/activities/quad2.jpg';
+
 import Hero from '@/components/Hero';
-import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
 import Link from 'next/link';
 
 const activities = [
@@ -24,32 +39,32 @@ const activities = [
     name: 'Nighttime Activities', 
     slug: 'nighttime-activities',
     description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.",
-    image: Night2 
+    images: [Night1, Night2, Night3, Night4, Night5, Night6, Night7, Night8] 
   },
   { name: 'Paragliding', 
     slug: 'paragliding',
     description: 'You will be paragliding with Ricardo, he is the 2024 champion paraglider in the state of Bahia, he gives the most spectacular flight over the beautiful cliff with an amazing view of the Atlantic Ocean and reefs.',
-    image: Paragliding1 
+    images: [Paragliding1, Paragliding2] 
   },
   { name: 'Beach Biking', 
     description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.',
     slug: 'beach-biking',
-    image: BeachBiking1 
+    images: [BeachBiking1, BeachBiking2] 
   },
   { name: 'Spa Treatments', 
     description: 'Relax and rejuvenate with our luxurious spa treatments.',
     slug: 'spa-treatments',
-    image: Spa1 
+    images: [Spa1] 
   },
   { name: 'Diving', 
     description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', 
     slug: 'diving',
-    image: Diving1 
+    images: [Diving1] 
   },
   { name: 'Private Excursions', 
     description: 'We take our ATVs to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and its coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.',
     slug: 'private-excursions',
-    image: Beach2 
+    images: [Beach2, Beach1, Beach3, Beach4, Beach5, Quad1, Quad2] 
   },
 ];
 
@@ -87,7 +102,7 @@ export default function AccommodationAndActivities() {
                     <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
                       <div className="relative h-48 overflow-hidden">
                         <Image 
-                          src={activity.image} 
+                          src={activity.images[0]} 
                           alt={activity.name} 
                           layout="fill" 
                           objectFit="cover"

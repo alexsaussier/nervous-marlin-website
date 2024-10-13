@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import Pitinga from '@/public/images/activities/beach1.jpg';
+import Beach1 from '@/public/images/activities/beach1.jpg';
 import Hero from '@/components/Hero';
 export default function AboutUs() {
   return (
     <div className="font-sans">
       
       <Hero
-        imageSrc={Pitinga}
+        imageSrc={Beach1}
         title="About Us"
         subtitle="Discover the story behind Nervous Marlin Fishing Lodge"
       />
@@ -47,52 +47,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section about Porto Seguro */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Porto Seguro and the Discovery Coast</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col justify-center">
-              <h3 className="text-xl font-bold mb-4">The area of Porto Seguro</h3>
-              <p className="text-lg mb-4">
-                Porto Seguro, located in the northeastern state of Bahia, is the heart of Brazil&apos;s &quot;Discovery Coast&quot;. 
-                It is a 1h and 45min flight from Sao Paulo. 
-                This historic region is where Pedro Álvares Cabral first landed in 1500, marking the beginning of Brazil&apos;s recorded history.
-              </p>
-              <p className="text-lg mb-4">
-                The area is rich in cultural heritage, with many buildings from the colonial era still standing and protected by UNESCO. 
-                Some houses are still occupied by descendants of the original families, while others have been transformed into high-quality restaurants, stores, and small hotels.
-              </p>
-
-              <h3 className="text-xl font-bold mb-4">Arraial d&apos;Ajuda</h3>
-              <p className="text-lg mb-4">
-                Our fishing lodge is located just across the Buranheim River, in the town of Arraial d&apos;Ajuda. 
-                It is a charming town that gained popularity among Europeans and Argentinians in the 1970s. 
-                
-                Originally a fishing village, it has grown into one of Brazil&apos;s most enchanting destinations, 
-                boasting pristine beaches, world-class hospitality, and award-winning cuisine. It also has the third oldest church in Brazil.
-                The waters are home to the first marine sanctuary in Brazil, the Royal Charlotte Bank, with the biggest varsity of coral and marine fauna.
-              </p>
-
-              <h3 className="text-xl font-bold mb-4">Security</h3>
-              <p className="text-lg mb-4">
-                Arraial d&apos;Ajuda is a small town with a population of about 40,000 people. It is a safe area, with a low crime rate. 
-                Its growing popularity amonngst tourists makes it a peaceful and family-friendly destination.
-              </p>
-            </div>
-            <div>
-              <Image
-                src={Pitinga}
-                alt="Porto Seguro"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       
     </div>
   );

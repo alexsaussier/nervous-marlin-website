@@ -27,6 +27,7 @@ export default function Fishing() {
             <p className="mb-4">
               Our prime fishing grounds are located just off the coast of Arraial d&apos;Ajuda on the Royal Charlotte Bank, where the continental shelf drops off rapidly, creating the perfect habitat for Blue Marlins and other pelagic species.
             </p>
+            
             <p>
               Whether you are a seasoned angler or a novice fisherman, our expert guides and top-of-the-line equipment ensure an unforgettable fishing experience in one of the world&apos;s best Blue Marlin hotspots.
             </p>
@@ -54,6 +55,12 @@ export default function Fishing() {
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     Our local team boasts decades of combined experience in the waters off Bahia, Brazil. Their unparalleled knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior ensures you&apos;re always in the right spot at the right time.
                   </p>
+
+                  <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
+                    We are conscious of the need to conserve the fish that we love to pursue. In line with the
+                    regulations here in Brazil, we release all of the marlin caught; no marlins caught are
+                    killed.
+                  </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We pride ourselves on using only the finest, state-of-the-art fishing equipment. From our custom-built boats to our top-of-the-line rods and reels, every piece of gear is meticulously maintained to guarantee peak performance.
                   </p>
@@ -62,6 +69,51 @@ export default function Fishing() {
               </div>
             </div>
           </section>
+
+          {/* Fishing Conditions Description */}
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Boat and Equipment</h2>
+          <div className="max-w-4xl mx-auto text-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">Fishing Boat</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Mares 30</li>
+                  <li>2 Mercedes 352 turbo and intercooler engines, 250 HP</li>
+                  <li>30 feet</li>
+                  <li>15 knots</li>
+                  <li>Travel time: approximately 1:40 hours</li>
+                  <li>Garmin 521</li>
+                  <li>Furuno FCV620 sonar (emergency)</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">Fishing Equipment</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>3 Shimano Tiagra 130</li>
+                  <li>1 Shimano Tiagra 80</li>
+                  <li>2 Daiwa 50</li>
+                  <li>1 Penn 50</li>
+                  <li>1 Shimano TLD 50</li>
+                  <li>1 Shimano Tiagra 30</li>
+                  <li>2 electric reels</li>
+                  <li>1 Shimano Stella 18000 SW spinning reel</li>
+                  <li>3 Penn spinning reels</li>
+                  <li>Pompanet chair</li>
+                </ul>
+              </div>
+            </div>
+            <div className="mt-8">
+              <h3 className="text-2xl font-semibold mb-4">Additional Information</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Departure: 6:00 AM to 3:00 PM from Arraial pier</li>
+                <li>On-board service includes lunch, fresh natural juice, water, soda, and fresh fruits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* YouTube Video Embed */}
       <section className="py-16 bg-white">
@@ -83,26 +135,7 @@ export default function Fishing() {
         </div>
       </section>
 
-      {/* Location Map */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Our Location</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="relative w-full" style={{ paddingBottom: '40%' }}>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30803.076171462223!2d-39.14942655!3d-16.49005695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73696d7c2b9bc75%3A0x7f4859a199d0c961!2sArraial%20d&#39;Ajuda%2C%20Porto%20Seguro%20-%20BA%2C%20Brazil!5e0!3m2!1sen!2sus!4v1653925234567!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute top-0 left-0 w-full h-full rounded-lg"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Contact Us Section */}
       

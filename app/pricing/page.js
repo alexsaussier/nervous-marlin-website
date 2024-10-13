@@ -19,7 +19,7 @@ export default function Packages() {
         
         <section className="py-16 bg-gray-100">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-12 text-center">Our Packages</h2>
+                <h2 className="text-3xl font-bold mb-12 text-center">Pricing</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Package 1 */}
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
@@ -95,11 +95,15 @@ export default function Packages() {
                             <ul className="mb-6">
                                 <li className="flex items-center mb-2">
                                     <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                    34-feet boat
+                                    30-feet boat
                                 </li>
                                 <li className="flex items-center mb-2">
                                     <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                                     Fishing guide
+                                </li>
+                                <li className="flex items-center mb-2">
+                                    <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                                    Fishing equipment
                                 </li>
                                 <li className="flex items-center mb-2">
                                     <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -118,13 +122,7 @@ export default function Packages() {
                                     All Federal taxes and fees
                                 </li>
                             </ul>
-                            <h4 className="font-bold text-lg mb-4">Not Included:</h4>
-                            <ul>
-                                <li className="flex items-center mb-2">
-                                    <svg className="w-4 h-4 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                                    Fishing Equipment
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>

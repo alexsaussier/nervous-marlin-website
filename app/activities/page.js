@@ -10,6 +10,7 @@ import Outside3 from '@/public/images/house/outside3.jpg';
 import Room1 from '@/public/images/house/room1.jpg';
 import Paragliding1 from '@/public/images/activities/paragliding1.jpg';
 import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
+import Paragliding3 from '@/public/images/activities/paragliding3.jpg';
 import BeachBiking1 from '@/public/images/activities/beach-biking1.jpg';
 import BeachBiking2 from '@/public/images/activities/beach-biking2.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
@@ -44,7 +45,7 @@ const activities = [
   { name: 'Paragliding', 
     slug: 'paragliding',
     description: 'You will be paragliding with Ricardo, he is the 2024 champion paraglider in the state of Bahia, he gives the most spectacular flight over the beautiful cliff with an amazing view of the Atlantic Ocean and reefs.',
-    images: [Paragliding1, Paragliding2] 
+    images: [Paragliding1, Paragliding2, Paragliding3] 
   },
   { name: 'Beach Biking', 
     description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.',

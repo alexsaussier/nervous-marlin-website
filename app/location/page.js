@@ -4,23 +4,23 @@ import Hero from '@/components/Hero';
 import Beach3 from '@/public/images/activities/beach3.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
 import RoyalCharlotteBank from '../../public/images/fishing/royalCharlotteBank.jpg'; 
-import PhotoGallery from '@/components/PhotoGallery';
-//import Arraial1 from '../../public/images/downtown/arraial1.jpg';
-//import Arraial2 from '../../public/images/downtown/arraial2.jpg';
-//import Arraial3 from '../../public/images/downtown/arraial3.jpg';
-import Arraial6 from '../../public/images/downtown/arraial6.jpg';
-import Arraial8 from '../../public/images/downtown/arraial8.jpg';
-import Arraial9 from '../../public/images/downtown/arraial9.jpg';
+import Arraial1 from '@/public/images/downtown/arraial1.jpg';
+import Arraial2 from '@/public/images/downtown/arraial2.jpg';
+import Arraial3 from '@/public/images/downtown/arraial3.jpg';
+import Arraial6 from '@/public/images/downtown/arraial6.jpg';
+import Arraial8 from '@/public/images/downtown/arraial8.jpg';
+import Arraial9 from '@/public/images/downtown/arraial9.jpg';
 
+import PhotoGallery from '@/components/PhotoGallery';
 
 
 const locationPhotos = [
-  { src: '/images/downtown/arraial1.jpg', alt: "Arraial 1" },
-  { src: '/images/downtown/arraial2.jpg', alt: "Arraial 2" },
-  { src: '/images/downtown/arraial3.jpg', alt: "Arraial 3" },
-  { src: '/images/downtown/arraial6.jpg', alt: "Arraial 6" },
-  { src: '/images/downtown/arraial8.jpg', alt: "Arraial 8" },
-  { src: '/images/downtown/arraial9.jpg', alt: "Arraial 9" }
+  { src: Arraial1, alt: "Arraial 1" },
+  { src: Arraial2, alt: "Arraial 2" },
+  { src: Arraial3, alt: "Arraial 3" },
+  { src: Arraial6, alt: "Arraial 6" },
+  { src: Arraial8, alt: "Arraial 8" },
+  { src: Arraial9, alt: "Arraial 9" }
   // Add more photos as needed
 ];
 

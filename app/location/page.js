@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Beach3 from '@/public/images/activities/beach3.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
-import RoyalCharlotteBank from '@/public/images/fishing/royal-charlotte-bank.jpg';
+import RoyalCharlotteBank from '@/public/images/fishing/royal-charlotte-bank.jpg'; 
+
 
 export default function Location() {
   return (
@@ -83,10 +84,10 @@ export default function Location() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">The Royal Charlotte Bank</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
+            <div>
               <Image
                 src={RoyalCharlotteBank}
-                alt="Surrounding Areas"
+                alt="Royal Charlotte Bank"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-lg"

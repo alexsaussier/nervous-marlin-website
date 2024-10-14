@@ -13,7 +13,16 @@ import Arraial6 from '@/public/images/downtown/arraial6.jpg';
 import Arraial8 from '@/public/images/downtown/arraial8.jpg';
 import Arraial9 from '@/public/images/downtown/arraial9.jpg';
 
-const locationPhotos = [Arraial1, Arraial2, Arraial3, Arraial6, Arraial8, Arraial9];
+
+const locationPhotos = [
+  { src: Arraial1, alt: "Arraial 1" },
+  { src: Arraial2, alt: "Arraial 2" },
+  { src: Arraial3, alt: "Arraial 3" },
+  { src: Arraial6, alt: "Arraial 6" },
+  { src: Arraial8, alt: "Arraial 8" },
+  { src: Arraial9, alt: "Arraial 9" }
+  // Add more photos as needed
+];
 
 export default function Location() {
   return (

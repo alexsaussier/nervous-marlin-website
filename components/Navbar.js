@@ -51,7 +51,7 @@ export default function Header({ alwaysDark = false }) {
           </button>
           {/* Desktop menu */}
           <ul className="hidden lg:flex space-x-6 xl:space-x-6">
-            {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+            {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Pricing'].map((item) => (
               <li key={item}>
                 <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold hover:text-red-400 transition duration-300">
                   {item}

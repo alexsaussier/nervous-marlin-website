@@ -13,6 +13,7 @@ import Paragliding2 from '@/public/images/activities/paragliding2.jpg';
 import Paragliding3 from '@/public/images/activities/paragliding3.jpg';
 import BeachBiking1 from '@/public/images/activities/beach-biking1.jpg';
 import BeachBiking2 from '@/public/images/activities/beach-biking2.jpg';
+import BeachBiking3 from '@/public/images/activities/beach-biking3.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
 import Beach2 from '@/public/images/activities/beach2.jpg';
 import Beach3 from '@/public/images/activities/beach3.jpg';
@@ -21,6 +22,10 @@ import Beach5 from '@/public/images/activities/beach5.jpg';
 import Spa1 from '@/public/images/activities/spa1.jpg';
 import Fishing1 from '@/public/images/activities/fishing1.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
+import Diving2 from '@/public/images/activities/diving2.jpg';
+import Diving3 from '@/public/images/activities/diving3.jpg';
+import Diving4 from '@/public/images/activities/diving4.jpg';
+import Diving5 from '@/public/images/activities/diving5.jpg';
 import Night1 from '@/public/images/downtown/night1.jpeg';
 import Night2 from '@/public/images/downtown/night2.jpg';
 import Night3 from '@/public/images/downtown/night3.jpg';
@@ -50,7 +55,7 @@ const activities = [
   { name: 'Beach Biking', 
     description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.',
     slug: 'beach-biking',
-    images: [BeachBiking1, BeachBiking2] 
+    images: [BeachBiking1, BeachBiking2, BeachBiking3] 
   },
   { name: 'Spa Treatments', 
     description: 'Relax and rejuvenate with our luxurious spa treatments.',
@@ -60,7 +65,7 @@ const activities = [
   { name: 'Diving', 
     description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', 
     slug: 'diving',
-    images: [Diving1] 
+    images: [Diving1, Diving2, Diving3, Diving4, Diving5] 
   },
   { name: 'Private Excursions', 
     description: 'We take our ATVs to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and its coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.',

@@ -42,46 +42,48 @@ export default function Header({ alwaysDark = false }) {
         <div className="flex items-center space-x-4">
           {/* Hamburger menu button */}
           <button
-            className="lg:hidden text-white focus:outline-none"
+            className="lg:hidden text-white focus:outline-none w-6 h-6 relative"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'}`}></span>
+            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'}`}></span>
           </button>
           {/* Desktop menu */}
-          <ul className="hidden lg:flex space-x-8">
-            <li><Link href="/about-us" className="text-lg font-semibold hover:text-red-400 transition duration-300">About Us</Link></li>
-            <li><Link href="/location" className="text-lg font-semibold hover:text-red-400 transition duration-300">Location</Link></li>
-            <li><Link href="/fishing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Fishing</Link></li>
-            <li><Link href="/activities" className="text-lg font-semibold hover:text-red-400 transition duration-300">Other Activities</Link></li>
-            <li><Link href="/accomodation" className="text-lg font-semibold hover:text-red-400 transition duration-300">Accomodation</Link></li>
-            <li><Link href="/pricing" className="text-lg font-semibold hover:text-red-400 transition duration-300">Pricing</Link></li>
+          <ul className="hidden lg:flex space-x-6 xl:space-x-6">
+            {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+              <li key={item}>
+                <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold hover:text-red-400 transition duration-300">
+                  {item}
+                </Link>
+              </li>
+            ))}
           </ul>
           {/* Book Now button - always visible */}
-          <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base lg:text-lg font-semibold hover:bg-red-700 transition duration-300">
+          <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base xl:text-lg font-semibold hover:bg-red-700 transition duration-300">
             Book Now
           </Link>
         </div>
       </nav>
       {/* Mobile menu */}
-      <div className={`lg:hidden fixed inset-0 bg-gray-900 bg-opacity-90 z-50 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-        <div className={`absolute top-0 right-0 max-w-[250px] w-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out rounded-bl-2xl ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-          <div className="flex justify-between items-center p-4 border-b">
-            <button onClick={() => setIsMenuOpen(false)} className="text-gray-600 hover:text-gray-800">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <ul className="py-4">
-            <li><Link href="/about-us" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">About Us</Link></li>
-            <li><Link href="/fishing" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Fishing</Link></li>
-            <li><Link href="/activities" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Other Activities</Link></li>
-            <li><Link href="/accomodation" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Accomodation</Link></li>
-            <li><Link href="/pricing" onClick={handleMenuItemClick} className="block px-4 py-2 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-300">Pricing</Link></li>
-          </ul>
-        </div>
+      <div 
+        className={`lg:hidden fixed right-0 w-64 bg-gray-800 overflow-hidden transition-all duration-300 ease-in-out z-40 ${
+          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        } top-[80px]`}
+      >
+        <ul className="py-2 px-4">
+          {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+            <li key={item}>
+              <Link
+                href={`/${item.toLowerCase().replace(' ', '-')}`}
+                onClick={handleMenuItemClick}
+                className="block py-2 text-lg font-semibold text-gray-300 hover:text-white transition duration-300"
+              >
+                {item}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </header>
   );

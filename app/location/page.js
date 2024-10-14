@@ -1,9 +1,19 @@
+'use client'
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Beach3 from '@/public/images/activities/beach3.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
 import RoyalCharlotteBank from '../../public/images/fishing/royalCharlotteBank.jpg'; 
+import PhotoGallery from '@/components/PhotoGallery';
+import Arraial1 from '@/public/images/downtown/arraial1.jpg';
+import Arraial2 from '@/public/images/downtown/arraial2.jpg';
+import Arraial3 from '@/public/images/downtown/arraial3.jpg';
 
+import Arraial6 from '@/public/images/downtown/arraial6.jpg';
+import Arraial8 from '@/public/images/downtown/arraial8.jpg';
+import Arraial9 from '@/public/images/downtown/arraial9.jpg';
+
+const locationPhotos = [Arraial1, Arraial2, Arraial3, Arraial6, Arraial8, Arraial9];
 
 export default function Location() {
   return (
@@ -122,6 +132,14 @@ export default function Location() {
             </div>
             
           </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Photo Gallery</h2>
+          <PhotoGallery photos={locationPhotos} />
         </div>
       </section>
 

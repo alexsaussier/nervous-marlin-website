@@ -10,6 +10,7 @@ import Fishing4 from '@/public/images/fishing/fishing4.jpg';
 import Fishing5 from '@/public/images/fishing/fishing5.jpg';
 
 import Hero from '@/components/Hero';
+import PhotoGallery from '@/components/PhotoGallery';
 
 // Define the fishingPhotos array
 const fishingPhotos = [
@@ -136,26 +137,7 @@ export default function Fishing() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Photo Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {fishingPhotos.map((photo, index) => (
-              <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group">
-                <div className="relative w-full pb-[100%]"> {/* Set a default 1:1 aspect ratio */}
-                  <Image
-                    src={photo.src}
-                    alt={photo.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-300 group-hover:scale-110"
-                    onLoadingComplete={({ naturalWidth, naturalHeight }) => {
-                      // Dynamically set the aspect ratio based on the loaded image
-                      const aspectRatio = (naturalHeight / naturalWidth) * 100;
-                      event.target.parentElement.style.paddingBottom = `${aspectRatio}%`;
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
+          <PhotoGallery photos={fishingPhotos} />
         </div>
       </section>
 

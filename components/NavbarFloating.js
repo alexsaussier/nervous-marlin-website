@@ -33,7 +33,7 @@ const NavbarFloating = ({ alwaysDark = false }) => {
             <ul className="hidden lg:flex space-x-8">
               {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
                 <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-lg font-semibold text-white hover:text-red-400 transition duration-300">
+                  <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold text-white hover:text-red-400 transition duration-300">
                     {item}
                   </Link>
                 </li>
@@ -47,7 +47,7 @@ const NavbarFloating = ({ alwaysDark = false }) => {
               <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''}`}></span>
               <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'}`}></span>
             </button>
-            <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base lg:text-lg font-semibold hover:bg-red-700 transition duration-300">
+            <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base xl:text-lg font-semibold hover:bg-red-700 transition duration-300">
               Book Now
             </Link>
           </div>

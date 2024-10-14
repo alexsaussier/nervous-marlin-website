@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Analytics } from "@vercel/analytics/react";
 import Head from 'next/head';
@@ -27,12 +27,12 @@ export default function RootLayout({ children }) {
       <Analytics />
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Your New Tab Title</title>
+        <title>Nervous Marlin Fishing Lodge</title>
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+        <Navbar />
         {children}
         <Footer />
 

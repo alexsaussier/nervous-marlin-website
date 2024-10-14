@@ -1,8 +1,25 @@
+'use client';
 import Image from "next/image";
 import ContactUs from '@/components/ContactUs';
 import MarlinPhoto from '../../public/images/marlin-photo.jpg';
-import Fishing1 from '@/public/images/activities/fishing1.jpg';
+import Fishing0 from '@/public/images/activities/fishing1.jpg';
+import Fishing1 from '@/public/images/fishing/fishing1.jpg';
+import Fishing2 from '@/public/images/fishing/fishing2.jpg';
+import Fishing3 from '@/public/images/fishing/fishing3.jpg';
+import Fishing4 from '@/public/images/fishing/fishing4.jpg';
+import Fishing5 from '@/public/images/fishing/fishing5.jpg';
+
 import Hero from '@/components/Hero';
+
+// Define the fishingPhotos array
+const fishingPhotos = [
+  { src: Fishing1, alt: "Fishing Photo 1" },
+  { src: Fishing2, alt: "Fishing Photo 2" },
+  { src: Fishing3, alt: "Fishing Photo 3" },
+  { src: Fishing4, alt: "Fishing Photo 4" },
+  { src: Fishing5, alt: "Fishing Photo 5" }
+  // Add more photos as needed
+];
 
 export default function Fishing() {
   return (
@@ -43,7 +60,7 @@ export default function Fishing() {
                 <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
                   <div className="relative w-full h-0 pb-[66.67%]"> {/* 2:3 aspect ratio */}
                     <Image
-                      src={Fishing1}
+                      src={Fishing0}
                       alt="Blue Marlin Fishing"
                       layout="fill"
                       objectFit="cover"
@@ -111,6 +128,33 @@ export default function Fishing() {
                 <li>On-board service includes lunch, fresh natural juice, water, soda, and fresh fruits</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fishing Photos Gallery */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Photo Gallery</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {fishingPhotos.map((photo, index) => (
+              <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group">
+                <div className="relative w-full pb-[100%]"> {/* Set a default 1:1 aspect ratio */}
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                    onLoadingComplete={({ naturalWidth, naturalHeight }) => {
+                      // Dynamically set the aspect ratio based on the loaded image
+                      const aspectRatio = (naturalHeight / naturalWidth) * 100;
+                      event.target.parentElement.style.paddingBottom = `${aspectRatio}%`;
+                    }}
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

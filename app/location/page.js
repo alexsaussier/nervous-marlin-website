@@ -56,7 +56,7 @@ export default function Location() {
 
               <h3 className="text-xl font-bold mb-4">Visa</h3>
               <p className="text-lg mb-4">
-                For any visa requirements, we recommend checking on <a href="https://www.ivisa.com" target="_blank" rel="noopener noreferrer" className="font-bold underline">iVisa</a>.
+                In 2025, Brazil will require a visa for all US citizens. For any visa enquiries and procedures, we recommend checking on <a href="https://www.ivisa.com" target="_blank" rel="noopener noreferrer" className="font-bold underline">iVisa.com</a>.
               </p>
             </div>
             <div className="relative w-full" style={{ paddingBottom: '75%' }}>

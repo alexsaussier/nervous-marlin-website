@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from '../components/Navbar';
 
 export default function DarkHeaderLayout({ children }) {
   return (

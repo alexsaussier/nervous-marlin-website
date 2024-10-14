@@ -34,7 +34,7 @@ export default function AboutUs() {
                 </p>
                 <p className="text-lg mb-4">
                     In 2020 I decided to make a radical change in my life, and moved to Brazil with my family, to this amazing and beautiful town call Arraial d&apos;Ajuda.
-                    With my friend Camilo, who I know since kindergarden, we decided to start a fishing lodge specialized in Blue Marlin fishing (but also for Wahoo, Mahi Mahi and Tuna fishing).
+                    With my friend Camilo Escudero, who I know since kindergarden in Buenos Aires, we decided to start a fishing lodge specialized in Blue Marlin fishing (but also for Wahoo, Mahi Mahi and Tuna fishing).
                     Camilo has been living in this area for 24 years, highly involved in the tourism industry and knows perfectly the area. 
                 </p>    
                 <p className="text-lg mb-4">

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Analytics } from "@vercel/analytics/react";
 import Head from 'next/head';
+import Backlinks from '@/components/Backlinks';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <title>Nervous Marlin Fishing Lodge</title>
       </Head>
+      <Backlinks />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -96,13 +96,13 @@ export const renderSchemaTags = () => {
             ratingValue: "4.8",
             ratingCount: "12",
           },
-          offers: [
+          /*offers: [
             {
               "@type": "Offer",
               price: "9.00",
               priceCurrency: "USD",
             },
-          ],
+          ],*/
         }),
       }}
     ></script>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Beach3 from '@/public/images/activities/beach3.jpg';
 import Beach1 from '@/public/images/activities/beach1.jpg';
-import RoyalCharlotteBank from '@/public/images/fishing/royal-charlotte-bank.jpg'; 
+import RoyalCharlotteBank from '@/public/images/fishing/RoyalCharlotteBank.jpg'; 
 
 
 export default function Location() {

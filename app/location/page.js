@@ -22,6 +22,7 @@ const locationPhotos = [
   { src: Arraial8, alt: "Arraial 8" },
   { src: Arraial9, alt: "Arraial 9" }
   // Add more photos as needed
+  
 ];
 
 export default function Location() {

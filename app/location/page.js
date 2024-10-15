@@ -1,15 +1,15 @@
 'use client'
 import Image from 'next/image';
 import Hero from '@/components/Hero';
-import Beach3 from '@/public/images/activities/beach3.jpg';
-import Beach1 from '@/public/images/activities/beach1.jpg';
+import Beach3 from '../../public/images/activities/beach3.jpg';
+import Beach1 from '../../public/images/activities/beach1.jpg';
 import RoyalCharlotteBank from '../../public/images/fishing/royalCharlotteBank.jpg'; 
-import Arraial1 from '@/public/images/downtown/arraial1.jpg';
-import Arraial2 from '@/public/images/downtown/arraial2.jpg';
-import Arraial3 from '@/public/images/downtown/arraial3.jpg';
-import Arraial6 from '@/public/images/downtown/arraial6.jpg';
-import Arraial8 from '@/public/images/downtown/arraial8.jpg';
-import Arraial9 from '@/public/images/downtown/arraial9.jpg';
+import Arraial1 from '../../public/images/downtown/arraial1.jpg';
+import Arraial2 from '../../public/images/downtown/arraial2.jpg';
+import Arraial3 from '../../public/images/downtown/arraial3.jpg';
+import Arraial6 from '../../public/images/downtown/arraial6.jpg';
+import Arraial8 from '../../public/images/downtown/arraial8.jpg';
+import Arraial9 from '../../public/images/downtown/arraial9.jpg';
 
 import PhotoGallery from '@/components/PhotoGallery';
 

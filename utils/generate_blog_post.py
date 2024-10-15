@@ -19,15 +19,16 @@ def generate_blog_post(keyword):
     The content should be in HTML format so that I can use it directly, excluding the outer <html>, <head>, and <body> tags, as I already have the page structure.
     Make sure to add a title within <h1> tags. 
     Any other headers in the blog content should always be within both combined <h3> and <strong> tags. Do not use ** to put text inside.
-    If you are planning to start the blog post with '''html, remove that.
+    Never start your reply with '''html.
     If there are any apostrophes, replace them with &apos;
-    When you provide a link to nervousmarlin.com, make sure it is bolded, underlined and direct to nervousmarlin.com using the <a> tag. 
+    When you provide a link to nervousmarlin.com, make sure it is bolded, underlined and redirects to nervousmarlin.com using the <a> tag. 
     Do not use style attributes, just use tags."""
     client = OpenAI(api_key="sk-proj-ZWZVp9jM0e3SqUQQELX8T3BlbkFJ8fDmikeoI9FKtTqsM36B")
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {"role": "system", "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge in Bahia, Brazil."},
+            {"role": "system", 
+             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge in Bahia, Brazil. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
             {"role": "user", "content": prompt}
         ]
     )

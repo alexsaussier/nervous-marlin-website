@@ -8,6 +8,10 @@ import Fishing2 from '@/public/images/fishing/fishing2.jpg';
 import Fishing3 from '@/public/images/fishing/fishing3.jpg';
 import Fishing4 from '@/public/images/fishing/fishing4.jpg';
 import Fishing5 from '@/public/images/fishing/fishing5.jpg';
+import Boat1 from '@/public/images/fishing/boat1.jpg';
+import Boat2 from '@/public/images/fishing/boat2.jpg';
+import Boat3 from '@/public/images/fishing/boat3.jpg';
+
 
 import Hero from '@/components/Hero';
 import PhotoGallery from '@/components/PhotoGallery';
@@ -109,10 +113,8 @@ export default function Fishing() {
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Fishing Equipment</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>3 Shimano Tiagra 130</li>
-                  <li>1 Shimano Tiagra 80</li>
-                  <li>2 Daiwa 50</li>
-                  <li>1 Penn 50</li>
+                  <li>3 Shimano Tiagra 130 & 1 Shimano Tiagra 80</li>
+                  <li>2 Daiwa 50 & 1 Penn 50</li>
                   <li>1 Shimano TLD 50</li>
                   <li>1 Shimano Tiagra 30</li>
                   <li>2 electric reels</li>
@@ -130,6 +132,35 @@ export default function Fishing() {
               </ul>
             </div>
           </div>
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="relative h-64 rounded-lg overflow-hidden">
+            <Image
+              src={Boat1}
+              alt="Fishing equipment"
+              layout="fill"
+              objectFit="cover"
+              className="transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+          <div className="relative h-64 rounded-lg overflow-hidden">
+            <Image
+              src={Boat2}
+              alt="Fishing boat"
+              layout="fill"
+              objectFit="cover"
+              className="transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+          <div className="relative h-64 rounded-lg overflow-hidden">
+            <Image
+              src={Boat3}
+              alt="Fishing experience"
+              layout="fill"
+              objectFit="cover"
+              className="transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
         </div>
       </section>
 

@@ -531,8 +531,6 @@ export const articles = [
     ),
   },
 
- 
-
   {
     slug: "discover-the-best-blue-marlin-fishing-locations-around-the-world",
     title: "Discover the Best Blue Marlin Fishing Locations Around the World",

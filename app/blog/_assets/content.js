@@ -176,23 +176,23 @@ export const articles = [
       <>
         <h1>Discover the Ultimate Sport Fishing Experience in Bahia, Brazil</h1>
 
-<p>Nestled along the stunning Atlantic coast, Bahia, Brazil stands out as a prime destination for sport fishing enthusiasts. This vibrant region offers an exhilarating array of fishing opportunities against the backdrop of its rich cultural heritage and breathtaking landscapes. Whether you're an experienced angler or a novice looking to embrace the thrill of the catch, Bahia promises an unforgettable adventure.</p>
+<p>Nestled along the stunning Atlantic coast, Bahia, Brazil stands out as a prime destination for sport fishing enthusiasts. This vibrant region offers an exhilarating array of fishing opportunities against the backdrop of its rich cultural heritage and breathtaking landscapes. Whether you&apos;re an experienced angler or a novice looking to embrace the thrill of the catch, Bahia promises an unforgettable adventure.</p>
 
 <h3><strong>Why Bahia is a Premier Location for Sport Fishing</strong></h3>
 
-<p>Bahia's unique geography and warm tropical climate create the perfect ecosystem for a diverse range of fish species. With access to both deep-sea and reef fishing, anglers can expect to encounter trophy fish such as Blue Marlin, Sailfish, and Yellowfin Tuna. The abundance and variety of game fish make Bahia an angler's paradise, attracting fishing enthusiasts from around the globe.</p>
+<p>Bahia&apos;s unique geography and warm tropical climate create the perfect ecosystem for a diverse range of fish species. With access to both deep-sea and reef fishing, anglers can expect to encounter trophy fish such as Blue Marlin, Sailfish, and Yellowfin Tuna. The abundance and variety of game fish make Bahia an angler&apos;s paradise, attracting fishing enthusiasts from around the globe.</p>
 
 <h3><strong>Experience World-Class Fishing with Nervous Marlin</strong></h3>
 
-<p>For those looking to elevate their fishing adventure, **<a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a>** offers unparalleled sport fishing excursions in Bahia. Our expert guides ensure a safe and fruitful experience, whether you're aiming to land a majestic Blue Marlin or simply enjoy the serene ocean surroundings. Equipped with top-of-the-line gear and boats, **<a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a>** provides everything you need for a successful day on the water.</p>
+<p>For those looking to elevate their fishing adventure, <a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a> offers unparalleled sport fishing excursions in Bahia. Our expert guides ensure a safe and fruitful experience, whether you&apos;re aiming to land a majestic Blue Marlin or simply enjoy the serene ocean surroundings. Equipped with top-of-the-line gear and boats, <a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a> provides everything you need for a successful day on the water.</p>
 
 <h3><strong>What to Expect on Your Sport Fishing Adventure</strong></h3>
 
-<p>A typical day of sport fishing in Bahia begins with a sunrise departure, as the early hours are filled with optimal fishing conditions. Depending on your preference, choose from half-day or full-day trips. Anglers can enjoy the thrill of pursuing some of the ocean's most sought-after species while taking in the breathtaking views of Bahia's coastline. With the guidance of our seasoned professionals, you&apos;ll learn the best techniques and strategies to increase your chances of a rewarding catch.</p>
+<p>A typical day of sport fishing in Bahia begins with a sunrise departure, as the early hours are filled with optimal fishing conditions. Depending on your preference, choose from half-day or full-day trips. Anglers can enjoy the thrill of pursuing some of the ocean&apos;s most sought-after species while taking in the breathtaking views of Bahia&apos;s coastline. With the guidance of our seasoned professionals, you&apos;ll learn the best techniques and strategies to increase your chances of a rewarding catch.</p>
 
 <h3><strong>Plan Your Sport Fishing Trip to Bahia</strong></h3>
 
-<p>Ready to embark on an unforgettable fishing excursion? Planning your trip to Bahia is the first step towards experiencing one of the world's premier fishing destinations. Ensure you secure your spot in advance with **<a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a>** to enjoy exceptional services tailored to suit both novice and seasoned anglers. Our dedicated team will assist you in creating a personalized itinerary that includes not only incredible fishing but also captivating cultural experiences in Bahia.</p>
+<p>Ready to embark on an unforgettable fishing excursion? Planning your trip to Bahia is the first step towards experiencing one of the world&apos;s premier fishing destinations. Ensure you secure your spot in advance with **<a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a>** to enjoy exceptional services tailored to suit both novice and seasoned anglers. Our dedicated team will assist you in creating a personalized itinerary that includes not only incredible fishing but also captivating cultural experiences in Bahia.</p>
 
 <p>In conclusion, sport fishing in Bahia, Brazil offers unmatched excitement and the potential for remarkable memories on the water. Dive into this exceptional fishing destination and let **<a href="https://nervousmarlin.com" target="_blank">Nervous Marlin</a>** be your trusted guide on this unforgettable adventure.</p>
       </>

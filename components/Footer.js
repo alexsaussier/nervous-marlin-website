@@ -5,7 +5,10 @@ return (
     <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-semibold mb-4">{config.appName}</h3>
-            <p className="text-sm">{config.appDescription}</p>
+            <p className="text-sm mb-4">{config.appDescription}</p>
+
+            <a href="/blog" className="text-sm underline hover:text-gray-300">Blog</a>
+
         </div>
         
         <div className="w-full md:w-1/4 mb-6 md:mb-0">

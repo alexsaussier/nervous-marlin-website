@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
 function ReasonCard({ title, description }) {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition border-2 hover:border-blue-800 duration-300">
-      <h3 className="text-2xl font-semibold mb-4 text-gray-800">{title}</h3>
+      <h3 className="text-2xl font-semibold mb-4 text-gray-800 ">{title}</h3>
       <p className="text-lg text-gray-600">{description}</p>
     </div>
   );

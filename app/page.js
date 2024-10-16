@@ -66,7 +66,7 @@ export default function Home() {
             <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300">
               Contact Us
             </a>
-            <a href="/book-now" className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
+            <a href="/book-now" className="bg-red-700 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-900 transition duration-300">
               Book Now
             </a>
           </div>

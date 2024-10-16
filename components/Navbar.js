@@ -34,7 +34,7 @@ export default function Header({ alwaysDark = false }) {
 
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${headerClass}`}>
-      <nav className="flex justify-between items-center max-w-7xl mx-auto p-4">
+      <nav className="flex justify-between items-center px-8 xl:px-16 mx-auto p-4">
         <Link href="/" className="flex flex-col cursor-pointer">
           <span className="text-2xl font-bold">Nervous Marlin</span>
           <span className="text-sm italic">Fishing Lodge</span>
@@ -50,17 +50,20 @@ export default function Header({ alwaysDark = false }) {
             <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'}`}></span>
           </button>
           {/* Desktop menu */}
-          <ul className="hidden lg:flex space-x-6 xl:space-x-6">
+          <ul className="hidden lg:flex space-x-2 xl:space-x-6 ">
             {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Pricing'].map((item) => (
               <li key={item}>
-                <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold hover:text-red-400 transition duration-300">
-                  {item}
-                </Link>
+                <div className="px-2 py-2 hover:bg-gray-700 rounded-md">
+                  <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold transition duration-300">
+                    {item}
+                  </Link>
+                </div>
+                
               </li>
             ))}
           </ul>
           {/* Book Now button - always visible */}
-          <Link href="/book-now" className="bg-red-600 text-white px-4 py-2 rounded-full text-base xl:text-lg font-semibold hover:bg-red-700 transition duration-300">
+          <Link href="/book-now" className="bg-red-700 text-white px-4 py-2 rounded-full text-base xl:text-lg font-semibold hover:bg-red-900 transition duration-300">
             Book Now
           </Link>
         </div>

@@ -137,7 +137,7 @@ export default function ContactUs({type_of_request = "Information"}) {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-200">Special Requests</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-200">Please provide any information about your request</label>
                 <textarea
                   id="message"
                   name="message"

@@ -88,7 +88,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 md:pl-8">
-              <div className="relative h-64 md:h-80 w-full rounded-lg overflow-hidden">
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
                   src={MarlinPhoto2}
                   alt="Blue Marlin Fishing"

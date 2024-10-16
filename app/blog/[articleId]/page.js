@@ -69,11 +69,15 @@ export default async function Article({ params }) {
         }}
       />
 
+      <div className="p-12">
+
+
+
       {/* GO BACK LINK */}
       <div>
         <Link
           href="/blog"
-          className="link !no-underline text-base-content/80 hover:text-base-content inline-flex items-center gap-1"
+          className="link text-lg !no-underline text-base-content/80 hover:text-base-content inline-flex items-center gap-1"
           title="Back to Blog"
         >
           <svg
@@ -94,7 +98,7 @@ export default async function Article({ params }) {
 
       <article>
         {/* HEADER WITH CATEGORIES AND DATE AND TITLE */}
-        <section className="my-12 md:my-20 max-w-[800px]">
+        <section className="my-12 md:my-12 max-w-[800px]">
           <div className="flex items-center gap-4 mb-6">
             
             <span className="text-base-content/80" itemProp="datePublished">
@@ -110,18 +114,12 @@ export default async function Article({ params }) {
             {article.title}
           </h1>
 
-          <p className="text-base-content/80 md:text-lg max-w-[700px]">
-            {article.description}
-          </p>
         </section>
 
         <div className="flex flex-col md:flex-row">
           {/* SIDEBAR WITH AUTHORS AND 3 RELATED ARTICLES */}
           <section className="max-md:pb-4 md:pl-12 max-md:border-b md:border-l md:order-last md:w-72 shrink-0 border-base-content/10">
-            <p className="text-base-content/80 text-sm mb-2 md:mb-3">
-              Posted by
-            </p>
-
+            
             {articlesRelated.length > 0 && (
               <div className="hidden md:block mt-12">
                 <p className=" text-base-content/80 text-sm  mb-2 md:mb-3">
@@ -151,11 +149,13 @@ export default async function Article({ params }) {
           </section>
 
           {/* ARTICLE CONTENT */}
-          <section className="w-full  md:pr-20 space-y-12 ">
+          <section className="w-full text-xl md:pr-20 space-y-12 ">
             {article.content}
           </section>
         </div>
       </article>
+      </div>
+
     </>
   );
 }

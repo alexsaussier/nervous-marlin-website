@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Beach3 from '../../public/images/activities/beach3.jpg';
 import Beach1 from '../../public/images/activities/beach1.jpg';
-import RoyalCharlotteBank from '../../public/images/fishing/royalCharlotteBank.jpg'; 
 import Arraial10 from '../../public/images/downtown/arraial10.jpg';
 import Arraial11 from '../../public/images/downtown/arraial11.jpg';
 import Arraial12 from '../../public/images/downtown/arraial12.jpg';
@@ -96,54 +95,6 @@ export default function Location() {
         </div>
       </section>
 
-      
-
-
-      {/* Surrounding Areas Section */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">The Royal Charlotte Bank</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <Image
-                src={RoyalCharlotteBank}
-                alt="Royal Charlotte Bank"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <p className="text-lg mb-4">
-                The Royal Charlotte Bank is a remarkable underwater ecosystem discovered in 2023 by a Petrobras program. 
-                It is the largest coral bank in Brazil, boasting an incredible diversity of marine life. 
-                This vast underwater formation stretches for 65 miles and plunges to depths of 9,500 feet (3,000 meters).
-                
-              </p>
-
-              <p className="text-lg mb-4">
-                Because of its spectacular geography, we have marlin fishing all year round, weather permitting.
-                The best season however is from October to March.
-              </p>
-
-              <p className="text-lg mb-4">
-                The fishing records from over the years show the high season can start late September with
-                lots of white marlin and blue marlin showing up. October has raised the most marlin
-                over the years with December second and November third.
-
-              </p>
-
-              <p className="text-lg mb-4">
-                Varieties of fish you can catch include amberjack, bigeye and yellowfin tuna, trevally,
-                red snapper, grouper, yellowtail snapper and the list go on.
-              </p>
-
-              
-            </div>
-            
-          </div>
-        </div>
-      </section>
 
       {/* Photo Gallery */}
       <section className="py-16 bg-white">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MarlinPhoto from '../public/images/marlin-photo.jpg';
+import MarlinPhoto2 from '../public/images/marlin2.jpeg';
 import ContactUs from '@/components/ContactUs';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Paragliding1 from '@/public/images/activities/paragliding1.jpg';
@@ -74,14 +75,30 @@ export default function Home() {
 
       {/* Blue Marlin Fishing Section */}
       <section id="blue-marlin-fishing" className="py-16 bg-gray-200">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing on the coast of Bahia</h2>
-            <div className="flex flex-col items-center ">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="md:w-1/2 mb-8 md:mb-0">
               <p className="text-xl mb-8">Experience the thrill of catching the majestic Blue Marlin in the waters of Bahia, Brazil. Our expert guides and state-of-the-art equipment ensure a memorable fishing adventure.</p>
-          
-              <p className="text-xl">Our fishing excursions cater to both beginners and experienced anglers, offering a unique opportunity to catch this iconic species in its natural habitat.</p>
+              <p className="text-xl mb-8">Our fishing excursions cater to both beginners and experienced anglers, offering a unique opportunity to catch this iconic species in its natural habitat.</p>
+              <div className="flex justify-center">
+                <a href="/fishing" className="bg-gray-800 text-white border-2 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 hover:text-gray-800 hover:border-gray-800 transition duration-300">
+                  Discover More
+                </a>
+              </div>
             </div>
-            
+            <div className="md:w-1/2 md:pl-8">
+              <div className="relative h-64 md:h-80 w-full rounded-lg overflow-hidden">
+                <Image
+                  src={MarlinPhoto2}
+                  alt="Blue Marlin Fishing"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -90,7 +107,7 @@ export default function Home() {
             <div className="container mx-auto px-4">
 
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {activities.map((activity, index) => (
                   <Link href={`/activities/${activity.slug}`} key={index}>
                     <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
@@ -128,19 +145,28 @@ export default function Home() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Add testimonial cards here */}
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-lg font-semibold mb-4">&ldquo;As an experienced fisherman, I was blown away by the quality of the fishing gear and the expertise of the guides. The Blue Marlin fishing experience was truly unforgettable!&rdquo;</p>
-            <p className="text-sm text-gray-600">- John D., Experienced Fisher</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-lg font-semibold mb-4">&ldquo;I&apos;ve never fished before, but the guides made me feel so comfortable and taught me everything I needed to know. I caught my first fish and it was exhilarating!&rdquo;</p>
-            <p className="text-sm text-gray-600">- Emily G., Non-Experienced Fisher</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-lg font-semibold mb-4">&ldquo;I&apos;m not a fisher, but I loved the variety of activities available. The spa day was amazing and the nighttime activities were so much fun!&rdquo;</p>
-            <p className="text-sm text-gray-600">- Sarah K., Non-Fisher</p>
-          </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-m font-semibold mb-4 flex-grow">
+                &ldquo;I know Leo from my first trip in Posta del Norte and this stay in Bahia was again fantastic! 
+                Leo always provides very high-quality service for his guests, and this time he even prepares other activities for those who are not fishing.
+              </p>
+              <p className="text-m font-semibold mb-4">
+                The fishing conditions were amazing: great guides, equipment and the amongst the biggest marlins I&apos;ve seen.&rdquo;
+              </p>
+              <p className="text-sm text-gray-600">- John D., Experienced Fisher</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-xl font-semibold mb-4">
+                &ldquo;I&apos;ve never fished before, but the guides made me feel so comfortable and taught me everything I needed to know. I caught my first fish and it was exhilarating!&rdquo;
+              </p>
+              <p className="text-sm text-gray-600">- Emily G., Non-Experienced Fisher</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-xl font-semibold mb-4">
+                &ldquo;I&apos;m not a fisher, but I loved the variety of activities available. The spa day was amazing and the nighttime activities were so much fun!&rdquo;
+              </p>
+              <p className="text-sm text-gray-600">- Sarah K., Non-Fisher</p>
+            </div>
           </div>
         </div>
       </section>

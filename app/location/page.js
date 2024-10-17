@@ -65,13 +65,13 @@ export default function Location() {
               <p className="text-lg mb-4">
                 Originally a fishing village, it has grown into one of Brazil&apos;s most enchanting destinations, 
                 boasting pristine beaches, world-class hospitality, and award-winning cuisine. It also has the third oldest church in Brazil.
-                The waters are home to the first marine sanctuary in Brazil, the Royal Charlotte Bank, with the biggest varsity of coral and marine fauna.
+                The waters are home to the first marine sanctuary in Brazil, the Royal Charlotte Bank, with the biggest diversity of coral and marine fauna.
               </p>
 
               <h3 className="text-xl font-bold mb-4">Security</h3>
               <p className="text-lg mb-4">
                 Arraial d&apos;Ajuda is a small town with a population of about 40,000 people. It is a safe area, with a low crime rate. 
-                Its growing popularity amonngst tourists makes it a peaceful and family-friendly destination.
+                Its growing popularity amongst tourists makes it a peaceful and family-friendly destination.
               </p>
 
               <h3 className="text-xl font-bold mb-4">Visa</h3>

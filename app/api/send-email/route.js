@@ -19,9 +19,10 @@ export async function POST(request) {
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: process.env.EMAIL_TO, // Replace with your email address
+    cc: process.env.EMAIL_CC, // Add this line for CC
     subject: 'New Enquiry from Nervous Marlin Website',
     text: `
-      New booking inquiry received fron the webpage:
+      New booking enquiry received fron the webpage:
       Type of request: ${formData.type_of_request.toString()}
       
       Name: ${formData.name}

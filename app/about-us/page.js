@@ -23,7 +23,7 @@ export default function AboutUs() {
                 <h2 className="text-3xl font-bold mb-4">About us</h2>
                   <p className="text-lg mb-4">
                       My name is Leo Foresti, the owner of Nervous Marlin Fishing Lodge.
-                      I was born in Sao Paulo, Brazil and raised in Buenos Aires, Argentina. From 2001 until 2020 I lived in Cordoba, a province north of Buenos Aires, Argentina.
+                      I was born in Sao Paulo, Brazil and raised in Buenos Aires, Argentina. From 2001 until 2020 I lived in Cordoba, a province North of Buenos Aires, Argentina.
                       I was running a successful hunting Lodge (Posta del Norte), partner of Los Chanares and endorsed by Flyways and Orvis & Beretta.
                       In 2017, we received the certificate of excellence by Tripadvisor. 
                   </p>

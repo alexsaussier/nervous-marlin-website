@@ -83,7 +83,7 @@ export default function Fishing() {
                     killed.
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    We pride ourselves on using only the finest, state-of-the-art fishing equipment. From our custom-built boats to our top-of-the-line rods and reels, every piece of gear is meticulously maintained to guarantee peak performance.
+                    We provide the finest, state-of-the-art fishing equipment. You can find more information about the boat and equipment slightly below on this page.
                   </p>
                   
                 </div>
@@ -243,7 +243,8 @@ export default function Fishing() {
       
 
       <section className="bg-gray-100">
-        <div className="max-w-4xl mx-auto text-lg">        
+        <div className="max-w-4xl mx-auto text-lg">  
+          <h2 className="text-3xl font-bold text-center pt-8">Contact Us</h2>
             <ContactUs />
         </div>
       </section>

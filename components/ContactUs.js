@@ -33,7 +33,7 @@ export default function ContactUs({type_of_request = "Information"}) {
       });
 
       if (response.ok) {
-        alert('Thank you for your inquiry. We will get back to you soon!');
+        alert('Thank you for your enquiry. We will get back to you soon!');
         // Reset form
         setFormData({
           name: '',

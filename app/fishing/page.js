@@ -146,7 +146,7 @@ export default function Fishing() {
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Fishing Boat</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Mares 30</li>
+                  <li>Capacity for 4 anglers</li>
                   <li>2 Mercedes 352 turbo and intercooler engines, 250 HP</li>
                   <li>30 feet</li>
                   <li>15 knots</li>
@@ -165,7 +165,6 @@ export default function Fishing() {
                   <li>2 electric reels</li>
                   <li>1 Shimano Stella 18000 SW spinning reel</li>
                   <li>3 Penn spinning reels</li>
-                  <li>Pompanet chair</li>
                 </ul>
               </div>
             </div>

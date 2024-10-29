@@ -75,7 +75,7 @@ export default function Header({ alwaysDark = false }) {
         } top-[80px]`}
       >
         <ul className="py-2 px-4">
-          {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+          {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Pricing'].map((item) => (
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase().replace(' ', '-')}`}

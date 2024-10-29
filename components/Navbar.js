@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../public/assets/Nervous Marlin_pesca deportiva_Final_Curvas_1.png'
+import Logo from '../public/assets/Nervous Marlin_pesca deportiva_FInal_Curvas_1.jpg'
 
 export default function Header({ alwaysDark = false }) {
   const [scrolled, setScrolled] = useState(false);

@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../public/assets/Nervous Marlin_pesca deportiva_Final_Curvas_1.png'
 
 export default function Header({ alwaysDark = false }) {
   const [scrolled, setScrolled] = useState(false);
@@ -35,9 +37,12 @@ export default function Header({ alwaysDark = false }) {
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${headerClass}`}>
       <nav className="flex justify-between items-center px-8 xl:px-16 mx-auto p-4">
-        <Link href="/" className="flex flex-col cursor-pointer">
-          <span className="text-2xl font-bold">Nervous Marlin</span>
-          <span className="text-sm italic">Fishing Lodge</span>
+        <Link href="/" className="flex cursor-pointer">
+          <Image src={Logo} alt="Nervous Marlin Logo" className="w-16 h-auto" />
+          <div className="flex flex-col ml-2 md:ml-4">
+            <span className="text-2xl font-bold">Nervous Marlin</span>
+            <span className="text-sm italic">Fishing Lodge</span>
+          </div>
         </Link>
         <div className="flex items-center space-x-4">
           {/* Hamburger menu button */}

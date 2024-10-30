@@ -58,7 +58,7 @@ const activities = [
     images: [BeachBiking1, BeachBiking2, BeachBiking3] 
   },
   { name: 'Spa Treatments', 
-    description: 'Relax and rejuvenate with our luxurious spa treatments.',
+    description: 'Relax and rejuvenate with our luxurious spa treatments. We select the best local spas for you to spend half or full days of relaxation.',
     slug: 'spa-treatments',
     images: [Spa1] 
   },

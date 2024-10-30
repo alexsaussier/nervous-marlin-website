@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Nervous Marlin Fishing Lodge",
+  title: "Nervous Marlin | Blue Marlin Fishing Lodge in Brazil",
   description: "Experience world-class Blue Marlin fishing in Bahia, Brazil",
 };
 

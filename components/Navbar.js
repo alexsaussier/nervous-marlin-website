@@ -36,15 +36,15 @@ export default function Header({ alwaysDark = false }) {
 
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${headerClass}`}>
-      <nav className="flex justify-between items-center px-8 xl:px-16 mx-auto p-4">
+      <nav className="flex justify-between items-center sm:px-8 xl:px-16 mx-auto p-4">
         <Link href="/" className="flex cursor-pointer">
           <Image src={Logo} alt="Nervous Marlin Logo" className="w-16 h-auto" />
           <div className="flex flex-col ml-2 md:ml-4">
-            <span className="text-2xl font-bold">Nervous Marlin</span>
-            <span className="text-sm italic">Fishing Lodge</span>
+            <span className="sm:text-2xl font-bold">Nervous Marlin</span>
+            <span className="sm:text-sm italic">Fishing Lodge</span>
           </div>
         </Link>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-2 sm:space-x-4">
           {/* Hamburger menu button */}
           <button
             className="lg:hidden text-white focus:outline-none w-6 h-6 relative"
@@ -68,7 +68,7 @@ export default function Header({ alwaysDark = false }) {
             ))}
           </ul>
           {/* Book Now button - always visible */}
-          <Link href="/book-now" className="bg-red-700 text-white px-4 py-2 rounded-full text-base xl:text-lg font-semibold hover:bg-red-900 transition duration-300">
+          <Link href="/book-now" className="bg-red-700 text-white px-2 sm:px-4 py-2 rounded-full text-xs sm:text-base xl:text-lg font-semibold hover:bg-red-900 transition duration-300">
             Book Now
           </Link>
         </div>

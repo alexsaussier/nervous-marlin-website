@@ -18,7 +18,7 @@ export default function AboutUs() {
       {/* Owner Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 lg:px-16">
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col">
                 <h2 className="text-3xl font-bold mb-4">A Few Words About us</h2>
                   <p className="text-lg mb-6">
                       My name is Leo Foresti, the owner of Nervous Marlin Fishing Lodge.
@@ -49,7 +49,7 @@ export default function AboutUs() {
               </p>
 
               <div className="py-8">
-                <div className="max-w-xl mx-auto">
+                <div className="max-w-lg mx-auto">
                   <Image
                     src={CamiloPhoto}
                     alt="Camilo Escudero"

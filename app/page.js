@@ -7,7 +7,8 @@ import Paragliding1 from '@/public/images/activities/paragliding1.jpg';
 import BeachBiking1 from '@/public/images/activities/beach-biking1.jpg';
 import Beach2 from '@/public/images/activities/beach2.jpg';
 import Spa1 from '@/public/images/activities/spa1.jpg';
-import Fishing1 from '@/public/images/activities/fishing1.jpg';
+import Fishing6 from '@/public/images/fishing/fishing6.jpg';
+import Fishing7 from '@/public/images/fishing/fishing7.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
 import Night1 from '@/public/images/downtown/night1.jpeg';
 import Link from 'next/link';
@@ -90,7 +91,7 @@ export default function Home() {
             <div className="md:w-1/2 md:pl-8">
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
-                  src={MarlinPhoto2}
+                  src={Fishing6}
                   alt="Blue Marlin Fishing"
                   layout="fill"
                   objectFit="cover"

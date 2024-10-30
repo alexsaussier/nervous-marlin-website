@@ -66,10 +66,10 @@ export default function Fishing() {
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center">Expert-Led Blue Marlin Fishing</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
+                <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
                   <div className="relative w-full h-0 pb-[66.67%]"> {/* 2:3 aspect ratio */}
                     <Image
-                      src={Fishing0}
+                      src={Fishing6}
                       alt="Blue Marlin Fishing"
                       layout="fill"
                       objectFit="cover"

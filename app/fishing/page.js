@@ -48,10 +48,10 @@ export default function Fishing() {
           <h2 className="text-3xl font-bold text-center mb-8">The Ultimate Blue Marlin Fishing Destination</h2>
           <div className="max-w-4xl mx-auto text-lg">
             <p className="mb-4">
-              The coast of Bahia, Brazil, is renowned for its exceptional Blue Marlin fishing conditions. With warm, crystal-clear waters and abundant marine life, this region offers anglers an unparalleled opportunity to catch the majestic Blue Marlin.
+              The coast of the Bahian province is renowned for its exceptional Blue Marlin fishing conditions. With warm, crystal-clear waters and abundant marine life, this region offers anglers an unparalleled opportunity to catch the majestic Blue Marlin.
             </p>
             <p className="mb-4">
-              Our prime fishing grounds are located just off the coast of Arraial d&apos;Ajuda on the Royal Charlotte Bank, where the continental shelf drops off rapidly, creating the perfect habitat for Blue Marlins and other pelagic species.
+              We fish in the Royal Charlotte Bank, just off the coast of Arraial d&apos;Ajuda, where the continental shelf drops off rapidly, creating the perfect habitat for Blue Marlins and other pelagic species.
             </p>
             
             <p>

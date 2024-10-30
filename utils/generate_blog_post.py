@@ -28,7 +28,7 @@ def generate_blog_post(keyword):
         model="gpt-4o",
         messages=[
             {"role": "system", 
-             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge in Bahia, Brazil. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
+             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge in Arraial d'Ajuda, Bahia, Brazil. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
             {"role": "user", "content": prompt}
         ]
     )

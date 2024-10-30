@@ -120,9 +120,9 @@ export default function Home() {
                           className="" 
                         />
                       </div>
-                      <div className="p-6">
-                        <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-800">{activity.name}</h3>
-                        <p className="text-lg transition-opacity duration-300 group-hover:opacity-80 line-clamp-3">
+                      <div className="p-6 text-gray-900">
+                        <h3 className="text-xl font-bold mb-2 transition-colors duration-300 group-hover:text-blue-800">{activity.name}</h3>
+                        <p className="text-lg font-semibold transition-opacity duration-300 line-clamp-3">
                           {activity.description}
                         </p>
                       </div>

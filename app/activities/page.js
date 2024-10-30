@@ -96,6 +96,21 @@ export default function AccommodationAndActivities() {
         objectPosition="40%"
       />
 
+          {/* Non-Fishers Activities Section */}
+          <section className="py-16 bg-gray-100">
+            <div className="container mx-auto px-4">
+              <div className="max-w-3xl mx-auto text-center">
+                <h2 className="text-3xl font-bold mb-6">Activities for Non-Fishers</h2>
+                <p className="text-xl leading-relaxed mb-8">
+                  We understand that not everyone in your group may be an angler. That&apos;s why we have curated an extensive selection of local activities to ensure everyone has an unforgettable experience. 
+                </p>
+                <p className="text-xl leading-relaxed">
+                You pick the activities that you would like to experience, and we create the program for you. We manage the booking and transport, and all the activities are included in our daily pricing.
+                </p>
+              </div>
+            </div>
+          </section>
+
         
           {/* Activities Section */}
           <section className="py-16">

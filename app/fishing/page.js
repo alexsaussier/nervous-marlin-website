@@ -129,15 +129,7 @@ export default function Fishing() {
                 over the years with December second and November third.
 
               </p>
-
-              <p className="text-lg mb-4">
-                Varieties of fish you can catch include amberjack, bigeye and yellowfin tuna, trevally,
-                red snapper, grouper, yellowtail snapper and the list go on.
-              </p>
-
-              
             </div>
-            
           </div>
         </div>
       </section>

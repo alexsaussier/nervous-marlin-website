@@ -91,7 +91,7 @@ export default function Home() {
             <div className="md:w-1/2 md:pl-8">
               <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
-                  src={Fishing6}
+                  src={Fishing7}
                   alt="Blue Marlin Fishing"
                   layout="fill"
                   objectFit="cover"

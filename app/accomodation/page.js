@@ -52,12 +52,12 @@ export default function Accommodation() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Outside2 Image */}
             <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden" style={{ paddingTop: '75%' }}>
                 <Image
                     src={Room1}
                     alt="Lodge Exterior"
-                    width={400}
-                    height={300}
+                    fill
+                    className="object-cover object-center"
                 />
                 </div>
                 <div className="p-4">

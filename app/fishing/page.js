@@ -8,6 +8,8 @@ import Fishing2 from '@/public/images/fishing/fishing2.jpg';
 import Fishing3 from '@/public/images/fishing/fishing3.jpg';
 import Fishing4 from '@/public/images/fishing/fishing4.jpg';
 import Fishing5 from '@/public/images/fishing/fishing5.jpg';
+import Fishing6 from '@/public/images/fishing/fishing6.jpg';
+import Fishing7 from '@/public/images/fishing/fishing7.jpg';
 import Boat1 from '@/public/images/fishing/boat1.jpg';
 import Boat2 from '@/public/images/fishing/boat2.jpg';
 import Boat3 from '@/public/images/fishing/boat3.jpg';
@@ -17,11 +19,14 @@ import PhotoGallery from '@/components/PhotoGallery';
 
 // Define the fishingPhotos array
 const fishingPhotos = [
+  { src: Fishing6, alt: "Fishing Photo 6" },
+  { src: Fishing7, alt: "Fishing Photo 7" },
   { src: Fishing1, alt: "Fishing Photo 1" },
   { src: Fishing2, alt: "Fishing Photo 2" },
   { src: Fishing3, alt: "Fishing Photo 3" },
   { src: Fishing4, alt: "Fishing Photo 4" },
-  { src: Fishing5, alt: "Fishing Photo 5" }
+  { src: Fishing5, alt: "Fishing Photo 5" },
+  
   // Add more photos as needed
 ];
 

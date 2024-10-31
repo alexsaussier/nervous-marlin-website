@@ -1,6 +1,6 @@
 export default function InputField({ label, name, type, placeholder, value, onChange, darkMode = false }) {
   const labelClass = darkMode 
-    ? "block text-sm font-medium text-gray-200"
+    ? "block text-sm font-medium text-white"
     : "block text-sm font-medium text-gray-700";
 
   const inputClass = darkMode

@@ -151,13 +151,13 @@ export default function ContactUs({type_of_request = "Information"}) {
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300"
+                  className="w-full bg-blue-200 text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-300 transition duration-300"
                 >
                   Send booking request
                 </button>
               </div>
               <div>
-                <p className="text-gray-300">We will get back to you as soon as possible.</p>
+                <p className="text-white">We will get back to you as soon as possible.</p>
               </div>
             </form>
           </div>

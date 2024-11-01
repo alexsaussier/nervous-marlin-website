@@ -12,6 +12,9 @@ import Fishing7 from '@/public/images/fishing/fishing7.jpg';
 import Diving1 from '@/public/images/activities/diving1.jpg';
 import Night1 from '@/public/images/downtown/night1.jpeg';
 import Link from 'next/link';
+import logoBlack from '@/public/assets/logoBlack.png';
+
+import logoBlue from '@/public/assets/logoBlue.png';
 
 
 const activities = [
@@ -60,16 +63,30 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center px-4">
-          <h1 className="text-5xl font-bold mb-4">Discover Exceptional Blue Marlin Fishing in Bahia, Brazil</h1>
-          <p className="text-xl mb-8">Experience the world-renowned fishing coast of Brazil</p>
-          <div className="flex space-x-4">
-            <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
-              Contact Us
-            </a>
-            <a href="/book-now" className="bg-white border-2 text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-900 hover:border-sky-200 transition duration-300">
-              Book Now
-            </a>
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-row justify-between items-center text-white px-4 lg:px-24">
+          {/* Logo on the left */}
+          <div className="w-1/3">
+            <Image
+              src={logoBlack}
+              alt="Nervous Marlin Logo"
+              width={300}
+              height={200}
+              className="object-contain"
+            />
+          </div>
+          
+          {/* Text on the right */}
+          <div className="w-2/3 text-center">
+            <h1 className="text-4xl font-bold mb-4">Discover Exceptional Blue Marlin Fishing in Bahia, Brazil</h1>
+            <p className="text-lg mb-8">Experience the world-renowned fishing coast of Brazil</p>
+            <div className="flex justify-center space-x-4">
+              <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
+                Contact Us
+              </a>
+              <a href="/book-now" className="bg-white border-2 text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-900 hover:border-sky-200 transition duration-300">
+                Book Now
+              </a>
+            </div>
           </div>
         </div>
       </section>

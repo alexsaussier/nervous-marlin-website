@@ -3,6 +3,7 @@ import Beach1 from '@/public/images/activities/beach1.jpg';
 import Hero from '@/components/Hero';
 import LeoPhoto from '@/public/images/Leo.jpg'
 import CamiloPhoto from '@/public/images/Camilo.jpg'
+import LeoyCamilo from '@/public/images/LeoyCamilo.jpg'
 
 
 export default function AboutUs() {
@@ -37,7 +38,7 @@ export default function AboutUs() {
                     className="rounded-lg shadow-lg object-cover"
                   />
                 </div>
-                <p className="text-center italic text-gray-700 mt-2">Leonardo Foresti</p>
+                <p className="text-center italic mt-2">Leonardo Foresti</p>
               </div>
               <p className="text-lg mb-6">
                   In 2020 I decided to make a radical change in my life, and moved to Brazil with my family, to this amazing and beautiful town called Arraial d&apos;Ajuda.
@@ -56,7 +57,7 @@ export default function AboutUs() {
                     className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
                   />
                 </div>
-                <p className="text-center italic text-gray-700 mt-2">Camilo Escudero</p>
+                <p className="text-center italic  mt-2">Camilo Escudero</p>
               </div>
 
               <p className="text-lg mb-4">
@@ -64,7 +65,18 @@ export default function AboutUs() {
                   We also provide entertainment and adventure programs for your whole family while you are fishing. 
                   Some of these activities include biking on the beach, boat trips to reefs and different other amazing beaches in the area, with delicious lunches.
                   Everything is included in the daily rate, except for fishing.
-              </p>    
+              </p> 
+
+              <div className="py-8">
+                <div className="max-w-lg mx-auto">
+                  <Image
+                    src={LeoyCamilo}
+                    alt="Camilo and Leo"
+                    className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
+                  />
+                </div>
+                <p className="text-center italic mt-2">Camilo and Leo</p>
+              </div>
               
             </div>
       </section>

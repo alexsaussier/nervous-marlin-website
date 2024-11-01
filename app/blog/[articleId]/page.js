@@ -69,7 +69,9 @@ export default async function Article({ params }) {
         }}
       />
 
-      <div className="p-12">
+<div className="w-full h-32 bg-blue-200">
+</div>
+      <div className="px-12 pt-12">
 
 
 

@@ -7,13 +7,8 @@ import Outside4sun from "@/public/images/house/outside4sun.jpg";
 export default async function LayoutBlog({ children }) {
   return (
     <div>
-      
-      <div className="w-full h-20 bg-gray-800">
-      </div>
-      
-      <main className="min-h-screen  mx-auto ">
-
-       
+           
+      <main className="min-h-screen  mx-auto ">       
         {children}
       </main>
 

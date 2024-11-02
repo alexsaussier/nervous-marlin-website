@@ -14,12 +14,12 @@ import PhotoGallery from '@/components/PhotoGallery';
 
 
 const locationPhotos = [
+  { src: Arraial9, alt: "Arraial 9" },
   { src: Arraial10, alt: "Arraial 1" },
+  { src: Arraial8, alt: "Arraial 8" },
   { src: Arraial11, alt: "Arraial 2" },
   { src: Arraial12, alt: "Arraial 3" },
   { src: Arraial6, alt: "Arraial 6" },
-  { src: Arraial8, alt: "Arraial 8" },
-  { src: Arraial9, alt: "Arraial 9" }
   // Add more photos as needed
 
 ];

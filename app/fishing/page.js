@@ -69,7 +69,7 @@ export default function Fishing() {
                 <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
                   <div className="relative w-full h-0 pb-[66.67%]"> {/* 2:3 aspect ratio */}
                     <Image
-                      src={Fishing6}
+                      src={Fishing7}
                       alt="Blue Marlin Fishing"
                       layout="fill"
                       objectFit="cover"
@@ -79,7 +79,10 @@ export default function Fishing() {
                 </div>
                 <div className="space-y-4">
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    Our local team boasts decades of combined experience in the waters off Bahia, Brazil. Their unparalleled knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior ensures you&apos;re always in the right spot at the right time.
+                    Our local team boasts decades of combined experience in the waters off Bahia, Brazil.
+                    The captain is Robson, he has been living in Arraial d&apos;Ajuda for 32 years and fishing Blue Marlin for 26 years.
+                    He is greatly experienced and has a lot of stories to tell about his adventures.
+                    His team&apos;s knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior ensures you&apos;re always in the right spot at the right time.
                   </p>
 
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">

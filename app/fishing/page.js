@@ -73,6 +73,7 @@ export default function Fishing() {
                       alt="Blue Marlin Fishing"
                       layout="fill"
                       objectFit="cover"
+                      objectPosition="left 20%"
                       className="absolute top-0 left-0 w-full h-full"
                     />
                   </div>
@@ -84,7 +85,6 @@ export default function Fishing() {
                     He is greatly experienced and has a lot of stories to tell about his adventures.
                     His team&apos;s knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior ensures you&apos;re always in the right spot at the right time.
                   </p>
-
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We are conscious of the need to conserve the fish that we love to pursue. In line with the
                     regulations here in Brazil, we release all of the marlin caught; no marlins caught are
@@ -92,8 +92,7 @@ export default function Fishing() {
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We provide the finest, state-of-the-art fishing equipment. You can find more information about the boat and equipment slightly below on this page.
-                  </p>
-                  
+                  </p>                  
                 </div>
               </div>
             </div>

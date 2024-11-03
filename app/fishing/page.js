@@ -173,8 +173,8 @@ export default function Fishing() {
               </div>
             </div>
             <div className="mt-8">
-              <h3 className="text-lg font-semibold mb-4">Additional Information</h3>
-              <ul className="list-disc pl-5 space-y-2 text-sm">
+              <h3 className="text-2xl font-semibold mb-4">Additional Information</h3>
+              <ul className="list-disc pl-5 space-y-2">
                 <li>Departure: 6:00 AM to 3:00 PM from Arraial pier</li>
                 <li>On-board service includes lunch, fresh natural juice, water, soda, and fresh fruits</li>
                 <li>We recommend coming equiped with a spray jacket, sunblock, a hat, and polarized sunglasses</li>

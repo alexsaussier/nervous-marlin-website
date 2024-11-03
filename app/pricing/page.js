@@ -127,8 +127,26 @@ export default function Packages() {
                     </div>
                 </div>
             </div>
+
+            <div className="container mx-auto py-8 px-4">
+                <div className="max-w-3xl mx-auto">
+                    <div className="space-y-4">
+                        <div className="bg-white p-6 rounded-lg">
+                            <h3 className="font-bold text-lg mb-2">Booking & Payment Policy</h3>
+                            <ul className="space-y-2 text-black">
+                                <li>• 50% non-refundable deposit required to secure your booking</li>
+                                <li>• Full payment due 60 days before trip date</li>
+                                <li>• Accepted payments: Credit Card, Wire Transfer</li>
+                                <li>• We accept cash at the lodge for the remainder of the payment</li>
+                                <li>• We recommend insurance for your trip, which we can provide</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        
         {/* Contact Form Section */}
         <section className="bg-gray-100">
                 <div className="mx-auto">

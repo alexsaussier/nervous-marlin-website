@@ -37,7 +37,7 @@ export default function Fishing() {
       <Hero
         imageSrc={MarlinPhoto}
         title="One of the best Blue Marlin fishing spots in the world"
-        subtitle="Experience the pristine waters of Bahia, Brazil"
+        subtitle=""
         objectPosition="center 60%"
       />
       

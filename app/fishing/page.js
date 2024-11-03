@@ -113,22 +113,27 @@ export default function Fishing() {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <p className="text-lg mb-4">
+              <p className="text-md mb-4">
                 The Royal Charlotte Bank is a remarkable underwater ecosystem discovered in 2023 by a Petrobras program. 
                 It is the largest coral bank in Brazil, boasting an incredible diversity of marine life. 
                 This vast underwater formation stretches for 65 miles and plunges to depths of 9,500 feet (3,000 meters).
                 
               </p>
 
-              <p className="text-lg mb-4">
+              <p className="text-md mb-4">
                 Because of its spectacular geography, we have marlin fishing all year round, weather permitting.
                 The best season however is from October to March.
               </p>
 
-              <p className="text-lg mb-4">
+              <p className="text-md mb-4">
                 The fishing records from over the years show the high season can start late September with
                 lots of white marlin and blue marlin showing up. October has raised the most marlin
                 over the years with December second and November third.
+
+              </p>
+              <p className="text-md mb-4">
+                Varieties of otherfish you can catch include amberjack, bigeye tuna, yellowfin tuna, 
+                trevally, red snapper, grouper, yellowtail snapper, and the list goes on.
 
               </p>
             </div>
@@ -172,6 +177,11 @@ export default function Fishing() {
               <ul className="list-disc pl-5 space-y-2">
                 <li>Departure: 6:00 AM to 3:00 PM from Arraial pier</li>
                 <li>On-board service includes lunch, fresh natural juice, water, soda, and fresh fruits</li>
+                <li>We recommend coming equiped with a spray jacket, sunblock, a hat, and polarized sunglasses</li>
+                <li>If an angler or guest breaks or loses any fishing equipment, it will be added to their account at the end of the trip.
+                  Other than that, the is no extra cost for fishing equipment or bait.
+                </li>
+                <li>You are always welcome to bring your own tackle, my crew will assemble and cheek the rigging to make sure it is in good shape. </li>
               </ul>
             </div>
           </div>

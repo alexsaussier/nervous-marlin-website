@@ -21,7 +21,8 @@ def generate_blog_post(keyword):
     Any other headers in the blog content should always be within both combined <h3> and <strong> tags. Do not use ** to put text inside.
     Never start your reply with '''html.
     If there are any apostrophes, replace them with &apos;
-    When you provide a link to nervousmarlin.com, make sure it is bolded, underlined and redirects to nervousmarlin.com using the <a> tag. 
+    When you provide a link to nervousmarlin.com, make sure it is bolded, underlined and redirects to nervousmarlin.com using the <a> tag.
+    Don't be too pushy with mentioning nervousmarlin.com, make the article feel natural and not like an advertisement.
     Do not use style attributes, just use tags."""
     client = OpenAI(api_key="sk-proj-ZWZVp9jM0e3SqUQQELX8T3BlbkFJ8fDmikeoI9FKtTqsM36B")
     response = client.chat.completions.create(

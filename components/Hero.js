@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import logoBlack from '../public/assets/logoBlack.png';
+import logoWhite from '../public/assets/logoWhite.png';
 
 export default function HeroSection({ imageSrc, title, subtitle, objectPosition = "top" }) {
   return (
@@ -9,12 +10,13 @@ export default function HeroSection({ imageSrc, title, subtitle, objectPosition 
         alt={title}
         fill
         placeholder="blur"
+        className="blur-sm"
         style={{ objectFit: "cover", objectPosition }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col py-20 items-center text-white text-center px-4">
       <div className="pb-8">
             <Image
-              src={logoBlack}
+              src={logoWhite}
               alt="Nervous Marlin Logo"
               className="object-contain w-[250px] md:w-[250px]"
             />

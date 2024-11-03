@@ -41,7 +41,7 @@ export default function Accommodation() {
       <Hero
         imageSrc={Beach5}
         title="Accommodation"
-        subtitle="We provide splendid accommodation, right on the beach"
+        subtitle=""
         objectPosition="40%"
       />
       

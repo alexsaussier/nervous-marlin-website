@@ -13,6 +13,7 @@ import Diving1 from '@/public/images/activities/diving1.jpg';
 import Night1 from '@/public/images/downtown/night1.jpeg';
 import Link from 'next/link';
 import logoBlack from '@/public/assets/logoBlack.png';
+import logoWhite from '@/public/assets/logoWhite.png';
 
 import logoBlue from '@/public/assets/logoBlue.png';
 
@@ -70,7 +71,7 @@ export default function Home() {
           {/* Logo on the left */}
           <div className="pb-8">
             <Image
-              src={logoBlack}
+              src={logoWhite}
               alt="Nervous Marlin Logo"
               className="object-contain w-[250px] md:w-[400px]"
             />

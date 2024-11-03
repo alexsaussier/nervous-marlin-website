@@ -36,7 +36,7 @@ export default function Fishing() {
       
       <Hero
         imageSrc={MarlinPhoto}
-        title="Discover one of the best Blue Marlin fishing spots in the world"
+        title="One of the best Blue Marlin fishing spots in the world"
         subtitle="Experience the pristine waters of Bahia, Brazil"
         objectPosition="center 60%"
       />
@@ -132,7 +132,7 @@ export default function Fishing() {
 
               </p>
               <p className="text-md mb-4">
-                Varieties of otherfish you can catch include amberjack, bigeye tuna, yellowfin tuna, 
+                Varieties of other fish you can catch include amberjack, bigeye tuna, yellowfin tuna, 
                 trevally, red snapper, grouper, yellowtail snapper, and the list goes on.
 
               </p>

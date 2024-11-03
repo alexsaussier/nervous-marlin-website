@@ -19,16 +19,20 @@ import logoBlue from '@/public/assets/logoBlue.png';
 
 
 const activities = [
-  { 
-    name: 'Nighttime Activities', 
-    slug: 'nighttime-activities',
-    description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.",
-    image: Night1 
+  { name: 'Private Excursions', 
+    description: 'We take our ATVs to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and its coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.',
+    slug: 'private-excursions',
+    image: Beach2 
   },
   { name: 'Paragliding', 
     slug: 'paragliding',
     description: 'You will be paragliding with Ricardo, he is the 2024 champion paraglider in the state of Bahia, he gives the most spectacular flight over the beautiful cliff with an amazing view of the Atlantic Ocean and reefs.',
     image: Paragliding1 
+  },
+  { name: 'Scuba Diving', 
+    description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', 
+    slug: 'scuba-diving',
+    image: Diving1 
   },
   { name: 'Beach Biking', 
     description: 'We do it during the low tide, visiting lagoons that connect with the ocean, and making a stop at Lagoa Azul restaurant on the way back to enjoy a nice fresh drink and snack.',
@@ -40,16 +44,11 @@ const activities = [
     slug: 'spa-treatments',
     image: Spa1 
   },
-  { name: 'Diving', 
-    description: 'We dive at the Royal Charlotte Bank, the largest coral bank in Brazil with the biggest variety of coral, marine fauna. The extension is of 65 miles and 9500 foot deep (3000 mts.) and connects with another Bank called Albrolhos. it was discovered in 2023 by a program of Petrobras.', 
-    slug: 'diving',
-    image: Diving1 
-  },
-  { name: 'Private Excursions', 
-    description: 'We take our ATVs to go through the beautiful brazilian jungle and appear on the top of the cliffs, enjoying the amazing view of the blue Atlantic Ocean and its coral. After the ride we head for lunch to a beach club with great food and live music.\nWe also lead you on boat excursion to visit different beaches in the area, with a spectacular lunch on the beach.',
-    slug: 'private-excursions',
-    image: Beach2 
-  },
+  { name: 'Nighttime Activities', 
+    slug: 'nighttime-activities',
+    description: "The nightlife in Arraial d'Ajuda has been growing in the last few years. It has great restaurants that serve local cuisine, and international (European & Argentinian) bars serving excellent drinks. 'Le Fantastique Monde de Benjamin' is a restaurant inspired from the 1920's, with waiters dressed like back in the days. Every night, you can come enjoy delicious cuisine and live music with Rock bands, Blues, Jazz, and Tango Shows.",
+    image: Night1 
+  }
 ];
 
 

@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Head from 'next/head';
 import Backlinks from '@/components/Backlinks';
 import Script from 'next/script';
-import GoogleAnalytics from '@next/third-parties/google';
+//import GoogleAnalytics from '@next/third-parties/google';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <GoogleAnalytics gaId="G-2SVN8M4HP1" />
+        {/* <GoogleAnalytics gaId="G-2SVN8M4HP1" /> */}
         <Navbar />
         {children}
         <Footer />

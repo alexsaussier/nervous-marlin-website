@@ -173,13 +173,13 @@ export default function Fishing() {
               </div>
             </div>
             <div className="mt-8">
-              <h3 className="text-2xl font-semibold mb-4">Additional Information</h3>
-              <ul className="list-disc pl-5 space-y-2">
+              <h3 className="text-lg font-semibold mb-4">Additional Information</h3>
+              <ul className="list-disc pl-5 space-y-2 text-sm">
                 <li>Departure: 6:00 AM to 3:00 PM from Arraial pier</li>
                 <li>On-board service includes lunch, fresh natural juice, water, soda, and fresh fruits</li>
                 <li>We recommend coming equiped with a spray jacket, sunblock, a hat, and polarized sunglasses</li>
                 <li>If an angler or guest breaks or loses any fishing equipment, it will be added to their account at the end of the trip.
-                  Other than that, the is no extra cost for fishing equipment or bait.
+                  Other than that, there is no extra cost for fishing equipment or bait.
                 </li>
                 <li>You are always welcome to bring your own tackle, my crew will assemble and cheek the rigging to make sure it is in good shape. </li>
               </ul>

@@ -165,7 +165,7 @@ export default function Home() {
         <div className="container mx-auto">
           <h2 className="text-xl sm:text-3xl font-bold text-center mb-4 sm:mb-8">What Our Clients Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <p className="text-sm sm:text-lg font-semibold mb-4 flex-grow">
                 &ldquo;I know Leo from my first trip in Posta del Norte and this stay in Bahia was again fantastic! 
                 Leo always provides very high-quality service for his guests, and this time he even prepares other activities for those who are not fishing.
@@ -175,13 +175,13 @@ export default function Home() {
               </p>
               <p className="sm:text-sm text-gray-600">- John D., Experienced Fisher</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <p className="sm:text-xl font-semibold mb-4">
                 &ldquo;I&apos;ve never fished before, but the guides made me feel so comfortable and taught me everything I needed to know. I caught my first fish and it was exhilarating!&rdquo;
               </p>
               <p className="sm:text-sm text-gray-600">- Emily G., Non-Experienced Fisher</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <p className="sm:text-xl font-semibold mb-4">
                 &ldquo;I&apos;m not a fisher, but I loved the variety of activities available. The spa day was amazing and the nighttime activities were so much fun!&rdquo;
               </p>

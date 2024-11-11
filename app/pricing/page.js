@@ -138,7 +138,6 @@ export default function Packages() {
                                 <li>• Full payment due 60 days before trip date</li>
                                 <li>• Accepted payments: Credit Card, Wire Transfer</li>
                                 <li>• We accept cash at the lodge for the remainder of the payment</li>
-                                <li>• We recommend insurance for your trip, which we can provide</li>
                             </ul>
                         </div>
                     </div>

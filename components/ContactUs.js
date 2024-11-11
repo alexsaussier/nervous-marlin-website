@@ -148,6 +148,30 @@ export default function ContactUs({type_of_request = "Information"}) {
                   placeholder="Any special requests or additional information"
                 ></textarea>
               </div>
+
+              {/* Agree to be contacted */}
+              <div className="mb-4">
+                <label className="flex items-center text-gray-200">
+                  <input
+                    type="checkbox"
+                    name="agreeToContact"
+                    checked={formData.agreeToContact}
+                    onChange={handleChange}
+                    className="rounded border-gray-600 bg-gray-700 text-blue-500 focus:ring-blue-500 mr-2"
+                    required
+                  />
+                  <span className="text-sm">
+                    I agree to be contacted by Nervous Marlin via email. To opt out in the future, you can click the unsubscribe link in the email.
+                  </span>
+                </label>
+                <p className="text-sm mt-4">By submitting the contact form and signing up for text, you consent to receive text
+                  messages from Nervous Marlin. Consent is not a condition of purchase. Message frequency
+                  varies. Message and data rates may apply. You can unsubscribe at any time by replying
+                  STOP.
+                </p>
+              </div>
+
+              
               <div>
                 <button
                   type="submit"

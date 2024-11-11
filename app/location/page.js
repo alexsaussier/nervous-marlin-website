@@ -37,7 +37,7 @@ export default function Location() {
 
 
       {/* Section about Porto Seguro */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Porto Seguro and the Discovery Coast</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -98,7 +98,7 @@ export default function Location() {
 
 
       {/* Photo Gallery */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Photo Gallery</h2>
           <PhotoGallery photos={locationPhotos} />

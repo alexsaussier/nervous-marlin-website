@@ -98,7 +98,7 @@ export default function AccommodationAndActivities() {
       />
 
           {/* Non-Fishers Activities Section */}
-          <section className="py-16 bg-gray-100">
+          <section className="py-16 bg-gray-200 text-gray-800">
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">Activities for Non-Fishers</h2>
@@ -114,7 +114,7 @@ export default function AccommodationAndActivities() {
 
         
           {/* Activities Section */}
-          <section className="py-16">
+          <section className="py-16 bg-white text-gray-800">
             <div className="container mx-auto px-4">
 
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>

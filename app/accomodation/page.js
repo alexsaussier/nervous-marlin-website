@@ -46,12 +46,12 @@ export default function Accommodation() {
       />
       
       {/* Accommodation Section */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">Our Beachfront Lodge</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Outside2 Image */}
-            <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+            <div className="group bg-white overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
                 <div className="relative overflow-hidden" style={{ paddingTop: '75%' }}>
                 <Image
                     src={Room1}
@@ -61,17 +61,17 @@ export default function Accommodation() {
                 />
                 </div>
                 <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">
-                    Luxurious Comfort
-                </h3>
-                <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    Our lodge offers comfortable and stylish accommodations, designed to provide a relaxing retreat after a day of fishing or exploring.
-                </p>
+                  <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">
+                      Luxurious Comfort
+                  </h3>
+                  <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
+                      Our lodge offers comfortable and stylish accommodations, designed to provide a relaxing retreat after a day of fishing or exploring.
+                  </p>
                 </div>
             </div>
 
             {/* Outside3 Image */}
-            <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+            <div className="group bg-white overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
                 <div className="relative overflow-hidden " style={{ paddingTop: '75%' }}> {/* 4:3 aspect ratio */}
                 <Image
                     src={Outside4sun}
@@ -91,7 +91,7 @@ export default function Accommodation() {
             </div>
 
             {/* Room1 Image */}
-            <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+            <div className="group bg-white overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
                 <div className="relative overflow-hidden" style={{ paddingTop: '75%' }}> {/* 4:3 aspect ratio */}
                     <Image
                         src={Outside2}
@@ -117,7 +117,7 @@ export default function Accommodation() {
 
     
     {/* Carousel and Description Section */}
-    <section className="py-16">
+    <section className="py-16 bg-white text-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           {/* Carousel */}

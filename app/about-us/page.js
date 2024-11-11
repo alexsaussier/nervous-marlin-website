@@ -17,7 +17,7 @@ export default function AboutUs() {
       />
 
       {/* Owner Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white text-gray-800">
         <div className="container mx-auto px-4 lg:px-16">
           <div className="flex flex-col">
                 <h2 className="text-3xl font-bold mb-4">A Few Words About us</h2>

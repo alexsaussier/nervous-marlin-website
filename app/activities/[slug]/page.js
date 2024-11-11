@@ -15,14 +15,14 @@ export default function ActivityPage() {
   }
 
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white text-gray-800">
       <Hero
         imageSrc={activity.images[0]}
         title={activity.name}
         subtitle=""
         objectPosition="40%"
       />
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16 ">
         <h1 className="text-4xl font-bold mb-8">{activity.name}</h1>
         <p className="text-xl mb-12">{activity.description}</p>
         

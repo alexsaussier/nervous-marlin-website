@@ -43,7 +43,7 @@ export default function Fishing() {
       
 
       {/* Fishing Spot Description */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">The Ultimate Blue Marlin Fishing Destination</h2>
           <div className="max-w-4xl mx-auto text-lg">
@@ -62,7 +62,7 @@ export default function Fishing() {
       </section>
 
       {/* Fishing Service Section */}
-      <section className="py-16">
+      <section className="py-16 bg-white text-gray-800">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center">Expert-Led Blue Marlin Fishing</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -99,7 +99,7 @@ export default function Fishing() {
           </section>
 
            {/* RCB Section */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">The Royal Charlotte Bank</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -142,7 +142,7 @@ export default function Fishing() {
       </section>
 
           {/* Fishing Conditions Description */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Boat and Equipment</h2>
           <div className="max-w-4xl mx-auto text-lg">
@@ -218,7 +218,7 @@ export default function Fishing() {
       </section>
 
       {/* Fishing Photos Gallery */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Photo Gallery</h2>
           <PhotoGallery photos={fishingPhotos} />
@@ -226,7 +226,7 @@ export default function Fishing() {
       </section>
 
       {/* YouTube Video Embed */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Experience the Thrill</h2>
           <div className="max-w-4xl mx-auto ">

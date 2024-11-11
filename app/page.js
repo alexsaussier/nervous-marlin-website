@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* Blue Marlin Fishing Section */}
-      <section id="blue-marlin-fishing" className="py-16 bg-gray-200">
+      <section id="blue-marlin-fishing" className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing on the coast of Bahia</h2>
           <div className="flex flex-col md:flex-row items-center justify-between">
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Activities Section */}
-      <section className="py-16">
+      <section className="py-16 bg-white text-gray-800">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -138,7 +138,7 @@ export default function Home() {
                           className="" 
                         />
                       </div>
-                      <div className="p-6 text-gray-900">
+                      <div className="p-6 text-gray-800">
                         <h3 className="text-xl font-bold mb-2 transition-colors duration-300 group-hover:text-blue-800">{activity.name}</h3>
                         <p className="text-lg font-semibold transition-opacity duration-300 line-clamp-3">
                           {activity.description}
@@ -161,7 +161,7 @@ export default function Home() {
       <WhyChooseUs />
 
       {/* Testimonials Section */}
-      <section className="py-8 sm:py-16 bg-gray-100 px-3">
+      <section className="py-8 sm:py-16 bg-white text-gray-800 px-3">
         <div className="container mx-auto">
           <h2 className="text-xl sm:text-3xl font-bold text-center mb-4 sm:mb-8">What Our Clients Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* Contact Us Section */}
-      <section className="bg-gray-100">
+      <section className="bg-gray-200 text-gray-800 py-12">
         <div className="max-w-4xl mx-auto text-lg">
           <h2 className="text-3xl font-bold text-center" id="contact">Contact Us</h2>
             <ContactUs />

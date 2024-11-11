@@ -10,7 +10,7 @@ export default function HeroSection({ imageSrc, title, subtitle, objectPosition 
         alt={title}
         fill
         placeholder="blur"
-        className="blur-sm"
+        className=""
         style={{ objectFit: "cover", objectPosition }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col py-20 items-center text-white text-center px-4">

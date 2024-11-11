@@ -30,7 +30,7 @@ export default function Header({ alwaysDark = false }) {
     ? 'bg-slate-800 text-white'
     : scrolled
     ? 'bg-blue-200 text-sky-900'
-    : 'bg-transparent text-white';
+    : 'bg-transparent text-white backdrop-blur-sm';
 
     const buttonClass = scrolled ? 'bg-white text-sky-900 hover:bg-sky-900 hover:text-white' : 'bg-sky-200 text-sky-900 hover:bg-white'; 
 

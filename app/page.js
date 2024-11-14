@@ -164,26 +164,41 @@ export default function Home() {
       <section className="py-8 sm:py-16 bg-white text-gray-800 px-3">
         <div className="container mx-auto">
           <h2 className="text-xl sm:text-3xl font-bold text-center mb-4 sm:mb-8">What Our Clients Say</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <p className="text-sm sm:text-lg font-semibold mb-4 flex-grow">
-                &ldquo;I know Leo from my first trip in Posta del Norte and this stay in Bahia was again fantastic! 
-                Leo always provides very high-quality service for his guests, and this time he even prepares other activities for those who are not fishing.
-              </p>
-              <p className="text-sm sm:text-lg font-semibold mb-4">
-                The fishing conditions were amazing: great guides, equipment and the amongst the biggest marlins I&apos;ve seen.&rdquo;
-              </p>
-              <p className="sm:text-sm text-gray-600">- John D., Experienced Fisher</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left column with stacked testimonials */}
+            <div className="flex flex-col gap-8">
+              <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+                <p className="text-sm sm:text-lg font-semibold mb-4 flex-grow">
+                  &ldquo;I know Leo from my first trip in Posta del Norte and this stay in Bahia was again fantastic! 
+                  Leo always provides very high-quality service for his guests, and this time he even prepares other activities for those who are not fishing.
+                </p>
+                <p className="text-sm sm:text-lg font-semibold mb-4">
+                  The fishing conditions were amazing: great guides, equipment and the amongst the biggest marlins I&apos;ve seen.&rdquo;
+                </p>
+                <p className="sm:text-sm text-gray-600">- John D., Experienced Fisher</p>
+              </div>
+              <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+                <p className="sm:text-lg font-semibold mb-4">
+                  &ldquo;I&apos;ve never fished before, but the guides made me feel so comfortable and taught me everything I needed to know. I caught my first Wahoo in Brazil!&rdquo;
+                </p>
+                <p className="sm:text-sm text-gray-600">- Emily G., Non-Experienced Fisher</p>
+              </div>
             </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <p className="sm:text-xl font-semibold mb-4">
-                &ldquo;I&apos;ve never fished before, but the guides made me feel so comfortable and taught me everything I needed to know. I caught my first fish and it was exhilarating!&rdquo;
+            {/* Right column with longer testimonial */}
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md h-full">
+              <p className="sm:text-lg font-semibold mb-4">
+                &ldquo;I invited my husband for his 60th anniversary, we came with three other couples. The guys had a blast fishing.
+                I&apos;m not a fisher, but I loved the variety of activities available for non-fishers. Our daily program was a lot fun,
+                and the spa day with Cristina was fantastic!
+                
               </p>
-              <p className="sm:text-sm text-gray-600">- Emily G., Non-Experienced Fisher</p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <p className="sm:text-xl font-semibold mb-4">
-                &ldquo;I&apos;m not a fisher, but I loved the variety of activities available. The spa day was amazing and the nighttime activities were so much fun!&rdquo;
+              <p className="sm:text-lg font-semibold mb-4">
+                Nighttime was amazin too, the restaurants in town are 5 stars, with live music and excellent variety of food.
+              </p>
+              <p className="sm:text-lg font-semibold mb-4">
+                Leo and Camilo, you run a 5-star operation! Congratulations and thank you very much for hosting us.
+                My husband will never forget his 60th birthday trip to Brazil!&rdquo;
+
               </p>
               <p className="sm:text-sm text-gray-600">- Sarah K., Non-Fisher</p>
             </div>

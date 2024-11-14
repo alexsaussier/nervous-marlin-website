@@ -51,14 +51,17 @@ export default function Header({ alwaysDark = false }) {
         <div className="flex items-center space-x-2 sm:space-x-4">
 
           {/* Hamburger menu button */}
-          <button
-            className="lg:hidden text-white focus:outline-none w-6 h-6 relative"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
-            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
-            <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
-          </button>
+            <button
+              className="lg:hidden focus:outline-none flex items-center gap-2 mr-6"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <p className={`${scrolled ? 'text-sky-900' : 'text-white'}`}>Menu</p>
+              <div className="flex items-center h-6 relative">
+                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
+              </div>
+            </button>
 
           {/* Desktop menu */}
           <ul className="hidden lg:flex space-x-2 xl:space-x-6 ">

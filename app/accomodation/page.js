@@ -121,8 +121,8 @@ export default function Accommodation() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           {/* Carousel */}
-          <div className="w-full lg:w-1/2">
-            <div className="carousel w-full rounded-xl overflow-hidden shadow-xl max-w-lg mx-auto">
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="carousel w-full rounded-xl overflow-hidden shadow-xl max-w-lg">
               
               <div id="slide1" className="carousel-item relative w-full snap-start">
                 <div className="w-full h-96 relative">
@@ -217,17 +217,29 @@ export default function Accommodation() {
             <p className="text-lg mb-4">
               Experience the perfect blend of comfort and natural beauty at our beachfront lodge. Nestled right on the shores of Bahia, our accommodation offers a unique and unforgettable stay for fishing enthusiasts and nature lovers alike.
             </p>
-            <p className="text-lg mb-2">
+            <p className="text-lg mb-2 font-bold">
               Our lodge features:
             </p>
             <ul className="list-disc list-inside text-lg mb-4">
-              <li>Accomodation for up to 13 people, 8 bedrooms</li>
+              <li>Accomodation for up to 13 people</li>
+              <li>8 bedrooms</li>
               <li>Swimming pool, jacuzzi, bar and pool table</li>
               <li>Modern amenities for a comfortable stay</li>
               <li>Proximity to prime fishing spots and local attractions</li>
             </ul>
+
+            <p className="text-lg mb-2 font-bold">
+              Bedroom distribution - 8 Bedrooms with private bathrooms:
+            </p>
+            <ul className="list-disc list-inside text-lg mb-4">
+              <li>4 bedrooms with  queen size bed and a single bed</li>
+              <li>3 bedrooms with  queen size bed</li>
+              <li>1 bedroom with 2 single beds</li>
+            </ul>
+
+
             <p className="text-lg mb-4">
-              We accomodate private groups with at least 5 people in this house. We can also accomodate smaller groups in another beautfiul lodge in the area, with a stunning view on the ocean. 
+              We only accomodate private groups with a minimumof 8 people (or 4 couples) in this house. We can also accomodate smaller groups in another beautiful lodge in the area, with a stunning view on the ocean. 
             </p>
             <p className="text-lg">
               You can make your fishing trip with your whole family, friends and wife; during your fishing day the non-anglers have a lot of activities that are included in the daily price.</p>

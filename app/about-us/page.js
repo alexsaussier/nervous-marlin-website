@@ -42,7 +42,7 @@ export default function AboutUs() {
               </div>
               <p className="text-lg mb-6">
                   In 2020 I decided to make a radical change in my life, and moved to Brazil with my family, to this amazing and beautiful town called Arraial d&apos;Ajuda.
-                  With my friend Camilo Escudero, who I know since kindergarden in Buenos Aires, we decided to start a fishing lodge specialized in Blue Marlin fishing (but also for Wahoo, Mahi Mahi and Tuna fishing).
+                  With my friend Camilo Escudero, who I know since kindergarden in Buenos Aires, we decided to start a fishing lodge specialized in Blue Marlin fishing, but also for Wahoo, Grouper, Mahi Mahi, Tuna fishing, and the list goes on.
                   Camilo has been living in this area for 24 years, highly involved in the tourism industry and knows perfectly the area.
                   Throughout your stay, you will be hosted and guided by Camilo and myself. We are trilingual, fluent in Spanish, English and Portuguese.
                 
@@ -61,7 +61,7 @@ export default function AboutUs() {
               </div>
 
               <p className="text-lg mb-4">
-                  We provide the same level of high-quality services that we created in Cordoba, and exceptional fishing adventures, here on the Bahian coast.
+                  We provide the same level of high-quality services that I created in Cordoba, and exceptional fishing adventures, here on the Bahian coast.
                   We also provide entertainment and adventure programs for your whole family while you are fishing. 
                   Some of these activities include biking on the beach, boat trips to reefs and different other amazing beaches in the area, with delicious lunches.
                   Everything is included in the daily rate, except for fishing.

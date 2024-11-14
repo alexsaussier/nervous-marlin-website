@@ -137,7 +137,7 @@ export default function Packages() {
                             <ul className="space-y-2 text-black">
                                 <li>• 50% non-refundable deposit required to secure your booking</li>
                                 <li>• Full payment due 60 days before trip date</li>
-                                <li>• Accepted payments: Credit Card, Wire Transfer</li>
+                                <li>• Accepted payments: Wire Transfer</li>
                                 <li>• We accept cash at the lodge for the remainder of the payment</li>
                             </ul>
                         </div>

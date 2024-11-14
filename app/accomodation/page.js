@@ -226,6 +226,7 @@ export default function Accommodation() {
               <li>Swimming pool, jacuzzi, bar and pool table</li>
               <li>Modern amenities for a comfortable stay</li>
               <li>Proximity to prime fishing spots and local attractions</li>
+              <li>Trilingual host and guide</li>
             </ul>
 
             <p className="text-lg mb-2 font-bold">

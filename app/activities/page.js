@@ -106,7 +106,9 @@ export default function AccommodationAndActivities() {
                   We understand that not everyone in your group may be an angler. That&apos;s why we have curated an extensive selection of local activities to ensure everyone has an unforgettable experience. 
                 </p>
                 <p className="text-xl leading-relaxed">
-                You pick the activities that you would like to experience, and we create the program for you. We manage the booking and transport, and all the activities are included in our daily pricing.
+                You pick the activities that you would like to experience, and we create the program for you. 
+                We manage the booking and transport, and all the activities are included in our daily pricing.
+                You will be accompanied by a trilingual host and guide.
                 </p>
               </div>
             </div>
@@ -133,7 +135,7 @@ export default function AccommodationAndActivities() {
                       </div>
                       <div className="p-6">
                         <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">{activity.name}</h3>
-                        <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">{activity.description}</p>
+                        <p className="text-lg transition-opacity duration-300 group-hover:opacity-80 line-clamp-3">{activity.description}</p>
                       </div>
                     </div>
                   </Link>

@@ -15,10 +15,12 @@ export default function ContactUs({type_of_request = "Information"}) {
     country: '',
     message: '',
     type_of_request: type_of_request,
+    agreeToContact: false
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const value = e.target.type === 'checkbox' ? e.target.checked : e.target.value;
+    setFormData({ ...formData, [e.target.name]: value });
   };
 
   const handleSubmit = async (e) => {
@@ -44,7 +46,8 @@ export default function ContactUs({type_of_request = "Information"}) {
           groupSize: '',
           country: '',
           message: '',
-          type_of_request: type_of_request
+          type_of_request: type_of_request,
+          agreeToContact: false
         });
       } else if (response.status === 400) {
         alert('Could not send email. Please make sure to fill in your name, email and phone number.');

@@ -3,7 +3,7 @@
 import HeroSection from '@/components/Hero';
 import { useState } from 'react';
 import Hero from '@/components/Hero';
-import Pitinga from '@/public/images/activities/beach1.jpg';
+import Pitinga from '@/public/images/activities/beach6.jpg';
 import ContactUs from '@/components/ContactUs';
 
 export default function Packages() {
@@ -13,6 +13,7 @@ export default function Packages() {
         imageSrc={Pitinga}
         title="Pricing"
         subtitle=""
+        objectPosition="center"
         />
 
         {/*Pricing Section*/}

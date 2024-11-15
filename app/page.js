@@ -54,6 +54,9 @@ const activities = [
 
 export default function Home() {
   return (
+    
+    
+
     <div className="font-sans">
       {/* Hero Section */}
       <section className="relative h-screen">

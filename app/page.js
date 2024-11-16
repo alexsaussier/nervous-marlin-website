@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-35 flex flex-col items-center text-white px-4 py-28 lg:px-24">
           {/* Logo on the left */}
-          <div className="pb-8">
+          <div className="pb-8 md:mb-8">
             <Image
               src={logoWhite}
               alt="Nervous Marlin Logo"
@@ -82,10 +82,10 @@ export default function Home() {
             <h1 className="text-4xl font-bold mb-4">Discover Exceptional Blue Marlin Fishing in Bahia, Brazil</h1>
             <p className="text-lg mb-8">Experience the world-renowned fishing coast of Brazil</p>
             <div className="flex justify-center space-x-4">
-              <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
+              <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300">
                 Contact Us
               </a>
-              <a href="/book-now" className="bg-white border-2 text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-900 hover:border-sky-200 transition duration-300">
+              <a href="/book-now" className="bg-white border-2 border-transparent text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-800 hover:border-sky-200 transition duration-300">
                 Book Now
               </a>
             </div>

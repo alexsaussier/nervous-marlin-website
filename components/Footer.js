@@ -74,7 +74,7 @@ return (
             <a href="/privacy-policy" className="hover:text-gray-300">Privacy Policy</a> | 
             <a href="/terms-of-service" className="hover:text-gray-300">Terms of Service</a>
         </p>
-        <p className="mt-2 italic">Website created by <a href="https://www.batterseawebdesign.com" className="hover:text-gray-300">Battersea Web Design</a></p>
+        <p className="mt-2 italic">Website created by <a href="https://www.batterseawebdesign.com" className="hover:text-gray-800">Battersea Web Design</a></p>
     </div>
 </footer>
 )

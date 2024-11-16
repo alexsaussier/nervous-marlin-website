@@ -55,8 +55,6 @@ const activities = [
 export default function Home() {
   return (
     
-    
-
     <div className="font-sans">
       {/* Hero Section */}
       <section className="relative h-screen">
@@ -75,7 +73,7 @@ export default function Home() {
             <Image
               src={logoWhite}
               alt="Nervous Marlin Logo"
-              className="object-contain w-[250px] md:w-[400px]"
+              className="object-contain w-[250px] md:w-[350px]"
             />
           </div>
           

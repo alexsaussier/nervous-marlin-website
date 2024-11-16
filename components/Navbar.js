@@ -55,10 +55,10 @@ export default function Header({ alwaysDark = false }) {
               className="lg:hidden focus:outline-none flex items-center gap-2 mr-6"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              <p className={`${scrolled ? 'text-sky-900' : 'text-white'}`}>Menu</p>
+              <p className={`transition duration-500 ${scrolled ? 'text-sky-900' : 'text-white'}`}>Menu</p>
               <div className="flex items-center h-6 relative">
-                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
-                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current transform transition ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-400 ease-in-out ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
                 <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'} ${scrolled ? 'text-sky-900' : 'text-white'}`}></span>
               </div>
             </button>

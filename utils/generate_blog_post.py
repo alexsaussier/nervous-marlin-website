@@ -48,7 +48,7 @@ def add_article_to_content_js(title, content, keyword):
     slug: "{slug}",
     title: "{title}",
     description: "Blog post about {keyword}",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "{today}",
     
     content: (

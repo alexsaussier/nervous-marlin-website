@@ -30,7 +30,7 @@ export default async function Blog() {
       </div>
 
       <div className="flex justify-center px-4 sm:px-6 lg:px-8">
-        <section className="grid lg:grid-cols-2 mb-24 md:mb-32 gap-8 max-w-6xl w-full">
+        <section className="grid lg:grid-cols-2 gap-8 max-w-6xl w-full">
           {articlesToDisplay.map((article, i) => (
             <CardArticle
               article={article}

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import marcImg from "@/app/blog/_assets/images/authors/marc.png";
+import alexImg from "@/app/blog/_assets/images/authors/alex.jpg";
 
 // ==================================================================================================================================================================
 // BLOG CATEGORIES 🏷️
@@ -70,23 +70,23 @@ const socialIcons = {
 
 // These slugs are used to generate pages in the /blog/author/[authorId].js. It's a way to show all articles from an author.
 const authorSlugs = {
-  antonio: "antonio",
+  alex: "alex",
 };
 
 // All the blog authors data display in the /blog/author/[authorId].js pages.
 export const authors = [
   {
     // The slug to use in the URL, from the authorSlugs object above.
-    slug: authorSlugs.antonio,
+    slug: authorSlugs.alex,
     // The name to display in the author's bio. Up to 60 characters.
-    name: "Antonio Figuieras",
+    name: "Alex Saussier",
     // The job to display in the author's bio. Up to 60 characters.
-    job: "Web Developer",
+    job: "Web Developer for Nervous Marlin Fishing Lodge",
     // The description of the author to display in the author's bio. Up to 160 characters.
     description:
-      "Antonio is a developer and fishing enthusiast.",
+      "",
     // The avatar of the author to display in the author's bio and avatar badge. It's better to use a local image, but you can also use an external image (https://...)
-    // avatar: marcImg,
+    avatar: alexImg,
     // A list of social links to display in the author's bio.
     socials: [
       {
@@ -128,10 +128,160 @@ const styles = {
 // All the blog articles data display in the /blog/[articleId].js pages.
 export const articles = [
   {
+    slug: "discover-the-ultimate-exclusive-fishing-lodge-experience-at-nervous-marlin",
+    title: "Discover the Ultimate Exclusive Fishing Lodge Experience at Nervous Marlin",
+    description: "Blog post about Exclusive fishing lodge",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-11-16",
+    
+    content: (
+      <>
+        <h1>Discover the Ultimate Exclusive Fishing Lodge Experience at Nervous Marlin</h1>
+
+<p>Nestled in the serene coastal town of Arraial d&apos;Ajuda, Bahia, Brazil, the Nervous Marlin fishing lodge offers an unparalleled experience for anglers seeking both adventure and relaxation. As an exclusive fishing lodge, Nervous Marlin provides a unique escape where every detail is tailored to make your stay unforgettable.</p>
+
+<h3><strong>Why Choose an Exclusive Fishing Lodge?</strong></h3>
+
+<p>Choosing an exclusive fishing lodge like Nervous Marlin comes with a myriad of benefits. These upscale lodgings provide personalized fishing experiences, luxurious accommodations, and access to some of the best fishing spots in the world. Here, you&apos;re not just a guest; you&apos;re part of a community that appreciates the art and sport of fishing.</p>
+
+<h3><strong>The Nervous Marlin Experience</strong></h3>
+
+<p>At Nervous Marlin, we pride ourselves on curating a fishing adventure that caters to all your needs. Our expert guides are passionate anglers who know the local waters intimately, ensuring you have the best chance at a successful fishing trip. Whether you&apos;re a seasoned fisherman or a newbie, the exhilaration of catching the majestic Blue Marlin is within easy reach.</p>
+
+<h3><strong>Exceptional Amenities and Services</strong></h3>
+
+<p>The exclusive nature of Nervous Marlin offers more than just fishing; it&apos;s an oasis of luxury and comfort. Our lodge features well-appointed accommodations that blend modern convenience with rustic charm. After a day out on the water, unwind in our private facilities, or enjoy a gourmet meal crafted from the freshest local ingredients.</p>
+
+<p>We also provide a range of other activities and excursions to explore the beautiful surroundings of Arraial d&apos;Ajuda. Our team is dedicated to making sure your entire vacation is as rewarding as your time spent fishing.</p>
+
+<h3><strong>The Breathtaking Location</strong></h3>
+
+<p>Set against the backdrop of stunning Bahia landscapes, Arraial d&apos;Ajuda offers a unique blend of natural beauty and cultural richness. Its azure waters, golden beaches, and lush greenery create the perfect setting for an exclusive fishing lodge experience. Whether you are casting lines or simply soaking in the sun, the location guarantees a fulfilling escape from the everyday.</p>
+
+<h3><strong>Plan Your Visit Today</strong></h3>
+
+<p>Ready to embark on your next fishing adventure? Plan your visit to Nervous Marlin by exploring our offerings and securing your stay through our <a className="underline" href="https://nervousmarlin.com"><strong>website</strong></a>. Experience the luxury of an exclusive fishing lodge and create memories that will last a lifetime.</p>
+
+<p>Join us at Nervous Marlin, where the catch of a lifetime awaits at the end of every line!</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "the-biggest-marlin-catches-in-brazil-a-deep-dive-into-blue-marlin-fishing",
+    title: "The Biggest Marlin Catches in Brazil: A Deep Dive Into Blue Marlin Fishing",
+    description: "Blog post about Biggest Marlin Brazil",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-11-16",
+    
+    content: (
+      <>
+        <h1>The Biggest Marlin Catches in Brazil: A Deep Dive Into Blue Marlin Fishing</h1>
+
+<p>Brazil is a host to some of the world&apos;s most thrilling fishing experiences, particularly for those seeking the mighty Blue Marlin. With their majestic presence and formidable strength, Blue Marlins are a sought-after trophy for anglers globally. In this blog post, we explore Brazil&apos;s most impressive Marlin catches and why the region is a hotspot for fishing enthusiasts.</p>
+
+<h3><strong>The Allure of Brazilian Waters</strong></h3>
+
+<p>Marlin fishing in Brazil is a captivating adventure thanks to the country&apos;s vast coastline and diverse marine ecosystems. The warm waters of the Atlantic Ocean provide an ideal environment for Blue Marlins, making Brazilian waters some of the most productive fishing grounds in the world. One popular destination is the coastal area around Arraial d&apos;Ajuda in Bahia, where countless anglers have had the opportunity to encounter these magnificent creatures.</p>
+
+<h3><strong>Record-Breaking Marlin Catches</strong></h3>
+
+<p>Over the years, Brazil has witnessed some remarkable Marlin catches, each contributing to the country&apos;s reputation as a prime fishing locale. The biggest Marlin ever caught in Brazilian waters weighed a staggering 636 kg (1,402 lbs), setting a record that still draws anglers from all corners of the globe. The thrill of chasing such giants is a major draw for anyone looking to experience fishing on a whole new level.</p>
+
+<h3><strong>Conservation and Sustainable Fishing Practices</strong></h3>
+
+<p>While the excitement of catching a giant Marlin is undeniable, it is vital to practice sustainable fishing. Many lodges and charters in Brazil, including <a href="https://nervousmarlin.com">Nervous Marlin</a>, emphasize catch-and-release fishing to ensure that these majestic fish continue to thrive in their natural habitat. By adopting responsible fishing practices, we can help preserve these giant fish for future generations to admire and enjoy.</p>
+
+<h3><strong>The Experience of Marlin Fishing in Brazil</strong></h3>
+
+<p>For those seeking the thrill of Marlin fishing, Brazil offers an inviting blend of adventure and natural beauty. From the turquoise waters of Bahia to the vibrant cultural backdrop, anglers can enjoy a holistic experience. Whether you&apos;re a novice or a seasoned pro, fishing for Marlin in Brazil is an unforgettable journey.</p>
+
+<p>In conclusion, the potential to catch one of the biggest Marlins makes Brazil a premier destination for sports fishing enthusiasts. The unique combination of vast ocean resources, record-breaking catches, and conservation efforts ensures that both the fish and the sport can thrive harmoniously. If you&apos;re eager to learn more or plan a fishing trip, consider visiting <a href="https://nervousmarlin.com">Nervous Marlin</a> for additional information and guidance.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "experience-the-thrill-of-brazilian-fishing-a-journey-to-remember",
+    title: "Experience the Thrill of Brazilian Fishing: A Journey to Remember",
+    description: "Blog post about Brazilian fishing experience",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-11-16",
+    
+    content: (
+      <>
+        <h1>Experience the Thrill of Brazilian Fishing: A Journey to Remember</h1>
+
+<p>Brazil is a land of vibrant culture, stunning landscapes, and remarkable biodiversity. Among its many treasures, the Brazilian fishing experience stands out as a unique adventure for anglers and nature enthusiasts alike. From the expansive Amazon River to the picturesque beaches of Bahia, Brazil offers a fishing experience like no other. Let&apos;s dive into what makes fishing in Brazil so captivating and why it should be on every angler&apos;s bucket list.</p>
+
+<h3><strong>Exploring the Rich Waters of Brazil</strong></h3>
+
+<p>The diversity of Brazil&apos;s aquatic ecosystems is nothing short of spectacular. Whether you&apos;re casting your line in the mighty Amazon River or the calm Atlantic waters, you&apos;re bound to encounter a rich array of fish species. In the Amazon, you&apos;ll find legendary species such as the peacock bass, arapaima, and piranhas. Meanwhile, the coastal regions offer opportunities to catch snapper, grouper, and the ever-elusive blue marlin.</p>
+
+<h3><strong>The Allure of Bahia&apos;s Coastline</strong></h3>
+
+<p>Located in Brazil&apos;s northeast, Bahia boasts a beautiful coastline that is a dream come true for fishing enthusiasts. The region&apos;s warm waters and plentiful fish make it a popular destination for both amateur and seasoned anglers. One standout venue is Arraial d&apos;Ajuda, home to the <a href="https://nervousmarlin.com">Nervous Marlin</a> fishing lodge. Here, you can embark on unforgettable fishing trips, surrounded by breathtaking views and a serene atmosphere.</p>
+
+<h3><strong>Why Choose a Brazilian Fishing Adventure?</strong></h3>
+
+<p>Choosing a fishing adventure in Brazil means freeing yourself from the routine and experiencing nature at its finest. The sense of excitement as you feel the tug on your line, the joy of landing a prized catch, and the peace of being on the water make for a truly unforgettable experience. Moreover, Brazil&apos;s fishing culture is deeply tied to its local communities, allowing you to gain a deeper understanding of the region&apos;s traditions and lifestyle.</p>
+
+<h3><strong>Best Time for Fishing in Brazil</strong></h3>
+
+<p>While Brazil offers year-round fishing opportunities, the timing of your trip can affect your experience. The Amazon region is best visited during the dry season (July to November), when water levels recede, concentrating fish and making them easier to catch. For coastal areas like Bahia, the climate is favorable year-round, but the period between October and March is particularly fruitful for blue marlin and other game fish.</p>
+
+<h3><strong>Final Thoughts</strong></h3>
+
+<p>A Brazilian fishing adventure is more than just a fishing trip; it&apos;s a journey into a land filled with wonder and excitement. Whether you&apos;re a seasoned angler or a curious traveler, casting your line into Brazil&apos;s waters promises experiences and memories that last a lifetime. For those eager to explore the enchanting waters of Bahia, the <a href="https://nervousmarlin.com">Nervous Marlin</a> lodge in Arraial d&apos;Ajuda offers a gateway to this incredible world.</p>
+
+<p>Pack your rods, grab your gear, and head to Brazil for the fishing adventure of a lifetime!</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "exploring-the-history-of-blue-marlin-fishing",
+    title: "Exploring the History of Blue Marlin Fishing",
+    description: "Blog post about History of Blue Marlin Fishing",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-11-16",
+    
+    content: (
+      <>
+        <h1>Exploring the History of Blue Marlin Fishing</h1>
+
+<p>The majestic Blue Marlin is not only a prized catch for sport fishing enthusiasts but also an integral species in the history of fishing worldwide. Its incredible speed, strength, and beauty have captured the hearts and minds of fishermen and nature lovers across the globe. Let&apos;s dive into the fascinating history of Blue Marlin fishing and explore what makes this fish such a significant part of the fishing community.</p>
+
+<h3><strong>The Origins of Blue Marlin Fishing</strong></h3>
+
+<p>Blue Marlin fishing dates back several centuries, gaining popularity in the early 20th century. Sport fishing for Blue Marlin began to gain momentum when adventurers and skilled sailors sought to test their mettle against the powerful fish. While indigenous people in tropical and subtropical regions have historically fished for various species of Marlin as part of their subsistence lifestyle, it wasn&apos;t until the advent of modern recreational fishing techniques that Blue Marlin fishing became a widely recognized sport.</p>
+
+<h3><strong>A Legendary Game Fish</strong></h3>
+
+<p>The Blue Marlin earned its status as a legendary game fish largely due to its formidable size and fighting ability. Averaging between 200 to 400 pounds, with some specimens exceeding 1,000 pounds, hooking a Blue Marlin is considered the pinnacle of sport fishing achievements. The fish is especially known for its exhilarating runs and breathtaking leaps out of the water, making every fishing expedition a thrilling experience.</p>
+
+<h3><strong>Iconic Fishing Destinations</strong></h3>
+
+<p>Several locations around the world are celebrated for their exceptional Blue Marlin fishing opportunities. The waters off the coast of Brazil, particularly those surrounding Arraial d&apos;Ajuda in Bahia, are among the most renowned. The region&apos;s warm currents and abundant marine life create an ideal habitat for Blue Marlin, making it a haven for sport fishing enthusiasts. For those looking to experience the thrill of catching a Blue Marlin firsthand, planning a trip to this vibrant locale promises an unforgettable adventure. Discover the allure of fishing in Arraial d&apos;Ajuda by visiting <a href="https://nervousmarlin.com"><u>nervousmarlin.com</u></a>.</p>
+
+<h3><strong>Conservation Efforts for Blue Marlin</strong></h3>
+
+<p>As Blue Marlin fishing continues to attract global interest, conservation efforts have become increasingly important. Overfishing and habitat destruction have threatened the species&apos; population, prompting initiatives to protect and sustainably manage Blue Marlin stocks. Responsible fishing practices, catch-and-release programs, and international cooperation are crucial to ensuring the long-term survival of this iconic fish.</p>
+
+<h3><strong>Continued Legacy of Blue Marlin Fishing</strong></h3>
+
+<p>The legacy of Blue Marlin fishing shows no signs of waning, as anglers from all walks of life continue to seek the thrill of catching this magnificent fish. Whether for the sport, the challenge, or the sheer beauty of the pursuit, Blue Marlin fishing remains a cornerstone of sport fishing culture. As enthusiasts share their tales of unforgettable battles on the open water, the allure of the Blue Marlin only grows stronger.</p>
+
+<p>Embark on your own Blue Marlin fishing adventure and become part of this storied tradition. For more insights and information on fishing in Arraial d&apos;Ajuda, feel free to explore what <a href="https://nervousmarlin.com"><u>nervousmarlin.com</u></a> has to offer.</p>
+      </>
+    ),
+  },
+
+  {
     slug: "explore-the-untamed-waters-of-brazil-an-unforgettable-deep-sea-fishing-experience",
     title: "Explore the Untamed Waters of Brazil: An Unforgettable Deep Sea Fishing Experience",
     description: "Blog post about Deep sea fishing Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-15",
     
     content: (
@@ -173,7 +323,7 @@ export const articles = [
     slug: "fishing-in-south-america-a-journey-through-pristine-waters",
     title: "Fishing in South America: A Journey Through Pristine Waters",
     description: "Blog post about Fishing in South America",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-15",
     
     content: (
@@ -213,7 +363,7 @@ export const articles = [
     slug: "embarking-on-a-brazilian-fishing-adventure-discover-the-wonders-of-arraial-dajudas-waters",
     title: "Embarking on a Brazilian Fishing Adventure: Discover the Wonders of Arraial d'Ajuda's Waters",
     description: "Blog post about Brazilian fishing adventure",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-15",
     
     content: (
@@ -249,7 +399,7 @@ export const articles = [
     slug: "discover-the-best-fishing-lodge-in-brazil",
     title: "Discover the Best Fishing Lodge in Brazil",
     description: "Blog post about Best Fishing Lodge Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-03",
     
     content: (
@@ -286,7 +436,7 @@ export const articles = [
     slug: "exploring-the-excitement-of-fishing-tourism-in-brazil",
     title: "Exploring the Excitement of Fishing Tourism in Brazil",
     description: "Blog post about Fishing tourism Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-03",
     
     content: (
@@ -340,7 +490,7 @@ export const articles = [
     slug: "embark-on-an-unforgettable-fishing-trip-in-south-america",
     title: "Embark on an Unforgettable Fishing Trip in South America",
     description: "Blog post about Fishing trip South America",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-03",
     
     content: (
@@ -380,7 +530,7 @@ export const articles = [
     slug: "discover-the-best-time-for-fishing-blue-marlin-at-nervous-marlin-in-bahia-brazil",
     title: "Discover the Best Time for Fishing Blue Marlin at Nervous Marlin in Bahia, Brazil",
     description: "Blog post about Best time for fishing Blue Marlin",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-03",
     
     content: (
@@ -422,7 +572,7 @@ export const articles = [
     slug: "embark-on-a-brazilian-fishing-adventure-at-nervous-marlin-a-blue-marlin-paradise",
     title: "Embark on a Brazilian Fishing Adventure at Nervous Marlin: A Blue Marlin Paradise",
     description: "Blog post about Brazilian fishing adventure",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-01",
     
     content: (
@@ -461,7 +611,7 @@ export const articles = [
     slug: "blue-marlin-fishing-in-canavieiras-a-thrilling-adventure-awaits",
     title: "Blue Marlin Fishing in Canavieiras: A Thrilling Adventure Awaits",
     description: "Blog post about Blue Marlin Fishing Canavieiras",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-01",
     
     content: (
@@ -509,7 +659,7 @@ export const articles = [
     slug: "discover-the-best-fishing-lodge-in-brazil-nervous-marlin",
     title: "Discover the Best Fishing Lodge in Brazil: Nervous Marlin",
     description: "Blog post about Best Fishing Lodge Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-01",
     
     content: (
@@ -546,7 +696,7 @@ export const articles = [
     slug: "experience-the-ultimate-fishing-charter-adventure-in-bahia-with-nervous-marlin",
     title: "Experience the Ultimate Fishing Charter Adventure in Bahia with Nervous Marlin",
     description: "Blog post about Fishing charter Bahia",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-01",
     
     content: (
@@ -590,7 +740,7 @@ export const articles = [
     slug: "experience-the-ultimate-fishing-adventure-at-blue-marlin-fishing-lodge-in-brazil",
     title: "Experience the Ultimate Fishing Adventure at Blue Marlin Fishing Lodge in Brazil",
     description: "Blog post about Blue Marlin Fishing Lodge Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-01",
     
     content: (
@@ -625,7 +775,7 @@ export const articles = [
     slug: "experience-the-thrill-of-marlin-fishing-in-canavieiras-brazil",
     title: "Experience the Thrill of Marlin Fishing in Canavieiras, Brazil",
     description: "Blog post about Marlin Fishing Canavieiras",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-30",
     
     content: (
@@ -673,7 +823,7 @@ export const articles = [
     slug: "best-fishing-spots-in-brazil-a-paradise-for-anglers",
     title: "Best Fishing Spots in Brazil: A Paradise for Anglers",
     description: "Blog post about Best fishing spots in Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-30",
     
     content: (
@@ -711,7 +861,7 @@ export const articles = [
     slug: "best-time-for-fishing-in-bahia-a-comprehensive-guide",
     title: "Best Time for Fishing in Bahia: A Comprehensive Guide",
     description: "Blog post about Best time for fishing in Bahia",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-30",
     
     content: (
@@ -753,7 +903,7 @@ export const articles = [
     slug: "experience-unforgettable-marlin-fishing-us-anglers-ultimate-trip-to-brazil",
     title: "Experience Unforgettable Marlin Fishing: US Anglers’ Ultimate Trip to Brazil",
     description: "Blog post about US anglers Brazil trip",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-16",
     
     content: (
@@ -791,7 +941,7 @@ export const articles = [
     slug: "discover-the-ultimate-sport-fishing-experience-in-bahia-brazil",
     title: "Discover the Ultimate Sport Fishing Experience in Bahia, Brazil",
     description: "Blog post about Sport fishing Bahia",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-16",
     
     content: (
@@ -825,7 +975,7 @@ export const articles = [
     slug: "discover-the-thrill-of-fishing-in-brazil",
     title: "Discover the Thrill of Fishing in Brazil",
     description: "Blog post about Fishing in Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-16",
     
     content: (
@@ -865,7 +1015,7 @@ export const articles = [
     slug: "discover-the-thrill-of-blue-marlin-fishing-in-brazil-at-nervous-marlin",
     title: "Discover the Thrill of Blue Marlin Fishing in Brazil at Nervous Marlin",
     description: "Blog post about Blue marlin fishing Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-16",
     
     content: (
@@ -901,7 +1051,7 @@ export const articles = [
     slug: "exploring-the-thrills-of-fishing-at-royal-charlotte-bank-in-bahia",
     title: "Exploring the Thrills of Fishing at Royal Charlotte Bank in Bahia",
     description: "Blog post about Royal Charlotte Bank Fishing Bahia",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-15",
     
     content: (
@@ -939,7 +1089,7 @@ export const articles = [
     slug: "experience-the-ultimate-fishing-adventure-at-bahiaaposs-premier-fishing-lodge",
     title: "Experience the Ultimate Fishing Adventure at Bahia's Premier Fishing Lodge",
     description: "Blog post about Bahia fishing lodge",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-15",
     
     content: (
@@ -978,7 +1128,7 @@ export const articles = [
     slug: "discover-the-ultimate-fishing-vacation-package-at-nervous-marlin",
     title: "Discover the Ultimate Fishing Vacation Package at Nervous Marlin",
     description: "Blog post about Fishing vacation package",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-15",
     
     content: (
@@ -1013,7 +1163,7 @@ export const articles = [
     slug: "discover-the-ultimate-all-inclusive-fishing-resort-at-nervous-marlin",
     title: "Discover the Ultimate All-Inclusive Fishing Resort at Nervous Marlin",
     description: "Blog post about All-inclusive fishing resort",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-15",
     
     content: (
@@ -1061,7 +1211,7 @@ export const articles = [
     slug: "reel-in-adventure-exploring-sport-fishing-in-bahia",
     title: "Reel in Adventure: Exploring Sport Fishing in Bahia",
     description: "Blog post about Sport fishing Bahia",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1097,7 +1247,7 @@ export const articles = [
     slug: "unforgettable-us-anglersapos-trip-to-brazil-discover-the-ultimate-fishing-adventure",
     title: "Unforgettable US Anglers' Trip to Brazil: Discover the Ultimate Fishing Adventure",
     description: "Blog post about US anglers Brazil trip",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1135,7 +1285,7 @@ export const articles = [
     slug: "discover-the-best-fishing-spots-in-brazil-a-fishermanaposs-paradise",
     title: "Discover the Best Fishing Spots in Brazil: A Fisherman's Paradise",
     description: "Blog post about Best fishing spots in Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1173,7 +1323,7 @@ export const articles = [
     slug: "unleash-the-thrill-of-billfish-angling-in-brazil",
     title: "Unleash the Thrill of Billfish Angling in Brazil",
     description: "Blog post about Billfish angling Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1211,7 +1361,7 @@ export const articles = [
     slug: "discover-the-best-blue-marlin-fishing-destinations-in-america",
     title: "Discover the Best Blue Marlin Fishing Destinations in America",
     description: "Blog post about Best blue marlin fishing in America",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1249,7 +1399,7 @@ export const articles = [
     slug: "unveiling-the-wonders-of-saltwater-fishing-in-brazil",
     title: "Unveiling the Wonders of Saltwater Fishing in Brazil",
     description: "Blog post about Saltwater fishing Brazil",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (
@@ -1305,7 +1455,7 @@ export const articles = [
     slug: "discover-the-best-blue-marlin-fishing-locations-around-the-world",
     title: "Discover the Best Blue Marlin Fishing Locations Around the World",
     description: "Blog post about Best blue marlin fishing locations",
-    author: authors.find((author) => author.slug === authorSlugs.antonio),
+    author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     
     content: (

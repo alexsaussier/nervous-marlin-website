@@ -4,6 +4,7 @@ import { articles } from "../_assets/content";
 import BadgeCategory from "../_assets/components/BadgeCategory";
 import { getSEOTags } from "@/utils/seo";
 import config from "@/config";
+import Image from "next/image";
 
 export async function generateMetadata({ params }) {
   const article = articles.find((article) => article.slug === params.articleId);
@@ -115,6 +116,31 @@ export default async function Article({ params }) {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight md:mb-8">
             {article.title}
           </h1>
+
+          {/* AUTHOR */}
+          <div className="flex items-center gap-4">
+            <Link
+              href={`/blog/author/${article.author.slug}`}
+              className="flex items-center gap-3 group"
+              title={`View ${article.author.name}'s profile`}
+            >
+              <Image
+                src={article.author.avatar}
+                width={48}
+                height={48}
+                alt={article.author.name}
+                className="rounded-full"
+              />
+              <div>
+                <p className="font-medium group-hover:text-primary">
+                  By {article.author.name}
+                </p>
+                <p className="text-base-content/80 text-sm">
+                  {article.author.job}
+                </p>
+              </div>
+            </Link>
+          </div>
 
         </section>
 

@@ -22,10 +22,11 @@ export default async function Author({ params }) {
 
   return (
     <>
-      <section className="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 mt-12 mb-24 md:mb-32">
+      <div className="w-full h-24 bg-blue-200"></div>
+      <section className="pt-24 max-w-3xl mx-auto flex flex-col md:flex-row gap-8 mb-24 px-4">
         <div>
           <p className="text-xs uppercase tracking-wide text-base-content/80 mb-2">
-            Authors
+            Author
           </p>
           <h1 className="font-extrabold text-3xl lg:text-5xl tracking-tight mb-2">
             {author.name}
@@ -65,7 +66,7 @@ export default async function Author({ params }) {
         </div>
       </section>
 
-      <section>
+      <section className="px-6 md:px-12 lg:px-24">
         <h2 className="font-bold text-2xl lg:text-4xl tracking-tight text-center mb-8 md:mb-12">
           Most recent articles by {author.name}
         </h2>

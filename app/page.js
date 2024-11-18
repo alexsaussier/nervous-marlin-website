@@ -194,7 +194,7 @@ export default function Home() {
                 
               </p>
               <p className="sm:text-lg font-semibold mb-4">
-                Nighttime was amazin too, the restaurants in town are 5 stars, with live music and excellent variety of food.
+                The night programme was amazing too, there are plenty of restaurants in town, with live music and excellent variety of food.
               </p>
               <p className="sm:text-lg font-semibold mb-4">
                 Leo and Camilo, you run a 5-star operation! Congratulations and thank you very much for hosting us.

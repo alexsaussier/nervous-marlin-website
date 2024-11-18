@@ -49,16 +49,7 @@ export default function AboutUs() {
 
               </p>
 
-              <div className="py-8">
-                <div className="max-w-lg mx-auto">
-                  <Image
-                    src={CamiloPhoto}
-                    alt="Camilo Escudero"
-                    className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
-                  />
-                </div>
-                <p className="text-center italic  mt-2">Camilo Escudero</p>
-              </div>
+              
 
               <p className="text-lg mb-4">
                   We provide the same level of high-quality services that I created in Cordoba, and exceptional fishing adventures, here on the Bahian coast.
@@ -67,15 +58,29 @@ export default function AboutUs() {
                   Everything is included in the daily rate, except for fishing.
               </p> 
 
-              <div className="py-8">
-                <div className="max-w-lg mx-auto">
-                  <Image
-                    src={LeoyCamilo}
-                    alt="Camilo and Leo"
-                    className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
-                  />
+
+              <div className="flex flex-col md:flex-row gap-8 py-8">
+                <div className="flex-1">
+                  <div className="max-w-xs mx-auto">
+                    <Image
+                      src={CamiloPhoto}
+                      alt="Camilo Escudero"
+                      className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
+                    />
+                  </div>
+                  <p className="text-center italic mt-2">Camilo Escudero</p>
                 </div>
-                <p className="text-center italic mt-2">Camilo and Leo</p>
+
+                <div className="flex-1">
+                  <div className="max-w-xs mx-auto">
+                    <Image
+                      src={LeoyCamilo}
+                      alt="Camilo and Leo"
+                      className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
+                    />
+                  </div>
+                  <p className="text-center italic mt-2">Camilo and Leo</p>
+                </div>
               </div>
               
             </div>

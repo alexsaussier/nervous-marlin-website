@@ -5,6 +5,8 @@ import BadgeCategory from "../_assets/components/BadgeCategory";
 import { getSEOTags } from "@/utils/seo";
 import config from "@/config";
 import Image from "next/image";
+import Hero from "@/components/Hero";
+import Marlin from "@/public/images/marlin-photo.jpg";
 
 export async function generateMetadata({ params }) {
   const article = articles.find((article) => article.slug === params.articleId);
@@ -70,8 +72,12 @@ export default async function Article({ params }) {
         }}
       />
 
-<div className="w-full h-32 bg-blue-200">
-</div>
+      <Hero 
+        title="The Nervous Marlin Blog"
+        subtitle="Experience world-class Blue Marlin fishing in Bahia, Brazil"
+        imageSrc={Marlin}
+        objectPosition="40%"
+      />
       <div className="px-12 pt-12">
 
 

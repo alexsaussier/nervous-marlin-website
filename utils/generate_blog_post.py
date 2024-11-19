@@ -15,6 +15,7 @@ def read_keywords(file_path):
 
 def generate_blog_post(keyword):
     prompt = f"""Generate a compelling blog post title and content about '{keyword}'. 
+    Be creative with the title, it should be catchy and engaging and SEO-friendly.
     Optimize the blog post content for SEO. It will be used on the blog section of nervousmarlin.com, a Next.js website.
     The content should be in HTML format so that I can use it directly, excluding the outer <html>, <head>, and <body> tags, as I already have the page structure.
     Make sure to add a title within <h1> tags. 
@@ -29,7 +30,7 @@ def generate_blog_post(keyword):
         model="gpt-4o",
         messages=[
             {"role": "system", 
-             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
+             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more.All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
             {"role": "user", "content": prompt}
         ]
     )

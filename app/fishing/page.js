@@ -45,7 +45,7 @@ export default function Fishing() {
       {/* Fishing Spot Description */}
       <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">The Ultimate Blue Marlin Fishing Destination</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 sm:text-4xl md:text-5xl">The Ultimate Blue Marlin Fishing Destination</h2>
           <div className="max-w-4xl mx-auto text-lg">
             <p className="mb-4">
               The coast of the Bahian province is renowned for its exceptional Blue Marlin fishing conditions. With warm, crystal-clear waters and abundant marine life, this region offers anglers an unparalleled opportunity to catch the majestic Blue Marlin.

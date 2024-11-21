@@ -45,11 +45,18 @@ export default function AboutUs() {
                   With my friend Camilo Escudero, who I know since kindergarden in Buenos Aires, we decided to start a fishing lodge specialized in Blue Marlin fishing, but also for Wahoo, Grouper, Mahi Mahi, Tuna fishing, and the list goes on.
                   Camilo has been living in this area for 24 years, highly involved in the tourism industry and knows perfectly the area.
                   Throughout your stay, you will be hosted and guided by Camilo and myself. We are trilingual, fluent in Spanish, English and Portuguese.
-                
-
               </p>
 
-              
+              <div className="py-8">
+                <div className="max-w-sm mx-auto">
+                  <Image
+                    src={CamiloPhoto}
+                    alt="Camilo Escudero"
+                    className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
+                  />
+                </div>
+                <p className="text-center italic mt-2">Camilo Escudero</p>
+              </div>
 
               <p className="text-lg mb-4">
                   We provide the same level of high-quality services that I created in Cordoba, and exceptional fishing adventures, here on the Bahian coast.
@@ -59,30 +66,16 @@ export default function AboutUs() {
               </p> 
 
 
-              <div className="flex flex-col md:flex-row gap-8 py-8">
-                <div className="flex-1">
-                  <div className="max-w-xs mx-auto">
-                    <Image
-                      src={CamiloPhoto}
-                      alt="Camilo Escudero"
-                      className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
-                    />
-                  </div>
-                  <p className="text-center italic mt-2">Camilo Escudero</p>
+              <div className="py-8">
+                <div className="max-w-sm mx-auto">
+                  <Image
+                    src={LeoyCamilo}
+                    alt="Camilo and Leo"
+                    className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
+                  />
                 </div>
-
-                <div className="flex-1">
-                  <div className="max-w-xs mx-auto">
-                    <Image
-                      src={LeoyCamilo}
-                      alt="Camilo and Leo"
-                      className="rounded-lg shadow-lg object-cover aspect-[16/17] object-top"
-                    />
-                  </div>
-                  <p className="text-center italic mt-2">Camilo and Leo</p>
-                </div>
+                <p className="text-center italic mt-2">Camilo and Leo</p>
               </div>
-              
             </div>
       </section>
 

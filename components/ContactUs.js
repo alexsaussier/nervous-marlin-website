@@ -64,7 +64,7 @@ export default function ContactUs({ type_of_request = 'Information' }) {
   return (
       <section className="py-12">
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto bg-gray-100 rounded-lg shadow-xl p-8">
+          <div className="max-w-3xl mx-auto bg-sky-50 rounded-lg shadow-xl p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <InputField
                 label="Name"

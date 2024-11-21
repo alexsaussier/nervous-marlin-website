@@ -7,7 +7,7 @@ import Logo from '../public/assets/Nervous Marlin_pesca deportiva_FInal_Curvas_1
 import logoBlack from '../public/assets/logoBlack.png';
 import logoBlue from '../public/assets/logoBlue.png';
 
-export default function Header({ alwaysDark = false }) {
+export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -26,13 +26,11 @@ export default function Header({ alwaysDark = false }) {
     };
   }, [scrolled]);
 
-  const headerClass = alwaysDark
-    ? 'bg-slate-800 text-white'
-    : scrolled
+  const headerClass = scrolled
     ? 'bg-blue-200 text-sky-800'
     : 'bg-transparent text-white';
 
-    const buttonClass = scrolled ? 'bg-white text-sky-800 hover:bg-sky-800 hover:text-white' : 'bg-sky-200 text-sky-900 hover:bg-white'; 
+  const buttonClass = scrolled ? 'bg-white text-sky-800 hover:bg-sky-800 hover:text-white' : 'bg-sky-200 text-sky-900 hover:bg-white'; 
 
   const handleMenuItemClick = () => {
     setIsMenuOpen(false);
@@ -52,11 +50,11 @@ export default function Header({ alwaysDark = false }) {
               className="lg:hidden focus:outline-none flex items-center gap-2 mr-6"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              <p className={`transition duration-500 ${scrolled ? 'text-sky-800' : 'text-white'}`}>Menu</p>
+              <p className={`${scrolled ? 'text-sky-800' : 'text-white'}`}>Menu</p>
               <div className="flex items-center h-6 relative">
-                <span className={`block absolute h-0.5 w-6 bg-current transform transition ease-in-out ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
-                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-400 ease-in-out ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
-                <span className={`block absolute h-0.5 w-6 bg-current transform transition duration-500 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current ${isMenuOpen ? 'rotate-45' : '-translate-y-1.5'} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current ${isMenuOpen ? 'opacity-0' : ''} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
+                <span className={`block absolute h-0.5 w-6 bg-current ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'} ${scrolled ? 'text-sky-800' : 'text-white'}`}></span>
               </div>
             </button>
 
@@ -64,7 +62,7 @@ export default function Header({ alwaysDark = false }) {
           <ul className="hidden lg:flex space-x-2 xl:space-x-6 ">
             {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
               <li key={item}>
-                <div className="px-2 py-2 hover:bg-sky-800 hover:text-white rounded-md transition duration-300">
+                <div className="px-2 py-2 hover:bg-sky-800 hover:text-white rounded-md">
                   <a href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold ">
                     {item}
                   </a>

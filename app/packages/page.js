@@ -277,7 +277,7 @@ export default function Packages() {
 
         
         {/* Contact Form Section */}
-        <section className="bg-white text-gray-800 py-12">
+        <section className="bg-gray-200 text-gray-800 py-12">
                 <div className="mx-auto">
                     <h2 className="text-3xl font-bold text-center">Contact Us</h2>
                     <ContactUs />

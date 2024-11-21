@@ -179,7 +179,7 @@ export default function Packages() {
                 
                 {/*What's included*/}
                 <div className="mt-8 rounded-lg bg-white p-6 shadow-lg">
-                    <h3 className="mb-4 text-lg font-bold">What's included</h3>
+                    <h3 className="mb-4 text-lg font-bold">What&apos;s included</h3>
                     <div className="grid gap-2 mb-4">
                         
                         <p className="text-gray-800 font-bold"> Fishing </p>

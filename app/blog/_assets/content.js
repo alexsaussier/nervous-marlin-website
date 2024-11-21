@@ -147,7 +147,7 @@ export const articles = [
 
 <h3><strong>Experience Blue Marlin Fishing at Its Finest</strong></h3>
 
-<p>The waters off Arraial d&apos;Ajuda are famous for being one of the best Blue Marlin fishing destinations in the world. These majestic creatures provide a thrilling challenge for anglers of all experience levels. With expert guidance and top-tier equipment, you&apos;ll have the chance to hook one of these formidable fish and experience the excitement of reeling it in against the backdrop of Brazil's stunning coastline.</p>
+<p>The waters off Arraial d&apos;Ajuda are famous for being one of the best Blue Marlin fishing destinations in the world. These majestic creatures provide a thrilling challenge for anglers of all experience levels. With expert guidance and top-tier equipment, you&apos;ll have the chance to hook one of these formidable fish and experience the excitement of reeling it in against the backdrop of Brazil&apos;s stunning coastline.</p>
 
 <h3><strong>Beyond Fishing: Excursions and Activities for Everyone</strong></h3>
 
@@ -257,7 +257,7 @@ export const articles = [
     content: (
       <>
 
-<p>Nestled in the picturesque locality of Arraial d'Ajuda, Bahia, Nervous Marlin beckons fishing enthusiasts to embark on a once-in-a-lifetime adventure. Brazil, with its diverse marine life and breathtaking landscapes, serves as the perfect backdrop for an <a href="https://nervousmarlin.com"><strong><u>all-inclusive fishing trip</u></strong></a> that promises both excitement and relaxation.</p>
+<p>Nestled in the picturesque locality of Arraial d&apos;Ajuda, Bahia, Nervous Marlin beckons fishing enthusiasts to embark on a once-in-a-lifetime adventure. Brazil, with its diverse marine life and breathtaking landscapes, serves as the perfect backdrop for an <a href="https://nervousmarlin.com"><strong><u>all-inclusive fishing trip</u></strong></a> that promises both excitement and relaxation.</p>
 
 <h3><strong>Why Choose Brazil for Your Fishing Adventure?</strong></h3>
 
@@ -271,11 +271,11 @@ export const articles = [
 
 <h3><strong>Unmatched Fishing Opportunities</strong></h3>
 
-<p>The waters around Arraial d'Ajuda are home to some of the most sought-after game fish. Picture yourself battling a powerful Blue Marlin, feeling the exhilaration as it dances across the waves. With our experienced crew at your side, you&apos;ll gain invaluable insights and tips, enhancing your skills and increasing your chances of landing that trophy fish.</p>
+<p>The waters around Arraial d&apos;Ajuda are home to some of the most sought-after game fish. Picture yourself battling a powerful Blue Marlin, feeling the exhilaration as it dances across the waves. With our experienced crew at your side, you&apos;ll gain invaluable insights and tips, enhancing your skills and increasing your chances of landing that trophy fish.</p>
 
 <h3><strong>Explore Beyond Fishing</strong></h3>
 
-<p>While fishing is the focal point, the all-inclusive package offers much more. Explore the charming town of Arraial d'Ajuda, with its beautiful beaches, vibrant culture, and friendly locals. Whether you want to unwind by the ocean, dive into local history, or enjoy some retail therapy, the region has something for everyone.</p>
+<p>While fishing is the focal point, the all-inclusive package offers much more. Explore the charming town of Arraial d&apos;Ajuda, with its beautiful beaches, vibrant culture, and friendly locals. Whether you want to unwind by the ocean, dive into local history, or enjoy some retail therapy, the region has something for everyone.</p>
 
 <h3><strong>Plan Your All-Inclusive Fishing Trip Today!</strong></h3>
 
@@ -342,13 +342,13 @@ export const articles = [
       <>
         <h1>The Biggest Marlin Ever Caught in Brazil: A Record-Setting Catch</h1>
 
-<p>Brazil's coastal waters are renowned for their rich marine biodiversity, making them a prime destination for sport fishing enthusiasts worldwide. Among the myriad of fish species that grace these waters, the Blue Marlin stands out as both a challenge and a prize for seasoned anglers. With its sheer size and power, the Blue Marlin has earned a legendary reputation. Let&apos;s delve into the story of the biggest Marlin caught in Brazil, a testament to the country's thriving fishing scene.</p>
+<p>Brazil&apos;s coastal waters are renowned for their rich marine biodiversity, making them a prime destination for sport fishing enthusiasts worldwide. Among the myriad of fish species that grace these waters, the Blue Marlin stands out as both a challenge and a prize for seasoned anglers. With its sheer size and power, the Blue Marlin has earned a legendary reputation. Let&apos;s delve into the story of the biggest Marlin caught in Brazil, a testament to the country&apos;s thriving fishing scene.</p>
 
 <h3><strong>The Legendary Catch</strong></h3>
 
 <p>The title of the biggest Marlin caught in Brazil goes to an incredible specimen weighing over 1,400 pounds. This record-setting Marlin was caught off the coast of Bahia, a region known for its vibrant marine life and captivating fishing opportunities. The angler, whose name is often whispered in fishing communities with a mix of reverence and envy, embarked on a fishing expedition that turned into a historical moment.</p>
 
-<p>This massive Blue Marlin put up a tremendous fight, showcasing the species&apos; characteristic strength and agility. It required a skilled team alongside the angler to successfully bring the Marlin aboard, marking a defining moment in Brazil's sport fishing history.</p>
+<p>This massive Blue Marlin put up a tremendous fight, showcasing the species&apos; characteristic strength and agility. It required a skilled team alongside the angler to successfully bring the Marlin aboard, marking a defining moment in Brazil&apos;s sport fishing history.</p>
 
 <h3><strong>Why Brazil&apos;s Waters Are Prime for Marlin Fishing</strong></h3>
 

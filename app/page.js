@@ -62,7 +62,7 @@ export default function Home() {
           <Image
             src={MarlinPhoto}
             alt="Hero Image"
-            layout="fill"
+            fill={true}
             objectFit="cover"
             className="scale-[1.2] translate-x-[10%]"
           />
@@ -112,7 +112,7 @@ export default function Home() {
                 <Image
                   src={Fishing7}
                   alt="Blue Marlin Fishing"
-                  layout="fill"
+                  fill={true}
                   objectFit="cover"
                   className="rounded-lg"
                 />
@@ -134,7 +134,7 @@ export default function Home() {
                         <Image 
                           src={activity.image} 
                           alt={activity.name} 
-                          layout="fill" 
+                          fill={true}
                           objectFit="cover"
                           className="" 
                         />

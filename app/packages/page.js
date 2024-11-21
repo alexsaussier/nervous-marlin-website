@@ -59,7 +59,7 @@ export default function Packages() {
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl text-gray-800 text-center font-bold sm:text-4xl md:text-5xl">Our Packages</h2>
         <div className="mx-auto max-w-5xl pt-8">
-          <Tabs defaultValue="non-angler" className="w-full">
+          <Tabs defaultValue="angler" className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="angler">Angler Packages</TabsTrigger>
               <TabsTrigger value="non-angler">Non-Angler Package</TabsTrigger>
@@ -162,10 +162,9 @@ export default function Packages() {
                         <div className="flex flex-col items-center justify-between">
                           <span className="text-2xl font-bold">
                             ${anglerPrices[selectedAnglers][days]} 
-                            <p className="text-sm">per person</p>
                           </span>
                           <span className="text-gray-500">
-                            (${Math.round(anglerPrices[selectedAnglers][days] / days )} per person/day)
+                            per person
                           </span>                        
                         </div>
                         

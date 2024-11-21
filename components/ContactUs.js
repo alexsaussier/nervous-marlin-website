@@ -11,7 +11,8 @@ export default function ContactUs({type_of_request = "Information"}) {
     phone: '',
     date_from: '',
     date_to: '',
-    groupSize: '',
+    anglers: '',
+    non_anglers: '',
     country: '',
     message: '',
     type_of_request: type_of_request,
@@ -43,7 +44,8 @@ export default function ContactUs({type_of_request = "Information"}) {
           phone: '',
           date_from: '',
           date_to: '',
-          groupSize: '',
+          anglers: '',
+          non_anglers: '',
           country: '',
           message: '',
           type_of_request: type_of_request,
@@ -120,11 +122,20 @@ export default function ContactUs({type_of_request = "Information"}) {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <InputField
-                  label="Number of Guests"
-                  name="groupSize"  // Changed from "guests" to "groupSize"
+                  label="Number of Anglers"
+                  name="anglers"
                   type="number"
                   placeholder="Number of guests"
-                  value={formData.groupSize}
+                  value={formData.anglers}
+                  onChange={handleChange}
+                  darkMode={true}
+                />
+                <InputField
+                  label="Number of Non-Anglers"
+                  name="non_anglers"
+                  type="number"
+                  placeholder="Number of guests"
+                  value={formData.non_anglers}
                   onChange={handleChange}
                   darkMode={true}
                 />

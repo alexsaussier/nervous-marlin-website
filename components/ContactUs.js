@@ -125,16 +125,16 @@ export default function ContactUs({type_of_request = "Information"}) {
                   label="Number of Anglers"
                   name="anglers"
                   type="number"
-                  placeholder="Number of guests"
+                  placeholder="Number of guests who will be fishing"
                   value={formData.anglers}
                   onChange={handleChange}
                   darkMode={true}
                 />
                 <InputField
-                  label="Number of Non-Anglers"
+                  label="Number of non-anglers"
                   name="non_anglers"
                   type="number"
-                  placeholder="Number of guests"
+                  placeholder="Number of guests who will not be fishing"
                   value={formData.non_anglers}
                   onChange={handleChange}
                   darkMode={true}

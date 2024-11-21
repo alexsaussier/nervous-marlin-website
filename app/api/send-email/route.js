@@ -28,7 +28,8 @@ export async function POST(request) {
       Name: ${formData.name}
       Email: ${formData.email}
       Phone: ${formData.phone}
-      Group Size: ${formData.groupSize}
+      Number of anglers: ${formData.anglers}
+      Number of non-anglers: ${formData.non_anglers}
       Date From: ${formData.date_from}
       Date To: ${formData.date_to}
       Country: ${formData.country}

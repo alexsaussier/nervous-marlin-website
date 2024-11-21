@@ -250,7 +250,7 @@ export default function Fishing() {
       {/* Contact Us Section */}
       
 
-      <section className="bg-gray-100">
+      <section className="bg-gray-200">
         <div className="max-w-4xl mx-auto text-lg">  
           <h2 className="text-3xl font-bold text-center pt-8">Contact Us</h2>
             <ContactUs />

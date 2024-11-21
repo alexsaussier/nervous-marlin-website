@@ -5,7 +5,7 @@ export default function InputField({ label, name, type, placeholder, value, onCh
 
   const inputClass = darkMode
     ? "mt-1 block w-full px-3 py-2 rounded-md border-gray-600 bg-gray-700 text-white shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base"
-    : "mt-1 block w-full px-3 py-2 rounded-md border-gray-300 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base";
+    : "mt-1 block w-full px-3 py-2 rounded-md border-gray-300 shadow-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base";
 
   return (
     <div>

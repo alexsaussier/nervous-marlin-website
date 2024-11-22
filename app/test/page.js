@@ -19,7 +19,7 @@ export default function Accommodation() {
   }, []);
 
   // Group images by category
-  const outsideImages = [...IMAGES.exterior, ...IMAGES.house];
+  const outsideImages = [...IMAGES.house, ...IMAGES.exterior];
   const bedroomImages = IMAGES.bedrooms;
   const bathroomImages = IMAGES.bathrooms;
   const kitchenImages = IMAGES.kitchen;

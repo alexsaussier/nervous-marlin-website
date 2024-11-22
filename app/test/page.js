@@ -81,7 +81,7 @@ export default function Accommodation() {
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6" data-aos="fade-right">
-              <h2 className="text-4xl font-bold text-gray-900">8-Bedroom Beach Lodge in Arraial d'Ajuda</h2>
+              <h2 className="text-4xl font-bold text-gray-900">8-Bedroom Beach Lodge in Arraial d&apos;Ajuda</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Our beachfront lodge offers an unparalleled blend of comfort and natural beauty. 
                 With accommodation for up to 13 guests, modern amenities, and breathtaking ocean views, 
@@ -184,6 +184,34 @@ export default function Accommodation() {
                 <p className="text-gray-600">{amenity.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Group Policy Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="container mx-auto max-w-7xl">
+          <h2 className="text-3xl font-bold text-center mb-12">Booking Information</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="p-6 bg-white rounded-xl shadow-md" data-aos="fade-up">
+              <div className="text-4xl mb-4">👥</div>
+              <h3 className="text-xl font-semibold mb-4">Group Requirements</h3>
+              <div className="text-gray-600 space-y-2">
+                <p>• Minimum group size: 8 people or 4 couples</p>
+                <p>• Private groups only</p>
+                <p>• Alternative accommodation available for smaller groups in another beautiful oceanview lodge</p>
+              </div>
+            </div>
+
+            <div className="p-6 bg-white rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="100">
+              <div className="text-4xl mb-4">🎣</div>
+              <h3 className="text-xl font-semibold mb-4">Perfect for Everyone</h3>
+              <div className="text-gray-600 space-y-2">
+                <p>• Bring your whole family, friends, and spouse</p>
+                <p>• While anglers enjoy their fishing day, non-anglers can participate in various included activities</p>
+                <p>• All activities included in the daily rate</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

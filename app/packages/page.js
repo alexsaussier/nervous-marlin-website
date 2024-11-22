@@ -64,6 +64,8 @@ export default function Packages() {
               <TabsTrigger value="angler">Angler Packages</TabsTrigger>
               <TabsTrigger value="non-angler">Non-Angler Package</TabsTrigger>
             </TabsList>
+            
+            {/*Non-Angler Package*/}
             <TabsContent value="non-angler" className="mt-6">
               <Card>
                 <CardHeader>
@@ -124,6 +126,8 @@ export default function Packages() {
                 </CardFooter>
               </Card>
             </TabsContent>
+
+            {/*Angler Packages*/}
             <TabsContent value="angler" className="mt-6">
               <div className="grid gap-6">
                 <div className="flex justify-center space-x-4">
@@ -254,7 +258,7 @@ export default function Packages() {
             </TabsContent>
           </Tabs>
 
-          <div className="mt-8 rounded-lg bg-white p-6 shadow-lg">
+          <div className="mt-8 rounded-lg bg-white p-6 text-gray-800 shadow-lg">
             <h3 className="mb-4 text-lg font-bold">Booking & Payment Policy</h3>
             <ul className="grid gap-2 text-sm">
               <li className="flex items-center gap-2">

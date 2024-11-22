@@ -122,15 +122,14 @@ export default function AccommodationAndActivities() {
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 {activities.map((activity, index) => (
-                  <Link href={`/activities/${activity.slug}`} key={index}>
+                  <a href={`/activities/${activity.slug}`} key={index}>
                     <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
                       <div className="relative h-48 overflow-hidden">
                         <Image 
                           src={activity.images[0]} 
                           alt={activity.name} 
-                          layout="fill" 
-                          objectFit="cover"
-                          className="" 
+                          fill
+                          className="object-cover"
                         />
                       </div>
                       <div className="p-6">
@@ -138,7 +137,7 @@ export default function AccommodationAndActivities() {
                         <p className="text-lg transition-opacity duration-300 group-hover:opacity-80 line-clamp-3">{activity.description}</p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>

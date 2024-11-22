@@ -208,9 +208,9 @@ export default function Home() {
       </section>
 
       {/* Contact Us Section */}
-      <section className="bg-gray-200 text-gray-800 py-12">
+      <section className="bg-gray-200 text-gray-800 py-12" id="contact">
         <div className="max-w-4xl mx-auto text-lg">
-          <h2 className="text-3xl font-bold text-center" id="contact">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center">Contact Us</h2>
             <ContactUs />
         </div>
       </section>

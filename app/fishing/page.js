@@ -72,9 +72,8 @@ export default function Fishing() {
                       src={Fishing7}
                       alt="Blue Marlin Fishing"
                       layout="fill"
-                      objectFit="cover"
                       objectPosition="left 20%"
-                      className="absolute top-0 left-0 w-full h-full"
+                      className="absolute top-0 left-0 w-full h-full object-cover"
                     />
                   </div>
                 </div>
@@ -190,27 +189,24 @@ export default function Fishing() {
             <Image
               src={Boat1}
               alt="Fishing equipment"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-300 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
               src={Boat2}
               alt="Fishing boat"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-300 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
               src={Boat3}
               alt="Fishing experience"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-300 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>

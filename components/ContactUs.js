@@ -145,7 +145,7 @@ export default function ContactUs({ type_of_request = 'Information' }) {
                   rows="4"
                   value={formData.message}
                   onChange={handleChange}
-                  className="mt-1 block w-full rounded-md border-gray-300 bg-gray-50 text-gray-900 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 px-3 py-2 block w-full rounded-md border-gray-300 bg-gray-50 text-gray-900 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   placeholder="Any special requests or additional information"
                 ></textarea>
               </div>
@@ -172,7 +172,7 @@ export default function ContactUs({ type_of_request = 'Information' }) {
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-blue-200 text-sky-800 px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-300 transition duration-300"
+                  className="w-full bg-blue-200 text-sky-800 px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-300 transition duration-300"
                 >
                   Send booking request
                 </button>

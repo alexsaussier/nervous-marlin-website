@@ -9,7 +9,6 @@ export default function HeroSection({ imageSrc, title, subtitle, objectPosition 
         src={imageSrc}
         alt={title}
         fill
-        placeholder="blur"
         className=""
         style={{ objectFit: "cover", objectPosition }}
       />

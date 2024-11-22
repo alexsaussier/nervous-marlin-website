@@ -139,11 +139,11 @@ export const articles = [
       <>
         <h1>Embark on an Unforgettable Adventure at a Premier Brazil Fishing Lodge</h1>
 
-<p>Nestled in the picturesque region of Arraial d'Ajuda, Bahia, our Brazil fishing lodge offers an unparalleled blend of adventure and relaxation. Whether you&apos;re a seasoned angler or a beginner hoping to reel in your first Blue Marlin, there&apos;s no place quite like the waters of Brazil to cast your line.</p>
+<p>Nestled in the picturesque region of Arraial d&apos;Ajuda, Bahia, our Brazil fishing lodge offers an unparalleled blend of adventure and relaxation. Whether you&apos;re a seasoned angler or a beginner hoping to reel in your first Blue Marlin, there&apos;s no place quite like the waters of Brazil to cast your line.</p>
 
 <h3><strong>A World-Class Angling Experience</strong></h3>
 
-<p>Our lodge is renowned for providing a world-class fishing experience that's equal parts exhilarating and serene. As one of the top spots for Blue Marlin fishing, the waters of Bahia attract anglers from across the globe, all eager to capture the prize of a lifetime. With experienced guides and a well-maintained fleet of boats, we ensure you have all the tools you need for success.</p>
+<p>Our lodge is renowned for providing a world-class fishing experience that&apos;s equal parts exhilarating and serene. As one of the top spots for Blue Marlin fishing, the waters of Bahia attract anglers from across the globe, all eager to capture the prize of a lifetime. With experienced guides and a well-maintained fleet of boats, we ensure you have all the tools you need for success.</p>
 
 <h3><strong>More Than Just Fishing: Activities for Everyone</strong></h3>
 
@@ -159,7 +159,7 @@ export const articles = [
 
 <h3><strong>Plan Your Perfect Getaway</strong></h3>
 
-<p>Located in the vibrant community of Arraial d'Ajuda, our fishing lodge is more than just a place to stay; it&apos;s an entryway to all the wonders Brazil has to offer. Whether your dream vacation involves reeling in marlins or exploring lush landscapes, you&apos;ll find it here.</p>
+<p>Located in the vibrant community of Arraial d&apos;Ajuda, our fishing lodge is more than just a place to stay; it&apos;s an entryway to all the wonders Brazil has to offer. Whether your dream vacation involves reeling in marlins or exploring lush landscapes, you&apos;ll find it here.</p>
 
 <p>Inspired to experience the magic of Blue Marlin fishing? Find out more about our lodge by visiting <a href="https://nervousmarlin.com"><strong><u>**Nervous Marlin**</u></strong></a> for further details on planning your adventure. We can&apos;t wait to welcome you to Bahia&apos;s premier destination for fishing and fun!</p>
       </>
@@ -254,15 +254,15 @@ export const articles = [
       <>
         <h1>Discover the Best Fishing Spots in Brazil</h1>
 
-<p>Brazil is a haven for anglers, offering a diverse range of fishing spots due to its extensive coastline and vast river systems. Whether you're an experienced angler seeking a new adventure or a novice eager to catch your first trophy fish, Brazil's fishing spots provide endless opportunities. Let's explore some of the country's top locations where you can enjoy an unforgettable fishing experience.</p>
+<p>Brazil is a haven for anglers, offering a diverse range of fishing spots due to its extensive coastline and vast river systems. Whether you&apos;re an experienced angler seeking a new adventure or a novice eager to catch your first trophy fish, Brazil&apos;s fishing spots provide endless opportunities. Let&apos;s explore some of the country&apos;s top locations where you can enjoy an unforgettable fishing experience.</p>
 
 <h3><strong>The Amazon River Basin</strong></h3>
 
-<p>No list of Brazil's fishing spots would be complete without mentioning the Amazon River Basin. Renowned for its biodiversity, this region is home to some of the largest freshwater fish in the world, including the legendary Arapaima and Peacock Bass. The Amazon offers a lush and unique fishing environment, where anglers can immerse themselves in pristine nature.</p>
+<p>No list of Brazil&apos;s fishing spots would be complete without mentioning the Amazon River Basin. Renowned for its biodiversity, this region is home to some of the largest freshwater fish in the world, including the legendary Arapaima and Peacock Bass. The Amazon offers a lush and unique fishing environment, where anglers can immerse themselves in pristine nature.</p>
 
 <h3><strong>The Pantanal Wetlands</strong></h3>
 
-<p>The Pantanal, the world's largest tropical wetland, is a paradise for fishing enthusiasts. With its myriad of interconnected lakes and rivers, it boasts a rich population of fish, including Piranha, Pacu, and Golden Dorado. The productivity of these waters creates an unparalleled setting for those eager to experience Brazil's vibrant wildlife both above and below the surface.</p>
+<p>The Pantanal, the world&apos;s largest tropical wetland, is a paradise for fishing enthusiasts. With its myriad of interconnected lakes and rivers, it boasts a rich population of fish, including Piranha, Pacu, and Golden Dorado. The productivity of these waters creates an unparalleled setting for those eager to experience Brazil&apos;s vibrant wildlife both above and below the surface.</p>
 
 <h3><strong>Litoral Norte, Bahia</strong></h3>
 
@@ -274,9 +274,9 @@ export const articles = [
 
 <h3><strong>Arraial d&apos;Ajuda, Bahia</strong></h3>
 
-<p>For those looking to combine exceptional fishing with luxury accommodations, Arraial d'Ajuda in Bahia is your go-to destination. Known for its stunning beaches and vibrant culture, this location offers excellent opportunities to fish for Blue Marlin, Sailfish, and Mahi Mahi. If you're looking for the perfect place to stay, consider the <a href="https://nervousmarlin.com">Nervous Marlin lodge</a> where guests can enjoy world-class fishing along with other thrilling activities like excursions, paragliding, and scuba diving.</p>
+<p>For those looking to combine exceptional fishing with luxury accommodations, Arraial d&apos;Ajuda in Bahia is your go-to destination. Known for its stunning beaches and vibrant culture, this location offers excellent opportunities to fish for Blue Marlin, Sailfish, and Mahi Mahi. If you&apos;re looking for the perfect place to stay, consider the <a href="https://nervousmarlin.com">Nervous Marlin lodge</a> where guests can enjoy world-class fishing along with other thrilling activities like excursions, paragliding, and scuba diving.</p>
 
-<p>Brazil is undoubtedly a dream destination for those passionate about fishing. Its diverse aquatic ecosystems provide numerous opportunities to reel in the catch of a lifetime while enjoying breathtaking landscapes. Whether you prefer freshwater adventures or coastal endeavors, Brazil's best fishing spots offer something for every angler.</p>
+<p>Brazil is undoubtedly a dream destination for those passionate about fishing. Its diverse aquatic ecosystems provide numerous opportunities to reel in the catch of a lifetime while enjoying breathtaking landscapes. Whether you prefer freshwater adventures or coastal endeavors, Brazil&apos;s best fishing spots offer something for every angler.</p>
       </>
     ),
   },

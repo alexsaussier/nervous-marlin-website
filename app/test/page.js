@@ -34,15 +34,15 @@ export default function Accommodation() {
 
     return (
       <div className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4">
           {imagesToShow?.map((img, index) => (
-            <div key={index} className="aspect-square relative group" data-aos="fade-up">
+            <div key={index} className="aspect-[4/3] md:aspect-square relative group" data-aos="fade-up">
               {img && (
                 <Image
                   src={img}
                   alt={`${label} view ${index + 1}`}
                   fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                   loading={index > 3 ? "lazy" : "eager"}
                   quality={75}
                   className="object-cover rounded-lg transition-transform"
@@ -127,12 +127,12 @@ export default function Accommodation() {
           <Tabs defaultValue="exterior" className="w-full">
             <div id="lodge-details" className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-6">Explore Our Lodge</h2>
-              <TabsList className="inline-flex bg-white p-1 rounded-full">
-                <TabsTrigger value="exterior" className="px-6 py-2">Exterior</TabsTrigger>
-                <TabsTrigger value="bedrooms" className="px-6 py-2">Bedrooms</TabsTrigger>
-                <TabsTrigger value="living" className="px-6 py-2">Living Areas</TabsTrigger>
-                <TabsTrigger value="kitchen" className="px-6 py-2">Kitchen</TabsTrigger>
-                <TabsTrigger value="bathrooms" className="px-6 py-2">Bathrooms</TabsTrigger>
+              <TabsList className="inline-flex bg-white p-1 mb-4 rounded-full flex-wrap justify-center gap-2">
+                <TabsTrigger value="exterior" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Exterior</TabsTrigger>
+                <TabsTrigger value="bedrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bedrooms</TabsTrigger>
+                <TabsTrigger value="living" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Living Areas</TabsTrigger>
+                <TabsTrigger value="kitchen" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Kitchen</TabsTrigger>
+                <TabsTrigger value="bathrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bathrooms</TabsTrigger>
               </TabsList>
             </div>
 

@@ -27,7 +27,7 @@ def generate_blog_post(keyword):
     Do not use style attributes, just use tags."""
     client = OpenAI(api_key="sk-proj-ZWZVp9jM0e3SqUQQELX8T3BlbkFJ8fDmikeoI9FKtTqsM36B")
     response = client.chat.completions.create(
-        model="o1-preview",
+        model="o1-mini",
         messages=[
             #{  Not available in o1-preview
                 #"role": "system", 

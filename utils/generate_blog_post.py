@@ -27,11 +27,13 @@ def generate_blog_post(keyword):
     Do not use style attributes, just use tags."""
     client = OpenAI(api_key="sk-proj-ZWZVp9jM0e3SqUQQELX8T3BlbkFJ8fDmikeoI9FKtTqsM36B")
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="o1-preview",
         messages=[
-            {"role": "system", 
-             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more.All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
-            {"role": "user", "content": prompt}
+            #{  Not available in o1-preview
+                #"role": "system", 
+                #"content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more.All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
+            {"role": "user", 
+             "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website. " + prompt}
         ]
     )
     return response.choices[0].message.content
@@ -82,6 +84,11 @@ def main():
     
     keyword = random.choice(keywords)
     print(f"Selected keyword: {keyword}")
+    
+    # Remove the selected keyword from the list and update the file
+    keywords.remove(keyword)
+    with open(keywords_file, 'w') as file:
+        file.write('\n'.join(keywords))
     
     blog_post = generate_blog_post(keyword)
     

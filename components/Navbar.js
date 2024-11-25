@@ -60,7 +60,7 @@ export default function Header() {
 
           {/* Desktop menu */}
           <ul className="hidden lg:flex space-x-2 xl:space-x-6 ">
-            {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+            {['About Us', 'Location', 'Fishing', 'Activities', 'Accommodation', 'Packages'].map((item) => (
               <li key={item}>
                 <div className="px-2 py-2 hover:bg-sky-800 hover:text-white rounded-md">
                   <a href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold ">
@@ -86,7 +86,7 @@ export default function Header() {
         } sm:top-[80px]`}
       >
         <ul className="py-2 px-4">
-          {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+          {['About Us', 'Location', 'Fishing', 'Activities', 'Accommodation', 'Packages'].map((item) => (
             <li key={item}>
               <a
                 href={`/${item.toLowerCase().replace(' ', '-')}`}

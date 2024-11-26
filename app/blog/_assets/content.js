@@ -2187,7 +2187,7 @@ export const articles = [
     
     content: (
       <>
-        <h1>Experience Unforgettable Marlin Fishing: US Anglers' Ultimate Trip to Brazil</h1>
+        <h1>Experience Unforgettable Marlin Fishing: US Anglers&apos; Ultimate Trip to Brazil</h1>
 
 <p>Imagine the thrill of reeling in a powerful blue marlin, feeling the tropical sun on your skin, and soaking up the vibrant culture of Brazil. For US anglers seeking such an exhilarating adventure, a fishing trip to Bahia, Brazil, promises an unforgettable experience. At **<a href="https://nervousmarlin.com"><strong><u>Nervous Marlin Fishing Lodge</u></strong></a>**, we provide the perfect backdrop for your next fishing expedition. Discover why Bahia should be your top destination and how you can make the most of your journey.</p>
 

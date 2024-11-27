@@ -24,7 +24,7 @@ def generate_blog_post(keyword):
     If there are any apostrophes, replace them with &apos;
     When you provide a link to nervousmarlin.com, make sure it is bolded, underlined and redirects to nervousmarlin.com using the <a> tag.
     Don't be too pushy with mentioning nervousmarlin.com, make the article feel natural and not like an advertisement.
-    Do not use style attributes, just use className and tailwind classes."""
+    Do not use style attributes."""
     client = OpenAI(api_key="sk-proj-ZWZVp9jM0e3SqUQQELX8T3BlbkFJ8fDmikeoI9FKtTqsM36B")
     response = client.chat.completions.create(
         model="o1-mini",

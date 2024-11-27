@@ -153,7 +153,6 @@ export default function Fishing() {
                   <li>2 Mercedes 352 turbo and intercooler engines, 250 HP</li>
                   <li>30 feet</li>
                   <li>15 knots</li>
-                  <li>Travel time: approximately 1:40 hours</li>
                   <li>Garmin 521</li>
                   <li>Furuno FCV620 sonar (emergency)</li>
                 </ul>

@@ -63,6 +63,8 @@ export const IMAGES = {
     `${S3_BASE_URL}/airbnb/outside_15.jpeg`,
     `${S3_BASE_URL}/airbnb/outside_16.jpeg`,
     `${S3_BASE_URL}/airbnb/outside_17.jpeg`,
+    `${S3_BASE_URL}/house/outside3.jpg`,
+
   ],
   misc: {
     room1: `${S3_BASE_URL}/house/room1.jpg`,

@@ -10,7 +10,7 @@ import { TabsContent, TabsList, TabsTrigger, Tabs } from '@/components/Tabs';
 import Hero from '@/components/Hero';
 import { IMAGES } from '@/utils/images';
 
-export default function Accommodation() {
+export default function SmallGroups() {
   useEffect(() => {
     AOS.init({
       duration: 500,
@@ -18,12 +18,12 @@ export default function Accommodation() {
     });
   }, []);
 
-  // Group images by category
-  const outsideImages = [...IMAGES.house, ...IMAGES.exterior];
-  const bedroomImages = IMAGES.bedrooms;
-  const bathroomImages = IMAGES.bathrooms;
-  const kitchenImages = IMAGES.kitchen;
-  const livingImages = IMAGES.living;
+  // Define the image arrays at the top level after the useEffect
+  const outsideImages = IMAGES.smallGroups.outside || [];
+  const bedroomImages = IMAGES.smallGroups.bedrooms || [];
+  const livingImages = IMAGES.smallGroups.living || [];
+  const kitchenImages = IMAGES.smallGroups.kitchen || []; // Add kitchen images array
+  const bathroomImages = IMAGES.smallGroups.bathrooms || [];
 
   // Single state for all tabs
   const [showAllImages, setShowAllImages] = React.useState(false);
@@ -69,9 +69,9 @@ export default function Accommodation() {
     <div className="font-sans text-gray-800">
       {/* Hero Section */}
       <Hero
-        imageSrc={IMAGES.house[1]}
+        imageSrc={IMAGES.smallGroups.outside[0]} // Use the first outside image or specify a hero image
         title="Accommodation"
-        subtitle=""
+        subtitle="Smaller Groups"
         objectPosition="40%"
       />
         
@@ -81,47 +81,37 @@ export default function Accommodation() {
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6" data-aos="fade-right">
-              <h2 className="text-4xl font-bold text-gray-900">8-Bedroom Beach Lodge in Arraial d&apos;Ajuda</h2>
+              <h2 className="text-4xl font-bold text-gray-900">3-Bedroom Lodge for Smaller Groups</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Our beachfront lodge offers an unparalleled blend of comfort and natural beauty. 
-                With accommodation for up to 13 guests, modern amenities, and breathtaking ocean views, 
-                this is the perfect place to relax after a long day of fishing.
+                We host smaller groups in our 3-bedroom modern lodge with private garden and pool.
               </p>
-              <div className="space-y-4">
-                <div className="flex gap-4 mb-4">
-                  <a href="/book-now">
-                    <button className="bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition" href="/book-now">
-                      Reserve Your Stay
-                    </button>
-                  </a>
-                  
-                  <a href="#lodge-details">
-                    <button className="border border-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-50 transition">
-                      Explore the Lodge
-                    </button>
-                  </a>
-                </div>
+              <div className="flex gap-4">
+                <a href="/book-now">
+                  <button className="bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition" href="/book-now">
+                    Reserve Your Stay
+                  </button>
+                </a>
                 
-                <a href="accommodation/small-groups">
-                  <button className=" border border-blue-200 text-sky-800 px-8 py-3 mr-4 rounded-lg hover:bg-blue-50 transition">
-                    Less than 8 guests? Explore our lodge for smaller groups
+                <a href="#lodge-details">
+                  <button className="border border-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-50 transition">
+                    Explore the Lodge
                   </button>
                 </a>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4" data-aos="fade-left">
               <Image 
-                src={IMAGES.house[0]} 
-                alt="House exterior" 
-                width={500}    // Add width
-                height={384}   // Add height
+                src={IMAGES.smallGroups.outside[0]} // Use specific images from your collection
+                alt="Lodge exterior" 
+                width={500}
+                height={384}
                 className="rounded-lg w-full h-64 object-cover" 
               />
               <Image 
-                src={IMAGES.house[1]} 
-                alt="House exterior" 
-                width={500}    // Add width
-                height={384}   // Add height
+                src={IMAGES.smallGroups.outside[1]} 
+                alt="Lodge exterior" 
+                width={500}
+                height={384}
                 className="rounded-lg w-full h-64 object-cover" 
               />
             </div>
@@ -132,38 +122,31 @@ export default function Accommodation() {
       {/* Image Galleries */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
-          <Tabs defaultValue="exterior" className="w-full">
-            <div id="lodge-details" className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-6">Explore Our Lodge</h2>
-              <TabsList className="inline-flex bg-white p-1 mb-4 rounded-full flex-wrap justify-center gap-2">
-                <TabsTrigger value="exterior" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Exterior</TabsTrigger>
-                <TabsTrigger value="bedrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bedrooms</TabsTrigger>
-                <TabsTrigger value="living" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Living Areas</TabsTrigger>
-                <TabsTrigger value="kitchen" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Kitchen</TabsTrigger>
-                <TabsTrigger value="bathrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bathrooms</TabsTrigger>
-              </TabsList>
+          <div id="lodge-details" className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">Explore Our Lodge</h2>
+          </div>
+
+          <div className="space-y-12">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Exterior</h3>
+              <ImageGrid images={outsideImages} label="Exterior" />
             </div>
 
-            <TabsContent value="exterior" className="mt-8">
-              <ImageGrid images={outsideImages} label="Exterior" />
-            </TabsContent>
-
-            <TabsContent value="bedrooms" className="mt-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Bedrooms</h3>
               <ImageGrid images={bedroomImages} label="Bedroom" />
-            </TabsContent>
+            </div>
 
-            <TabsContent value="living" className="mt-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Living Areas</h3>
               <ImageGrid images={livingImages} label="Living area" />
-            </TabsContent>
+            </div>
 
-            <TabsContent value="kitchen" className="mt-8">
-              <ImageGrid images={kitchenImages} label="Kitchen" />
-            </TabsContent>
-
-            <TabsContent value="bathrooms" className="mt-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Bathrooms</h3>
               <ImageGrid images={bathroomImages} label="Bathroom" />
-            </TabsContent>
-          </Tabs>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -173,16 +156,13 @@ export default function Accommodation() {
           <h2 className="text-3xl font-bold text-center mb-12">Lodge Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: "🛏️", title: "8 Bedrooms", 
+              { icon: "🛏️", title: "3 Bedrooms", 
                 description: <>
-                  Private bathrooms in each room.<br />
-                  • 4 bedrooms with queen bed and single bed<br />
-                  • 3 bedrooms with queen bed<br />
-                  • 1 bedroom with 2 single beds
+                  • 2 bedroom suites with Queen-sized beds<br />
+                  • 1 bedroom with two single beds<br />
                 </> },
-              { icon: "👨‍👩‍👧‍👦", title: "Group Friendly", description: "Accommodates up to 13 guests" },
-              { icon: "🏊‍♂️", title: "Modern Amenities", description: "Swimming pool, jacuzzi, outdoor bar, and pool table" },
-              { icon: "🎣", title: "Private Beach Access", description: "Direct access to the beach" },
+              { icon: "👨‍👩‍👧‍👦", title: "For Smaller Groups", description: "Accommodates from 2 to 5 guests" },
+              { icon: "🏊‍♂️", title: "Modern Amenities", description: "Modern house with private swimming pool, and garden" },
               { icon: "🌊", title: "Proximity to Arraial d'Ajuda", description: "The house is located just outside of Arraial d'Ajuda" },
               { icon: "🗣️", title: "Trilingual Host", description: "Professional guide available" },
             ].map((amenity, index) => (
@@ -205,7 +185,7 @@ export default function Accommodation() {
               <div className="text-4xl mb-4">👥</div>
               <h3 className="text-xl font-semibold mb-4">Group Requirements</h3>
               <div className="text-gray-600 space-y-2">
-                <p>• Minimum group size: 8 people or 4 couples</p>
+                <p>• Group size: 2 to 5 people</p>
                 <p>• Private groups only</p>
                 <p>• Alternative accommodation available for smaller groups in another beautiful oceanview lodge</p>
               </div>

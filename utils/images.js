@@ -70,5 +70,26 @@ export const IMAGES = {
     room1: `${S3_BASE_URL}/house/room1.jpg`,
     bathroom1: `${S3_BASE_URL}/house/z_bathroom1.jpg`,
     beach5: `${S3_BASE_URL}/activities/beach5.jpg`,
+  },
+
+  smallGroups: {
+    outside: [
+      `${S3_BASE_URL}/small-groups/small-house-outdoor1.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-outdoor2.jpeg`,
+    ],
+    bedrooms: [
+      `${S3_BASE_URL}/small-groups/small-house-bedroom1.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-bedroom2.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-bedroom3.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-bedroom4.jpeg`,
+    ],
+    living: [
+      `${S3_BASE_URL}/small-groups/small-house-living1.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-living2.jpeg`,
+    ],
+    bathrooms: [
+      `${S3_BASE_URL}/small-groups/small-house-bathroom1.jpeg`,
+      `${S3_BASE_URL}/small-groups/small-house-bathroom2.jpeg`,
+    ],
   }
 };

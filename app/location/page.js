@@ -40,6 +40,26 @@ export default function Location() {
       <section className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Porto Seguro and the Discovery Coast</h2>
+          
+          {/* Key Facts Tiles */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h4 className="text-lg font-bold mb-2">Flight Time</h4>
+              <p>1h 45min from São Paulo</p>
+              <p className="text-sm text-gray-600">Connection required from USA</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h4 className="text-lg font-bold mb-2">Airport Transfer</h4>
+              <p>40-minute drive from Porto Seguro Airport (BPS)</p>
+              <p className="text-sm text-gray-600">Includes scenic ferry crossing</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h4 className="text-lg font-bold mb-2">Visa Information</h4>
+              <p>Required for US citizens from 2025</p>
+              <p className="text-sm text-gray-600">Easy online application available</p>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col justify-center">
               <h3 className="text-xl font-bold mb-4">The area of Porto Seguro</h3>

@@ -158,7 +158,7 @@ export const articles = [
 
 <h3><strong>Plan Your Unforgettable South America Fishing Adventure</strong></h3>
 
-<p>Ready to embark on the <strong>ultimate fishing adventure</strong> in South America? Visit <a href="https://nervousmarlin.com" style="text-decoration: underline; font-weight: bold;">Nervous Marlin</a> today to learn more about our packages and book your stay. Whether you&apos;re targeting Blue Marlins or exploring the diverse activities Bahia has to offer, Nervous Marlin is your gateway to an unforgettable <strong>South America fishing trip</strong>.</p>
+<p>Ready to embark on the <strong>ultimate fishing adventure</strong> in South America? Visit <a href="https://nervousmarlin.com" className="underline font-bold">Nervous Marlin</a> today to learn more about our packages and book your stay. Whether you&apos;re targeting Blue Marlins or exploring the diverse activities Bahia has to offer, Nervous Marlin is your gateway to an unforgettable <strong>South America fishing trip</strong>.</p>
 
 <h3><strong>Top Tips for a Successful Fishing Trip in South America</strong></h3>
 
@@ -408,7 +408,7 @@ export const articles = [
 <p>Bahia is renowned for its deep blue waters teeming with a variety of big game species. From mighty Blue Marlins to fierce Tuna and Sailfish, the diversity and abundance make it a prime destination for fishing enthusiasts. The combination of ideal weather conditions and expertly maintained fishing spots provides the perfect setting for a successful and memorable fishing expedition.</p>
 
 <h3><strong>Top Species to Target</strong></h3>
-<p>Big Game Fishing in Bahia offers the opportunity to encounter some of the ocean&apos;s sought-after species:</p>
+<p>Big Game Fishing in Bahia offers the opportunity to encounter some of the ocean&apos;s most sought-after species:</p>
 <ul>
   <li><strong>Blue Marlin:</strong> Known for their size and strength, Blue Marlins offer a thrilling challenge for anglers.</li>
   <li><strong>Sailfish:</strong> Fast and agile, Sailfish provide exciting fights and impressive aerial displays.</li>
@@ -423,7 +423,7 @@ export const articles = [
 <p>After a day on the water, Bahia offers a wealth of activities to enrich your stay. Whether you want to relax on pristine beaches, explore vibrant local culture, or engage in adventurous pursuits like paragliding and scuba diving, Bahia caters to all interests. Staying at <a href="https://nervousmarlin.com" style="font-weight:bold; text-decoration:underline;">Nervous Marlin</a> enhances your experience with comfortable accommodations and easy access to both fishing and non-fishing activities.</p>
 
 <h3><strong>Plan Your Big Game Fishing Adventure Today</strong></h3>
-<p>Ready to reel in the catch of a lifetime? Bahia&apos;s Big Game Fishing is calling, and <a href="https://nervousmarlin.com" style="font-weight:bold; text-decoration:underline;">Nervous Marlin</a> is your gateway to this extraordinary adventure. Discover the thrill of the chase, the beauty of Bahia&apos;s coastline, and create memories that will last a lifetime. Book your trip now and set sail on an unforgettable fishing journey.</p>
+<p>Ready to reel in the catch of a lifetime? Bahia’s Big Game Fishing is calling, and <a href="https://nervousmarlin.com" style="font-weight:bold; text-decoration:underline;">Nervous Marlin</a> is your gateway to this extraordinary adventure. Discover the thrill of the chase, the beauty of Bahia’s coastline, and create memories that will last a lifetime. Book your trip now and set sail on an unforgettable fishing journey.</p>
       </>
     ),
   },
@@ -539,7 +539,7 @@ export const articles = [
 
   {
     slug: "hooked-on-canavieiras-your-ultimate-guide-to-fishing-in-bahias-premier-region",
-    title: "Hooked on Canavieiras: Your Ultimate Guide to Fishing in Bahia's Premier Region",
+    title: "Hooked on Canavieiras: Your Ultimate Guide to Fishing in Bahia’s Premier Region",
     description: "Blog post about Fishing in the Canavieiras region",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-11-27",
@@ -1181,7 +1181,7 @@ export const articles = [
 
 <h3><strong>A Blend of Comfort and Adventure</strong></h3>
 
-<p>The accommodations at Nervous Marlin combine comfort with a genuine sense of adventure. Guests can unwind in elegantly appointed rooms that reflect the beauty of Brazil&apos;s coastline, complete with all modern amenities for a truly relaxing stay. The friendly staff are always on hand to assist with any needs, making sure your stay is as enjoyable and effortless as possible.</p>
+<p>The accommodations at Nervous Marlin combine comfort with a genuine sense of adventure. The lodge offers cozy rooms and essential amenities to ensure a relaxing stay, perfectly complementing a day filled with action and exploration. The friendly staff are always on hand to assist with any needs, making sure your stay is as enjoyable and effortless as possible.</p>
 
 <h3><strong>Plan Your Perfect Fishing Getaway</strong></h3>
 
@@ -2610,7 +2610,7 @@ export const articles = [
 
 <h3><strong>The Role of Tides and Weather</strong></h3>
 
-<p>Beyond the seasonal considerations, the timing of tides and local weather conditions greatly influence fishing success. It&apos;s advisable to consult with local experts or refer to tide charts when planning your trip. At **<a href="https://nervousmarlin.com">Nervous Marlin</a>**, our experienced guides provide detailed insights to optimize your fishing endeavors.</p>
+<p>Beyond the seasonal considerations, the timing of tides and local weather conditions greatly influences fishing success. It&apos;s advisable to consult with local experts or refer to tide charts when planning your trip. At **<a href="https://nervousmarlin.com">Nervous Marlin</a>**, our experienced guides provide detailed insights to optimize your fishing endeavors.</p>
 
 <h3><strong>Concluding Thoughts</strong></h3>
 
@@ -3187,7 +3187,7 @@ export const articles = [
 <p>The Bahamas is renowned for its crystal-clear waters and abundant marine life, making it a prime location for Blue Marlin fishing. The warm waters and abundant food sources attract these giants, especially near the islands of Bimini and Cat Island. Plan your trip between March and June when the marlin are most active.</p>
 
 <h2>Kona, Hawaii: Year-Round Blue Marlin Action</h2>
-<p>Kona is often called the Blue Marlin capital of the world, and for a good reason. The deep waters just offshore are teeming with marlins, making it an ideal location for year-round fishing. Experienced captains and well-equipped boats ensure that anglers have the best chance of hooking a record-sized marlin.</p>
+<p>Kona is often called the Blue Marlin capital of the world, and for a good reason. The deep waters just offshore are teeming with marlin, making it an ideal location for year-round fishing. Experienced captains and well-equipped boats ensure that anglers have the best chance of hooking a record-sized marlin.</p>
 
 <h2>Cabo San Lucas, Mexico: Where the Sea of Cortez Meets the Pacific</h2>
 <p>Cabo San Lucas, located at the southern tip of Mexico&apos;s Baja California peninsula, offers an unparalleled Blue Marlin fishing experience. The confluence of the Sea of Cortez and the Pacific Ocean creates nutrient-rich waters perfect for marlin fishing. The peak season runs from July to October.</p>

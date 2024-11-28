@@ -207,7 +207,7 @@ export default function Accommodation() {
               <div className="text-gray-600 space-y-2">
                 <p>• Minimum group size: 8 people or 4 couples</p>
                 <p>• Private groups only</p>
-                <p>• Alternative accommodation available for smaller groups in another beautiful oceanview lodge</p>
+                <p>• Alternative accommodation available for smaller groups in another beautiful lodge</p>
               </div>
             </div>
 

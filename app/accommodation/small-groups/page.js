@@ -187,7 +187,7 @@ export default function SmallGroups() {
               <div className="text-gray-600 space-y-2">
                 <p>• Group size: 2 to 5 people</p>
                 <p>• Private groups only</p>
-                <p>• Alternative accommodation available for smaller groups in another beautiful oceanview lodge</p>
+                <p>• Alternative accommodation available for larger groups in another beautiful oceanview lodge</p>
               </div>
             </div>
 

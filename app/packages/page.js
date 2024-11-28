@@ -262,7 +262,7 @@ export default function Packages() {
             <h3 className="mb-4 text-lg font-bold">Booking & Payment Policy</h3>
             <ul className="grid gap-2 text-sm">
               <li className="flex items-center gap-2">
-                • 50% non-refundable deposit required to secure your booking
+                • Free cancellation up to 60 days before trip date
               </li>
               <li className="flex items-center gap-2">
                 • Full payment due 60 days before trip date

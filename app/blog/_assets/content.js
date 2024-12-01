@@ -160,7 +160,7 @@ export const articles = [
 
   {
     slug: "experience-world-class-marlin-fishing-in-bahiaaposs-pristine-waters",
-    title: "Experience World-Class Marlin Fishing in Bahia4s Pristine Waters",
+    title: "Experience World-Class Marlin Fishing in Bahia's Pristine Waters",
     description: "Blog post about World-class marlin fishing",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-01",

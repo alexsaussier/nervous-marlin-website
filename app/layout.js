@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
       <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
       <Analytics />
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="026be66d-e0f5-4859-a4b1-38e5e3f193d2"></script>
 
       
 

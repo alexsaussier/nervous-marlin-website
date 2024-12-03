@@ -268,9 +268,9 @@ export const articles = [
 <h3><strong>Testimonials from Our Guests</strong></h3>
 <p>Don&apos;t just take our word for it – hear from those who&apos;ve experienced the magic of <strong><u>Nervous Marlin</u></strong> firsthand:</p>
 <ul>
-  <li>"An unforgettable experience! The blue marlin fishing was top-notch, and the staff made us feel like family." – Sarah L.</li>
-  <li>"Beautiful location with incredible fishing opportunities. Highly recommend <strong><u>Nervous Marlin</u></strong> to any angler looking for adventure." – Mark T.</li>
-  <li>"From scuba diving to delicious meals, every aspect of our stay was perfect. Can&apos;t wait to return!" – Julia R.</li>
+  <li>&quot;An unforgettable experience! The blue marlin fishing was top-notch, and the staff made us feel like family.&quot; – Sarah L.</li>
+  <li>&quot;Beautiful location with incredible fishing opportunities. Highly recommend <strong><u>Nervous Marlin</u></strong> to any angler looking for adventure.&quot; – Mark T.</li>
+  <li>&quot;From scuba diving to delicious meals, every aspect of our stay was perfect. Can&apos;t wait to return!&quot; – Julia R.</li>
 </ul>
 
 <h3><strong>Join the <strong><u>Nervous Marlin</u></strong> Community</strong></h3>

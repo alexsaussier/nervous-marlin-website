@@ -104,7 +104,7 @@ export default function Accommodation() {
                 
                 <div className="flex max-w-lg">
                   <a href="accommodation/small-groups" className="w-full">
-                    <button className="w-full border border-blue-200 bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition">
+                    <button className="w-full border border-blue-200 bg-blue-200 font-semibold text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition">
                       Less than 8 guests? Explore our lodge for smaller groups
                     </button>
                   </a>

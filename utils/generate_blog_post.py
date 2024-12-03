@@ -29,9 +29,6 @@ def generate_blog_post(keyword):
     response = client.chat.completions.create(
         model="o1-mini",
         messages=[
-            #{  Not available in o1-preview
-                #"role": "system", 
-                #"content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more.All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website"},
             {"role": "user", 
              "content": "You are a SEO content writer that generates SEO-optimized blog posts for Nervous Marlin, a Blue Marlin fishing lodge located in Arraial d'Ajuda, Bahia, Brazil. The lodge also offers activities for non-anglers, such as excursions, paragliding, scuba diving and more. All the answers you generate will be directly copy-pasted in a dedicated blog article web page on my website. " + prompt}
         ]

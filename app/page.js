@@ -102,7 +102,7 @@ export default function Home() {
               <p className="text-xl mb-8">Experience the thrill of catching the majestic Blue Marlin in the waters of Bahia, Brazil. Our expert guides and state-of-the-art equipment ensure a memorable fishing adventure.</p>
               <p className="text-xl mb-8">Our fishing excursions cater to both beginners and experienced anglers, offering a unique opportunity to catch this iconic species in its natural habitat.</p>
               <div className="flex justify-center">
-                <a href="/fishing" className="bg-gray-800 text-white border-2 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 hover:text-gray-800 hover:border-gray-800 transition duration-300">
+                <a href="/fishing" className="bg-blue-200 text-sky-800 text-lg font-semibold px-8 py-3 rounded-lg hover:bg-blue-300 transition">
                   Discover More
                 </a>
               </div>
@@ -152,10 +152,62 @@ export default function Home() {
             </div>
 
           <div className="text-center mt-12">
-            <a href="/activities" className="bg-transparent border-2 border-gray-800 text-grey-800 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 hover:text-white transition duration-300">
+            <a href="/activities" className="bg-blue-200 text-sky-800 text-lg font-semibold px-8 py-3 rounded-lg hover:bg-blue-300 transition">
               See the activities that we plan for you
             </a>
           </div>
+      </section>
+
+      {/* Accommodation Section */}
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 text-center">Accommodation</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Large Groups House */}
+            <Link href="/accommodation">
+              <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer bg-white">
+                <div className="relative h-64 overflow-hidden">
+                  <Image 
+                    src='https://asaussier-projects.s3.amazonaws.com/images/airbnb/house_2.jpeg'
+                    alt="Large Groups Villa"
+                    fill={true}
+                    objectFit="cover"
+                    className="group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2 text-gray-800 group-hover:text-sky-800">Large Groups Villa (8+ Guests)</h3>
+                  <p className="text-gray-600">
+                    Perfect for large groups and families, our main villa offers spacious living areas, multiple bedrooms, and stunning ocean views. Experience luxury and comfort in our premier accommodation.
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Small Groups House */}
+            <Link href="/accommodation/small-groups">
+              <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer bg-white">
+                <div className="relative h-64 overflow-hidden">
+                  <Image 
+                    src="https://asaussier-projects.s3.amazonaws.com/images/small-groups/small-house-outdoor1.jpeg"
+                    alt="Small Groups House"
+                    fill={true}
+                    objectFit="cover"
+                    className="group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2 text-gray-800 group-hover:text-sky-800">Cozy House for Smaller Groups</h3>
+                  <p className="text-gray-600">
+                    Ideal for smaller groups, our cozy house provides an intimate setting with all the amenities you need for a comfortable stay. Perfect for couples or small families.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          
+        </div>
       </section>
 
       {/* Why Choose Us Section */}

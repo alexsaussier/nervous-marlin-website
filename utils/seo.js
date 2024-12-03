@@ -51,7 +51,7 @@ export const getSEOTags = ({
       // If you add an twitter-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
       // images: [openGraph?.image || defaults.og.image],
       card: "summary_large_image",
-      creator: "finterpret",
+      creator: "Nervous Marlin",
     },
 
     // If a canonical URL is given, we add it. The metadataBase will turn the relative URL into a fully qualified URL
@@ -81,7 +81,7 @@ export const renderSchemaTags = () => {
           "@type": "Organization",
           name: config.appName,
           description: config.appDescription,
-          email: "leonardoforesti69@gmail.com", 
+          email: "leo@nervousmarlin.com", 
           telephone: "+55 73 99944-0050",
           image: `https://${config.domainName}/icon.png`,
           url: `https://${config.domainName}/`,

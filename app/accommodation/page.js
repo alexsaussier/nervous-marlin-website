@@ -88,25 +88,27 @@ export default function Accommodation() {
                 this is the perfect place to relax after a long day of fishing.
               </p>
               <div className="space-y-4">
-                <div className="flex gap-4 mb-4">
-                  <a href="/book-now">
-                    <button className="bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition" href="/book-now">
+                <div className="flex gap-4 mb-4 max-w-lg">
+                  <a href="/book-now" className="flex-1">
+                    <button className="w-full border border-blue-200 bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition">
                       Reserve Your Stay
                     </button>
                   </a>
                   
-                  <a href="#lodge-details">
-                    <button className="border border-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-50 transition">
+                  <a href="#lodge-details" className="flex-1">
+                    <button className="w-full border border-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-50 transition">
                       Explore the Lodge
                     </button>
                   </a>
                 </div>
                 
-                <a href="accommodation/small-groups">
-                  <button className=" border border-blue-200 text-sky-800 px-8 py-3 mr-4 rounded-lg hover:bg-blue-50 transition">
-                    Less than 8 guests? Explore our lodge for smaller groups
-                  </button>
-                </a>
+                <div className="flex max-w-lg">
+                  <a href="accommodation/small-groups" className="w-full">
+                    <button className="w-full border border-blue-200 bg-blue-200 text-sky-800 px-8 py-3 rounded-lg hover:bg-blue-300 transition">
+                      Less than 8 guests? Explore our lodge for smaller groups
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4" data-aos="fade-left">

@@ -1,4 +1,4 @@
-export default function InputField({ label, name, type, placeholder, value, onChange, darkMode = false }) {
+export default function InputField({ label, name, type, placeholder, value, onChange, darkMode = false, min }) {
   const labelClass = darkMode 
     ? "block text-sm font-medium text-white"
     : "block text-sm font-medium text-gray-700";
@@ -18,6 +18,7 @@ export default function InputField({ label, name, type, placeholder, value, onCh
         value={value}
         onChange={onChange}
         className={inputClass}
+        min={min}
       />
     </div>
   );

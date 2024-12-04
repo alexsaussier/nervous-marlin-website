@@ -14,7 +14,7 @@ def read_keywords(file_path):
         return [line.strip() for line in file if line.strip()]
 
 def generate_blog_post(keyword):
-    prompt = f"""Generate a compelling blog post title and content about '{keyword}'. 
+    prompt = f"""Generate a compelling blog post title and content about the following SEO keyword: '{keyword}'. 
     Be creative with the title, it should be catchy and engaging and SEO-friendly.
     Optimize the blog post content for SEO. It will be used on the blog section of nervousmarlin.com, a Next.js website.
     The content should be in HTML format so that I can use it directly, excluding the outer <html>, <head>, and <body> tags, as I already have the page structure.

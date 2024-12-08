@@ -77,7 +77,7 @@ export default function Location() {
               <h3 className="text-xl font-bold mb-4">Getting There - Arraial d&apos;Ajuda</h3>
               <p className="text-lg mb-4">
                 Our fishing lodge is located just across the Buranheim River, in the town of Arraial d&apos;Ajuda. 
-                It is a charming town that gained popularity among Europeans and Argentinians in the 1970s.
+                It is a charming town that gained popularity among Brazilians from all over the country, Europeans and Argentinians in the 1970s.
                 The location is easily accessible from the Porto Seguro Airport (BPS), a 40-minute drive away, where you will enjoy crossing the Burenheim river on a ferry.
 
               </p>

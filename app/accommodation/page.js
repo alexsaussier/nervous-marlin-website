@@ -25,12 +25,27 @@ export default function Accommodation() {
   const kitchenImages = IMAGES.kitchen;
   const livingImages = IMAGES.living;
 
-  // Single state for all tabs
-  const [showAllImages, setShowAllImages] = React.useState(false);
+  // Replace the single state with an object to track each category
+  const [expandedCategories, setExpandedCategories] = React.useState({
+    exterior: false,
+    bedrooms: false,
+    living: false,
+    kitchen: false,
+    bathrooms: false,
+  });
 
-  const ImageGrid = ({ images, label }) => {
-    const imagesToShow = showAllImages ? images : images.slice(0, 8);
+  // Update the ImageGrid component to accept and use a category identifier
+  const ImageGrid = ({ images, label, category }) => {
+    const isExpanded = expandedCategories[category];
+    const imagesToShow = isExpanded ? images : images.slice(0, 8);
     const hasMore = images.length > 8;
+
+    const toggleExpand = () => {
+      setExpandedCategories(prev => ({
+        ...prev,
+        [category]: !prev[category]
+      }));
+    };
 
     return (
       <div className="space-y-6">
@@ -54,10 +69,10 @@ export default function Accommodation() {
         {hasMore && (
           <div className="text-center">
             <button
-              onClick={() => setShowAllImages(!showAllImages)}
+              onClick={toggleExpand}
               className="bg-blue-200 text-sky-800 px-6 py-2 rounded-lg hover:bg-blue-300 transition"
             >
-              {showAllImages ? 'Show Less' : `Show More`}
+              {isExpanded ? 'Show Less' : `Show More`}
             </button>
           </div>
         )}
@@ -134,38 +149,36 @@ export default function Accommodation() {
       {/* Image Galleries */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
-          <Tabs defaultValue="exterior" className="w-full">
-            <div id="lodge-details" className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-6">Explore Our Lodge</h2>
-              <TabsList className="inline-flex bg-white p-1 mb-4 rounded-full flex-wrap justify-center gap-2">
-                <TabsTrigger value="exterior" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Exterior</TabsTrigger>
-                <TabsTrigger value="bedrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bedrooms</TabsTrigger>
-                <TabsTrigger value="living" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Living Areas</TabsTrigger>
-                <TabsTrigger value="kitchen" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Kitchen</TabsTrigger>
-                <TabsTrigger value="bathrooms" className="px-4 py-2 text-sm sm:px-6 sm:text-base">Bathrooms</TabsTrigger>
-              </TabsList>
+          <div id="lodge-details" className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">Explore Our Lodge</h2>
+          </div>
+
+          <div className="space-y-12">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Exterior</h3>
+              <ImageGrid images={outsideImages} label="Exterior" category="exterior" />
             </div>
 
-            <TabsContent value="exterior" className="mt-8">
-              <ImageGrid images={outsideImages} label="Exterior" />
-            </TabsContent>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Bedrooms</h3>
+              <ImageGrid images={bedroomImages} label="Bedroom" category="bedrooms" />
+            </div>
 
-            <TabsContent value="bedrooms" className="mt-8">
-              <ImageGrid images={bedroomImages} label="Bedroom" />
-            </TabsContent>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Living Areas</h3>
+              <ImageGrid images={livingImages} label="Living area" category="living" />
+            </div>
 
-            <TabsContent value="living" className="mt-8">
-              <ImageGrid images={livingImages} label="Living area" />
-            </TabsContent>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Kitchen</h3>
+              <ImageGrid images={kitchenImages} label="Kitchen" category="kitchen" />
+            </div>
 
-            <TabsContent value="kitchen" className="mt-8">
-              <ImageGrid images={kitchenImages} label="Kitchen" />
-            </TabsContent>
-
-            <TabsContent value="bathrooms" className="mt-8">
-              <ImageGrid images={bathroomImages} label="Bathroom" />
-            </TabsContent>
-          </Tabs>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Bathrooms</h3>
+              <ImageGrid images={bathroomImages} label="Bathroom" category="bathrooms" />
+            </div>
+          </div>
         </div>
       </section>
 

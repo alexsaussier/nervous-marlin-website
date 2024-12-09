@@ -261,8 +261,14 @@ export default function Packages() {
           <div className="mt-8 rounded-lg bg-white p-6 text-gray-800 shadow-lg">
             <h3 className="mb-4 text-lg font-bold">Booking & Payment Policy</h3>
             <ul className="grid gap-2 text-sm">
+            <li className="flex items-center gap-2">
+                • 50 % deposit is required to reserve your requested fishing dates.
+              </li>
               <li className="flex items-center gap-2">
                 • Free cancellation up to 60 days before trip date
+              </li>
+              <li className="flex items-center gap-2">
+                • If cancelling less than 60 days before trip date, 50% of deposit will be lost.
               </li>
               <li className="flex items-center gap-2">
                 • Full payment due 60 days before trip date

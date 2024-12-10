@@ -130,7 +130,7 @@ const styles = {
 export const articles = [
   {
     slug: "experience-the-majesty-of-blue-marlin-fishing-in-bahiaaposs-arraial-daposajuda",
-    title: "Experience the Majesty of Blue Marlin Fishing in Bahia's Arraial d&apos;Ajuda",
+    title: "Experience the Majesty of Blue Marlin Fishing in Bahia's Arraial d'Ajuda",
     description: "Blog post about blue marlin",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-10",

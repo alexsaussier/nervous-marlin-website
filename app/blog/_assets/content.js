@@ -276,41 +276,7 @@ export const articles = [
     ),
   },
 
-  {
-    slug: "chasing-the-elusive-blue-marlin-in-key-west-a-angleraposs-paradise",
-    title: "Chasing the Elusive Blue Marlin in Key West: A Angler&apos;s Paradise",
-    description: "Blog post about blue marlin key west",
-    author: authors.find((author) => author.slug === authorSlugs.alex),
-    publishedAt: "2024-12-11",
-    
-    content: (
-      <>
-        <h1>Chasing the Elusive Blue Marlin in Key West: A Angler&apos;s Paradise</h1>
-
-<p>Key West, renowned for its vibrant culture and stunning sunsets, is also a premier destination for anglers seeking the thrill of catching the majestic blue marlin. Whether you&apos;re a seasoned fisherman or a passionate beginner, the waters around Key West offer an unforgettable fishing experience that combines skill, excitement, and the beauty of the open sea.</p>
-
-<h3><strong>Why Key West is Ideal for Blue Marlin Fishing</strong></h3>
-<p>The unique geographical location of Key West makes it a hotspot for blue marlin. The convergence of warm Gulf currents and rich marine biodiversity provides an ideal habitat for these powerful game fish. Anglers can expect a high success rate, especially during the peak seasons, making Key West a top choice for those targeting blue marlin.</p>
-
-<h3><strong>Best Times to Hunt Blue Marlin in Key West</strong></h3>
-<p>While blue marlin can be found year-round in the waters off Key West, the best months for harvesting these giants are typically from March to September. During this period, the water temperatures are optimal, and the marlin are more active, increasing the chances of a successful catch.</p>
-
-<h3><strong>Top Tips for a Successful Blue Marlin Expedition</strong></h3>
-<p>To maximize your chances of landing a blue marlin in Key West, consider the following tips:</p>
-<ul>
-  <li>Hire an experienced local charter that knows the best fishing spots.</li>
-  <li>Use appropriate tackle and bait to match the marlin&apos;s natural prey.</li>
-  <li>Stay patient and be prepared for a rigorous fight, as blue marlin are known for their strength and endurance.</li>
-</ul>
-
-<h3><strong>Beyond Fishing: Exploring Key West&apos;s Attractions</strong></h3>
-<p>While the pursuit of blue marlin is a highlight, Key West offers a plethora of activities for non-anglers as well. From snorkeling in crystal-clear waters to enjoying the lively local music scene, there&apos;s something for everyone. For those planning their next adventure, consider extending your trip to experience the diverse offerings of <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> in Arraial d&apos;Ajuda, Bahia, Brazil, where fishing enthusiasts and adventure seekers alike can find their perfect getaway.</p>
-
-<h3><strong>Plan Your Blue Marlin Voyage Today</strong></h3>
-<p>Embarking on a blue marlin fishing trip in Key West promises not only the excitement of the hunt but also unforgettable memories of paradise. Whether you&apos;re drawn by the allure of the deep blue or the vibrant coastal life, Key West stands ready to deliver an exceptional fishing experience.</p>
-      </>
-    ),
-  },
+  
 
   {
     slug: "the-ultimate-guide-to-blue-marlin-fishing-in-bahias-pristine-waters",

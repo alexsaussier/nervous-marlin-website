@@ -230,7 +230,7 @@ export const articles = [
 <p>At <strong><a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a></strong> Lodge, we provide top-notch gear recommendations and expert guidance to ensure you have the best possible <strong>big game fishing</strong> experience. Whether you&apos;re a seasoned angler or new to the sport, our team is here to help you choose the right fishing line and other essential equipment for your Arraial d&apos;Ajuda adventure.</p>
 
 <h3><strong>Conclusion</strong></h3>
-<p>Selecting the right <strong>big game fishing line</strong> is crucial for a successful and enjoyable fishing trip. By understanding the different types of lines and considering key factors, you can enhance your chances of landing the big catch. Visit <strong><a href="https://nervousmarlin.com" style="text-decoration: underline; font-weight: bold;">Nervous Marlin</a></strong> Lodge to start your unforgettable fishing journey in Bahia today!</p>
+<p>Selecting the right <strong>big game fishing line</strong> is crucial for a successful and enjoyable fishing trip. By understanding the different types of lines and considering key factors, you can enhance your chances of landing the big catch. Visit <strong><a href="https://nervousmarlin.com" style="underline font-bold">Nervous Marlin</a></strong> Lodge to start your unforgettable fishing journey in Bahia today!</p>
       </>
     ),
   },

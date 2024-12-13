@@ -196,7 +196,7 @@ export const articles = [
       <>
         <h1>Choosing the Best Big Game Fishing Line for Your Next Adventure in Arraial d&apos;Ajuda</h1>
 
-<p>Embarking on a <strong>big game fishing</strong> expedition in the stunning waters of Arraial d&apos;Ajuda, Bahia, requires the right equipment to ensure a successful and memorable experience. One of the most critical components of your fishing gear is the <strong>big game fishing line</strong>. In this guide, we&apos;ll explore the essentials of selecting the perfect fishing line to enhance your angling adventure at <strong><a href="https://nervousmarlin.com" style="text-decoration: underline; font-weight: bold;">Nervous Marlin</a></strong> Lodge.</p>
+<p>Embarking on a <strong>big game fishing</strong> expedition in the stunning waters of Arraial d&apos;Ajuda, Bahia, requires the right equipment to ensure a successful and memorable experience. One of the most critical components of your fishing gear is the <strong>big game fishing line</strong>. In this guide, we&apos;ll explore the essentials of selecting the perfect fishing line to enhance your angling adventure at <strong><a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a></strong> Lodge.</p>
 
 <h3><strong>Understanding Big Game Fishing Lines</strong></h3>
 <p>Big game fishing lines are engineered to handle the immense power and size of large marine species like marlins, tuna, and dorado. These lines must offer high tensile strength, excellent abrasion resistance, and reliable knot strength to withstand the challenges of deep-sea fishing.</p>

@@ -156,7 +156,7 @@ export default function Packages() {
                       <CardHeader>
                         <CardTitle className="flex text-gray-800 items-center gap-2">
                           <Calendar className="h-5 w-5" />
-                          {days} Days Package
+                          {days} Fishing Days Package | {days+1} nights
                         </CardTitle>
                         <CardDescription>
                           For {selectedAnglers} anglers/boat

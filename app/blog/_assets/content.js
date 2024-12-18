@@ -129,6 +129,170 @@ const styles = {
 // All the blog articles data display in the /blog/[articleId].js pages.
 export const articles = [
   {
+    slug: "hooked-on-adventure-exploring-deep-sea-fishing-in-brazils-rich-waters",
+    title: "Hooked on Adventure: Exploring Deep Sea Fishing in Brazil’s Rich Waters",
+    description: "Blog post about deep sea fishing brazil",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-18",
+    
+    content: (
+      <>
+        <h1>Hooked on Adventure: Exploring Deep Sea Fishing in Brazil’s Rich Waters</h1>
+
+<p>Brazil offers some of the most exhilarating deep sea fishing experiences in the world. From the vibrant coastal regions of Bahia to the diverse marine ecosystems, anglers can expect an unforgettable adventure. Whether you&apos;re a seasoned fisherman or a first-time angler, the opportunities for <strong>deep sea fishing Brazil</strong> are endless.</p>
+
+<h3><strong>Why Choose Brazil for Deep Sea Fishing?</strong></h3>
+<p>Brazil&apos;s extensive coastline provides access to a variety of fishing grounds teeming with diverse species. The warm Atlantic waters are home to marlins, tunas, dorado, and many other prized game fish. The combination of favorable climate, skilled local guides, and top-notch fishing facilities makes Brazil an ideal destination for deep sea fishing enthusiasts.</p>
+
+<h3><strong>Top Species to Target in Brazilian Waters</strong></h3>
+<p>When it comes to <strong>deep sea fishing Brazil</strong>, anglers can look forward to pursuing some of the most sought-after species. Blue Marlin, known for their size and fighting spirit, are a favorite among sport fishermen. Additionally, the waters are rich with yellowfin tuna, sailfish, and king mackerel, providing ample opportunities for a successful catch.</p>
+
+<h3><strong>Best Time to Go Deep Sea Fishing in Brazil</strong></h3>
+<p>The Brazilian fishing season varies by region, but generally, the best months for deep sea fishing run from September to April. During this period, the marine life is abundant, and the weather conditions are ideal for offshore excursions. Planning your trip during these months increases your chances of encountering the big game fish Brazil is famous for.</p>
+
+<h3><strong>Beyond Fishing: Activities for Non-Anglers</strong></h3>
+<p>For those traveling with family or friends who might not be interested in fishing, Brazil offers a plethora of activities. From exhilarating paragliding experiences over stunning landscapes to exploring vibrant coral reefs through scuba diving, there’s something for everyone. Excursions to nearby islands and cultural tours provide a well-rounded vacation experience.</p>
+
+<h3><strong>Choosing the Right Lodge for Your Fishing Adventure</strong></h3>
+<p>Opting for a reputable fishing lodge can significantly enhance your <strong>deep sea fishing Brazil</strong> experience. <a href="https://www.nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> offers top-tier accommodations, expert guides, and all the amenities you need for a comfortable and successful trip. Their commitment to providing exceptional service ensures that every guest has a memorable stay.</p>
+
+<h3><strong>Tips for a Successful Deep Sea Fishing Trip</strong></h3>
+<p>To make the most of your deep sea fishing adventure in Brazil, consider the following tips:</p>
+<ul>
+  <li>Pack appropriate gear and clothing for varying sea conditions.</li>
+  <li>Research the best fishing spots and seasons before your trip.</li>
+  <li>Hire experienced local guides who know the waters.</li>
+  <li>Stay hydrated and protect yourself from the sun.</li>
+  <li>Respect the marine environment and practice sustainable fishing.</li>
+</ul>
+
+<h3><strong>Embark on Your Deep Sea Fishing Journey in Brazil</strong></h3>
+<p>Embarking on a deep sea fishing trip in Brazil promises excitement, challenge, and the chance to connect with nature in a unique way. Whether you&apos;re chasing the legendary Blue Marlin or simply enjoying the beauty of Brazil&apos;s coastline, the experience is sure to be unforgettable. Start planning your adventure today and discover why Brazil is a top destination for deep sea fishing enthusiasts around the world.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "hooked-on-adventure-ultimate-marlin-fishing-charters-in-bahiaaposs-arraial-dajuda",
+    title: "Hooked on Adventure: Ultimate Marlin Fishing Charters in Bahia's Arraial d'Ajuda",
+    description: "Blog post about marlin fishing charters",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-18",
+    
+    content: (
+      <>
+        <h1>Hooked on Adventure: Ultimate Marlin Fishing Charters in Bahia&apos;s Arraial d&apos;Ajuda</h1>
+
+<p>Embark on an unforgettable journey with our <strong><a href="https://nervousmarlin.com" className="font-bold underline">marlin fishing charters</a></strong> in the stunning waters of Arraial d&apos;Ajuda, Bahia. Whether you&apos;re an experienced angler or a passionate beginner, our expertly guided charters promise an exhilarating experience that combines the thrill of the catch with the beauty of Brazil&apos;s coastal paradise.</p>
+
+<h3><strong>Why Choose Marlin Fishing Charters in Arraial d&apos;Ajuda</strong></h3>
+<p>Arraial d&apos;Ajuda is renowned for its rich marine biodiversity, making it a prime destination for <strong>marlin fishing charters</strong>. The Gulf of Mexico waters here are teeming with blue and white marlin, offering ample opportunities for anglers to reel in these majestic creatures. Our charters are equipped with state-of-the-art fishing gear and staffed by seasoned professionals who know the best spots and techniques to ensure a successful outing.</p>
+
+<h3><strong>What to Expect on a Marlin Fishing Charter</strong></h3>
+<p>From the moment you board our <strong><a href="https://nervousmarlin.com" className="font-bold underline">marlin fishing charters</a></strong>, you&apos;ll be immersed in a day of adventure and excitement. Our itineraries are designed to maximize your chances of catching marlin while providing a comfortable and enjoyable experience. Expect pristine waters, expert guidance, and a supportive community of fellow fishing enthusiasts.</p>
+
+<h3><strong>Beyond Fishing: Exciting Activities for Everyone</strong></h3>
+<p>At <strong><a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a></strong>, we cater to both anglers and non-anglers alike. While our <strong>marlin fishing charters</strong> are the highlight for fishing enthusiasts, we also offer a variety of activities such as paragliding, scuba diving, and scenic excursions. Whether you&apos;re looking to explore the underwater world or soar above the breathtaking landscape, there&apos;s something for everyone to enjoy.</p>
+
+<h3><strong>Book Your Marlin Fishing Charter Today</strong></h3>
+<p>Don&apos;t miss out on the adventure of a lifetime. Book your <strong>marlin fishing charter</strong> with <strong><a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a></strong> and discover why Arraial d&apos;Ajuda is a top destination for marlin fishing in Bahia. Our dedicated team is here to ensure you have an unforgettable experience on the water, creating memories that will last a lifetime.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "unforgettable-big-game-fishing-adventures-in-south-america",
+    title: "Unforgettable Big Game Fishing Adventures in South America",
+    description: "Blog post about Big game fishing in south america",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-18",
+    
+    content: (
+      <>
+        <h1>Unforgettable Big Game Fishing Adventures in South America</h1>
+
+<p>Embark on an exhilarating journey with <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a>, your gateway to the best big game fishing in South America. From the azure waters of Bahia to the vibrant marine ecosystems, South America offers unparalleled opportunities for anglers seeking the ultimate fishing experience.</p>
+
+<h3><strong>Top Destinations for Big Game Fishing</strong></h3>
+<p>South America boasts some of the most renowned fishing spots in the world. Arraial d&apos;Ajuda in Bahia, where <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> is located, serves as a perfect base for exploring rich fishing grounds. Other hotspots include the coastal regions of Rio de Janeiro and the expansive waters of São Paulo, each offering unique challenges and abundant catches.</p>
+
+<h3><strong>Prime Species to Target</strong></h3>
+<p>Big game fishing in South America allows anglers to target a diverse array of species. From the majestic Blue Marlin and elusive Sailfish to powerful Tuna and formidable Sharks, the region&apos;s waters teem with opportunities for thrilling encounters and memorable catches.</p>
+
+<h3><strong>Why Choose South America for Your Fishing Expedition</strong></h3>
+<p>South America is a premier destination for big game fishing due to its favorable climate, extensive coastlines, and rich marine biodiversity. The region&apos;s experienced local guides and top-notch fishing facilities ensure that every angler, whether novice or expert, has an exceptional experience.</p>
+
+<h3><strong>Experience the Best at <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> Fishing Lodge</strong></h3>
+<p>At <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a>, we specialize in providing unparalleled big game fishing adventures. Our lodge offers state-of-the-art equipment, expert guides, and personalized services to make your fishing trip both successful and comfortable.</p>
+
+<h3><strong>More Than Just Fishing: Explore Bahian Paradise</strong></h3>
+<p>While big game fishing is the highlight, <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> also caters to non-anglers with a variety of exciting activities. Enjoy exhilarating paragliding sessions, explore vibrant coral reefs through scuba diving, or embark on scenic excursions to fully experience the beauty of Bahia.</p>
+
+<h3><strong>Plan Your Big Game Fishing Trip Today</strong></h3>
+<p>Ready to reel in the adventure of a lifetime? Visit <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> to book your big game fishing trip in South America. Discover the perfect blend of thrilling fishing, luxurious accommodations, and unforgettable experiences that await you in the heart of Bahia.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "unleashing-giants-the-biggest-blue-marlin-ever-caught-in-south-america",
+    title: "Unleashing Giants: The Biggest Blue Marlin Ever Caught in South America",
+    description: "Blog post about Biggest Blue Marlin ever caught in South America",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-18",
+    
+    content: (
+      <>
+        <h1>Unleashing Giants: The Biggest Blue Marlin Ever Caught in South America</h1>
+
+<p>South America boasts some of the most vibrant and diverse marine ecosystems, making it a premier destination for sport fishing enthusiasts. Among the ocean&apos;s titans, the Blue Marlin stands out not only for its sheer size but also for its unmatched battling prowess. In the heart of Bahia, Brazil, <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> has become synonymous with memorable fishing experiences, including the legendary tale of the biggest Blue Marlin ever caught in South America.</p>
+
+<h3><strong>The Epic Battle: A Marlin for the Ages</strong></h3>
+<p>The story of the biggest Blue Marlin ever caught in South America is one that echoes through the fishing community. This colossal marlin weighed an astonishing [insert weight], making it the heaviest recorded in these waters. The angler, armed with skill, patience, and the right equipment, engaged in an intense battle that lasted several hours, showcasing the true spirit of sport fishing.</p>
+
+<h3><strong>Why Arraial d&apos;Ajuda is a Marlin Magnet</strong></h3>
+<p>Arraial d&apos;Ajuda, located in the stunning region of Bahia, provides the perfect backdrop for such extraordinary catches. The convergence of warm currents and abundant marine life creates ideal conditions for Blue Marlins to thrive. At <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a>, fishing enthusiasts have access to prime spots that have proven to be hotspots for record-breaking marlins.</p>
+
+<h3><strong>Beyond the Big Catch: Experiences at Nervous Marlin</strong></h3>
+<p>While the allure of landing the biggest Blue Marlin ever caught in South America is a significant draw, <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> offers a plethora of activities for all guests. Whether you’re an avid angler or someone seeking adventure, the lodge provides excursions, paragliding, scuba diving, and more, ensuring an unforgettable stay in Bahia.</p>
+
+<h3><strong>Join the Legacy</strong></h3>
+<p>Becoming part of the story behind the biggest Blue Marlin ever caught in South America is within your reach. <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> invites you to experience the thrill of sport fishing in one of the world’s most beautiful settings. Whether you’re chasing marlin or exploring the vibrant local culture, your adventure awaits.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "discover-the-ultimate-sport-fishing-experience-in-south-america-at-nervous-marlin",
+    title: "Discover the Ultimate Sport Fishing Experience in South America at Nervous Marlin",
+    description: "Blog post about Sport fishing South America",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-18",
+    
+    content: (
+      <>
+        <h1>Discover the Ultimate Sport Fishing Experience in South America at Nervous Marlin</h1>
+
+<p>South America is renowned for its diverse and vibrant fishing opportunities, making it a top destination for sport fishing enthusiasts worldwide. Among the premier spots lies Arraial d&apos;Ajuda in Bahia, Brazil, home to the exceptional <strong><h3>Sport Fishing South America</h3></strong> experience offered by Nervous Marlin lodge.</p>
+
+<strong><h3>Why Choose South America for Sport Fishing?</h3></strong>
+<p>The vast Atlantic waters off the coast of South America are teeming with a variety of game fish, including the majestic blue marlin, sailfish, and dorado. The region&apos;s rich marine biodiversity and favorable climate create perfect conditions for both novice and seasoned anglers seeking thrilling adventures and unforgettable catches.</p>
+
+<strong><h3>Experience Excellence at Nervous Marlin Lodge</h3></strong>
+<p>Nervous Marlin stands out as a top choice for those seeking the best <strong>Sport fishing South America</strong> has to offer. With expert guides, state-of-the-art equipment, and a deep understanding of local fishing spots, Nervous Marlin ensures an unparalleled fishing experience. After a day on the water, guests can relax in comfortable accommodations and enjoy the warm hospitality that the lodge is known for.</p>
+
+<strong><h3>Beyond Fishing: Activities for Everyone</h3></strong>
+<p>While Nervous Marlin is a haven for anglers, it also caters to non-anglers with a variety of exciting activities. From exhilarating paragliding adventures and immersive scuba diving experiences to cultural excursions exploring the beauty of Bahia, there’s something for everyone to enjoy. This makes Nervous Marlin the perfect destination for families and groups with diverse interests.</p>
+
+<strong><h3>Unforgettable Memories Await</h3></strong>
+<p>Embarking on a sport fishing trip in South America with Nervous Marlin means creating memories that will last a lifetime. Whether you&apos;re chasing the thrill of the catch or exploring the natural wonders of Brazil, Nervous Marlin provides a comprehensive and tailored experience that caters to all your needs.</p>
+
+<p>Ready to embark on your next adventure? Visit <a href="https://nervousmarlin.com" className="font-bold underline">Nervous Marlin</a> today to learn more about their offerings and book your unforgettable sport fishing getaway in South America.</p>
+      </>
+    ),
+  },
+
+  {
     slug: "experience-the-thrill-of-trophy-marlin-fishing-in-bahia-brazil",
     title: "Experience the Thrill of Trophy Marlin Fishing in Bahia, Brazil",
     description: "Blog post about Trophy marlin fishing",

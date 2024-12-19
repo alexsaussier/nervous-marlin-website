@@ -247,7 +247,7 @@ export const articles = [
 
   {
     slug: "fishing-in-the-vitoria-region-an-angleraposs-ultimate-guide",
-    title: "Fishing in the Vitoria Region: An Angler&apos;s Ultimate Guide",
+    title: "Fishing in the Vitoria Region: An Angler's Ultimate Guide",
     description: "Blog post about Fishing in the Vitoria region",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-19",

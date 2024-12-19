@@ -139,7 +139,7 @@ export const articles = [
       <>
         <h1>Deep Sea Fishing in South America: Explore the Thrills at Arraial d&apos;Ajuda</h1>
 
-<p>Embarking on a deep sea fishing adventure in South America offers unparalleled excitement and unforgettable memories. Nestled in the picturesque region of Arraial d&apos;Ajuda, Bahia, <a href="https://nervousmarlin.com" style="text-decoration: underline; font-weight: bold;">Nervous Marlin</a> provides the perfect base for anglers and adventure seekers alike to experience the best that this vibrant area has to offer.</p>
+<p>Embarking on a deep sea fishing adventure in South America offers unparalleled excitement and unforgettable memories. Nestled in the picturesque region of Arraial d&apos;Ajuda, Bahia, <a href="https://nervousmarlin.com" className="underline font-bold">Nervous Marlin</a> provides the perfect base for anglers and adventure seekers alike to experience the best that this vibrant area has to offer.</p>
 
 <h3><strong>Why Choose Deep Sea Fishing in South America?</strong></h3>
 <p>South America boasts some of the richest and most diverse marine ecosystems in the world, making it a top destination for deep sea fishing enthusiasts. The abundance of large game fish, including Blue Marlins, sailfish, and tuna, ensures that every fishing trip is packed with excitement and challenge. The warm, clear waters and consistent weather conditions further enhance the fishing experience, attracting anglers from around the globe.</p>

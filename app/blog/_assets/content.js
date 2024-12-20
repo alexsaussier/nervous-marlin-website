@@ -130,7 +130,7 @@ const styles = {
 export const articles = [
   {
     slug: "embark-on-a-luxury-fishing-vacation-at-bahiaaposs-premier-marlin-lodge",
-    title: "Embark on a Luxury Fishing Vacation at Bahia&apos;s Premier Marlin Lodge",
+    title: "Embark on a Luxury Fishing Vacation at Bahia's Premier Marlin Lodge",
     description: "Blog post about Luxury fishing vacation",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-20",

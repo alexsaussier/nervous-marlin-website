@@ -129,6 +129,132 @@ const styles = {
 // All the blog articles data display in the /blog/[articleId].js pages.
 export const articles = [
   {
+    slug: "embark-on-a-luxury-fishing-vacation-at-bahiaaposs-premier-marlin-lodge",
+    title: "Embark on a Luxury Fishing Vacation at Bahia&apos;s Premier Marlin Lodge",
+    description: "Blog post about Luxury fishing vacation",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-20",
+    
+    content: (
+      <>
+        <h1>Embark on a Luxury Fishing Vacation at Bahia&apos;s Premier Marlin Lodge</h1>
+
+<p>When it comes to blending adventure with comfort, a luxury fishing vacation stands out as an exceptional choice. For those seeking to experience the thrill of Blue Marlin fishing in a serene and upscale environment, <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> in Arraial d&apos;Ajuda, Bahia, Brazil offers the perfect getaway.</p>
+
+<h3><strong>Unmatched Fishing Opportunities</strong></h3>
+<p>A luxury fishing vacation at <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> provides access to some of the richest fishing waters in the Atlantic. Expert guides and state-of-the-art gear ensure that both novice and experienced anglers have the support they need to reel in impressive catches. The lodge&apos;s commitment to sustainable fishing practices means you can enjoy your adventure responsibly.</p>
+
+<h3><strong>Luxurious Accommodations</strong></h3>
+<p>After a day on the water, return to the comfort and elegance of <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a>&apos;s accommodations. Each suite is designed with your utmost comfort in mind, featuring modern amenities, spacious layouts, and breathtaking views of the Atlantic Ocean. Relax in style and prepare for another day of excitement on your luxury fishing vacation.</p>
+
+<h3><strong>Activities for Every Guest</strong></h3>
+<p>Not just for anglers, a luxury fishing vacation at <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> offers a variety of activities to ensure every guest has a memorable stay. Explore the vibrant underwater world with scuba diving, feel the rush of paragliding over stunning landscapes, or take a leisurely excursion to discover the rich culture and natural beauty of Arraial d&apos;Ajuda.</p>
+
+<h3><strong>Exceptional Service</strong></h3>
+<p>The staff at <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> are dedicated to providing personalized service that caters to your individual needs. From arranging fishing trips to organizing excursions and ensuring your accommodations are perfect, their attention to detail makes all the difference in delivering a truly luxury fishing vacation.</p>
+
+<h3><strong>Discover Arraial d&apos;Ajuda</strong></h3>
+<p>Set in the charming town of Arraial d&apos;Ajuda, Bahia, <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a>&apos;s location allows you to immerse yourself in the vibrant local culture and stunning natural landscapes. Whether you&apos;re savoring local cuisine, exploring pristine beaches, or enjoying the nightlife, your luxury fishing vacation is enriched by everything Bahia has to offer.</p>
+
+<p>Ready to plan your luxury fishing vacation? Visit <a href="https://nervousmarlin.com"><strong><u>Nervous Marlin</u></strong></a> today to learn more and book your unforgettable escape.</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "the-ultimate-guide-to-choosing-the-perfect-big-game-fishing-rod-for-your-nervous-marlin-adventure",
+    title: "The Ultimate Guide to Choosing the Perfect Big Game Fishing Rod for Your Nervous Marlin Adventure",
+    description: "Blog post about big game fihsing rod",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-20",
+    
+    content: (
+      <>
+        <h1>The Ultimate Guide to Choosing the Perfect Big Game Fishing Rod for Your Nervous Marlin Adventure</h1>
+
+<p>Embarking on a big game fishing expedition is a thrilling experience that requires the right equipment to ensure success and enjoyment. At <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong>, a premier Blue Marlin fishing lodge located in the stunning Arraial d&apos;Ajuda, Bahia, Brazil, selecting the perfect <strong>big game fishing rod</strong> can make all the difference in your fishing adventure.</p>
+
+<h3><strong>Why the Right Big Game Fishing Rod Matters</strong></h3>
+
+<p>A <strong>big game fishing rod</strong> is more than just a tool; it’s an extension of your skill and strategy on the water. Whether you’re targeting marlins, tuna, or other large species, the right rod provides the necessary strength, flexibility, and sensitivity to handle powerful fish and ensure a memorable catch.</p>
+
+<h3><strong>Key Features to Look for in a Big Game Fishing Rod</strong></h3>
+
+<p>When selecting a <strong>big game fishing rod</strong>, consider the following features to enhance your fishing experience:</p>
+
+<ul>
+  <li><strong>Strength and Durability:</strong> Opt for rods made from high-quality materials like graphite or fiberglass, which offer the strength needed to battle large fish while remaining lightweight for ease of handling.</li>
+  <li><strong>Length and Power:</strong> The length of the rod affects casting distance and control. Longer rods provide better leverage for hooking and reeling in powerful fish, while the power rating indicates the rod’s ability to handle heavy lines and large lures.</li>
+  <li><strong>Sensitivity:</strong> A sensitive rod allows you to detect even the slightest bites, giving you a better chance of hooking elusive big game fish.</li>
+  <li><strong>Action:</strong> The action of the rod refers to how much it bends when pressure is applied. Fast action rods bend mostly at the tip, providing quick hooksets, while medium to slow action rods offer more flexibility and are better suited for fighting larger, stronger fish.</li>
+</ul>
+
+<h3><strong>Top Big Game Fishing Rods Recommended by Experts</strong></h3>
+
+<p>At <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong>, our experienced guides recommend several top-notch <strong>big game fishing rods</strong> that have proven their worth in the challenging waters of Bahia:</p>
+
+<ul>
+  <li><strong>Shimano Terez Professional:</strong> Known for its exceptional sensitivity and strength, this rod is perfect for anglers targeting marlins and other large species.</li>
+  <li><strong>Daiwa Saltist:</strong> Combining durability with excellent casting performance, the Saltist is ideal for long-range fishing and battling powerful fish.</li>
+  <li><strong>Penn International VI:</strong> This versatile rod offers a great balance of power and sensitivity, making it a favorite among seasoned big game anglers.</li>
+</ul>
+
+<h3><strong>Enhancing Your Experience at Nervous Marlin</strong></h3>
+
+<p>Choosing the right <strong>big game fishing rod</strong> is just one aspect of ensuring a successful and enjoyable fishing trip. At <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong>, we provide a supportive environment where seasoned anglers and beginners alike can thrive. Our state-of-the-art facilities, knowledgeable staff, and prime fishing locations in Arraial d&apos;Ajuda make us the ideal destination for your next big game fishing adventure.</p>
+
+<h3><strong>Non-Angling Activities to Complement Your Fishing Trip</strong></h3>
+
+<p>While the focus is on big game fishing, <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong> also offers a variety of activities for those who prefer other adventures. Enjoy thrilling excursions, paragliding over breathtaking landscapes, or explore the vibrant underwater world through scuba diving. These activities ensure that every guest has a memorable and fulfilling experience, regardless of their interests.</p>
+
+<h3><strong>Preparing for Your Big Game Fishing Adventure</strong></h3>
+
+<p>To make the most of your stay at <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong>, equip yourself with the right <strong>big game fishing rod</strong> and gear. Our knowledgeable team is always available to offer advice and recommendations tailored to your specific needs and preferences. Whether you’re a seasoned angler or trying big game fishing for the first time, we ensure you have everything you need for an unforgettable adventure.</p>
+
+<h3><strong>Book Your Trip Today</strong></h3>
+
+<p>Ready to experience the thrill of big game fishing in one of Brazil’s most beautiful locations? Visit <strong><u><a href="https://nervousmarlin.com">Nervous Marlin</a></u></strong> to book your stay and start planning your ultimate fishing adventure. With the perfect <strong>big game fishing rod</strong> in hand and a team dedicated to your success, your next big catch is just a cast away!</p>
+      </>
+    ),
+  },
+
+  {
+    slug: "experience-the-ultimate-blue-marlin-fishing-charter-in-south-america",
+    title: "Experience the Ultimate Blue Marlin Fishing Charter in South America",
+    description: "Blog post about blue marlin fishing charter south america",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2024-12-20",
+    
+    content: (
+      <>
+        <h1>Experience the Ultimate Blue Marlin Fishing Charter in South America</h1>
+
+<p>Embark on an unforgettable adventure with a <strong><h3>Blue Marlin Fishing Charter South America</h3></strong> and discover why Arraial d&apos;Ajuda, Bahia, Brazil is the premier destination for sportfishing enthusiasts. Whether you&apos;re a seasoned angler or a first-time fisherman, the vibrant waters of South America offer unparalleled opportunities to catch the majestic Blue Marlin.</p>
+
+<strong><h3>Why Choose South America for Blue Marlin Fishing?</h3></strong>
+
+<p>South America boasts some of the richest marine ecosystems, providing the perfect habitat for Blue Marlin. The consistent warm currents and abundant baitfish create ideal conditions for these powerful game fish, making the region a hotspot for fishing charters. The combination of skilled local guides and top-notch equipment ensures that your fishing experience is both successful and safe.</p>
+
+<strong><h3>Discover Arraial d&apos;Ajuda, Bahia</h3></strong>
+
+<p>Located in the heart of Bahia, Arraial d&apos;Ajuda is renowned for its stunning beaches, vibrant culture, and world-class fishing opportunities. The region&apos;s pristine waters are teeming with Blue Marlin, offering anglers the chance to test their skills against one of the ocean&apos;s most formidable predators. Beyond fishing, Arraial d&apos;Ajuda provides a unique blend of relaxation and adventure, making it an ideal destination for all types of travelers.</p>
+
+<strong><h3>Your Ideal Fishing Experience at <a href="https://nervousmarlin.com" className="underline font-bold">Nervous Marlin</a></h3></strong>
+
+<p><strong><h3>Nervous Marlin</h3></strong> is your gateway to an exceptional Blue Marlin fishing charter in South America. Our lodge in Arraial d&apos;Ajuda offers unparalleled access to the best fishing spots, ensuring memorable catches and exhilarating battles with Blue Marlin. Our experienced crew is dedicated to providing personalized service, catering to both anglers and non-anglers alike.</p>
+
+<strong><h3>Activities for Everyone</h3></strong>
+
+<p>At <strong><h3><a href="https://nervousmarlin.com" className="underline font-bold">Nervous Marlin</a></h3></strong>, we understand that not everyone is passionate about fishing. That&apos;s why we offer a variety of activities to ensure everyone in your group has a fantastic time. From scenic excursions and paragliding to scuba diving and exploring the local culture, there&apos;s something for everyone to enjoy.</p>
+
+<strong><h3>Plan Your Trip Today</h3></strong>
+
+<p>Ready to embark on the ultimate Blue Marlin fishing charter in South America? Visit <strong><h3><a href="https://nervousmarlin.com" className="underline font-bold">nervousmarlin.com</a></h3></strong> to learn more about our packages and book your unforgettable fishing adventure today. Experience the thrill of Blue Marlin fishing in the breathtaking waters of Arraial d&apos;Ajuda with Nervous Marlin, where your dream fishing trip becomes a reality.</p>
+      </>
+    ),
+  },
+
+  {
     slug: "deep-sea-fishing-in-south-america-explore-the-thrills-at-arraial-dajuda",
     title: "Deep Sea Fishing in South America: Explore the Thrills at Arraial d'Ajuda",
     description: "Blog post about deep sea fishing south america",

@@ -172,13 +172,13 @@ export const articles = [
       <>
         <h1>Experience the Ultimate Blue Marlin Fishing Charter in South America</h1>
 
-<p>Embark on an unforgettable adventure with a <strong><a href="https://nervousmarlin.com" className="underline font-bold">Blue Marlin Fishing Charter in South America</a></strong>, hosted by Nervous Marlin in the picturesque Arraial d'Ajuda, Bahia, Brazil. Whether you're an avid angler or a first-time fisher, South America's vibrant waters offer the perfect backdrop for an exhilarating fishing experience.</p>
+<p>Embark on an unforgettable adventure with a <strong><a href="https://nervousmarlin.com" className="underline font-bold">Blue Marlin Fishing Charter in South America</a></strong>, hosted by Nervous Marlin in the picturesque Arraial d&apos;Ajuda, Bahia, Brazil. Whether you&apos;re an avid angler or a first-time fisher, South America&apos;s vibrant waters offer the perfect backdrop for an exhilarating fishing experience.</p>
 
 <h3><strong>Why Choose a Blue Marlin Fishing Charter?</strong></h3>
 <p>The Blue Marlin is renowned for its size, strength, and acrobatic leaps, making it a prized catch for anglers worldwide. A fishing charter dedicated to Blue Marlin in South America promises not only the thrill of the chase but also the opportunity to connect with nature in one of the most beautiful regions on the planet.</p>
 
-<h3><strong>The Ideal Location: Arraial d'Ajuda, Bahia</strong></h3>
-<p>Located in the heart of Bahia, Arraial d'Ajuda offers pristine coastal waters teeming with Blue Marlin. The area's unique geography provides ideal conditions for these majestic fish, ensuring that your fishing charter is both productive and memorable.</p>
+<h3><strong>The Ideal Location: Arraial d&apos;Ajuda, Bahia</strong></h3>
+<p>Located in the heart of Bahia, Arraial d&apos;Ajuda offers pristine coastal waters teeming with Blue Marlin. The area&apos;s unique geography provides ideal conditions for these majestic fish, ensuring that your fishing charter is both productive and memorable.</p>
 
 <h3><strong>What to Expect on Your Charter</strong></h3>
 <p>Your Blue Marlin Fishing Charter with Nervous Marlin includes expert guidance from seasoned local anglers who know the best spots and techniques to maximize your catch. Our top-of-the-line equipment and comfortable vessels ensure a safe and enjoyable experience for all participants.</p>

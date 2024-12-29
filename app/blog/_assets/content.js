@@ -130,7 +130,7 @@ const styles = {
 export const articles = [
   {
     slug: "unforgettable-deep-sea-fishing-adventures-in-arraial-daposajuda-brazil",
-    title: "Unforgettable Deep Sea Fishing Adventures in Arraial d&apos;Ajuda, Brazil",
+    title: "Unforgettable Deep Sea Fishing Adventures in Arraial d'Ajuda, Brazil",
     description: "Blog post about deep sea fishing brazil arraial d'ajuda",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-28",

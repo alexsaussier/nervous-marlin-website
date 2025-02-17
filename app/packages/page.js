@@ -25,22 +25,19 @@ export default function Packages() {
     const [selectedAnglers, setSelectedAnglers] = useState(2)
     const anglerPrices = {
         2: {
-          3: 5445,
-          4: 6544,
-          5: 7700,
-          6: 8926,
+          3: 4200,
+          4: 5150,
+          6: 6650,
         },
         3: {
-          3: 4734,
-          4: 5640,
-          5: 6435,
-          6: 7422,
+          3: 3880,
+          4: 4770,
+          6: 5580,
         },
         4: {
-          3: 4266,
-          4: 5148,
-          5: 5945,
-          6: 6690,
+          3: 3570,
+          4: 3990,
+          6: 4980,
         },
       }
 
@@ -151,7 +148,7 @@ export default function Packages() {
                   </Button>
                 </div>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-                  {[3, 4, 5, 6].map((days) => (
+                  {[3, 4, 6].map((days) => (
                     <Card key={days}>
                       <CardHeader>
                         <CardTitle className="flex text-gray-800 items-center gap-2">

@@ -71,7 +71,7 @@ export default function Packages() {
                 </CardHeader>
                 <CardContent className="grid gap-4">
                   <div className="flex items-center gap-2">
-                    <span className="text-2xl font-bold">$589</span>
+                    <span className="text-2xl font-bold">$499</span>
                     <span className="text-gray-500">per person/day</span>
                   </div>
                   <div className="grid gap-2">

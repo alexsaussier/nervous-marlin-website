@@ -82,7 +82,7 @@ export default function Fishing() {
                     Our local team boasts decades of combined experience in the waters off Bahia, Brazil.
                     Your captain will be Robson, he has been living in Arraial d&apos;Ajuda for 32 years and fishing Blue Marlin for 26 years.
                     He is greatly experienced and has a lot of stories to tell about his adventures.
-                    His team&apos;s knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior ensures you&apos;re always in the right spot at the right time.
+                    His team&apos;s knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior is unique in the region.
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We are conscious of the need to conserve the fish that we love to pursue. In line with the

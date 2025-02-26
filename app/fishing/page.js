@@ -92,7 +92,7 @@ export default function Fishing() {
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We provide the finest, state-of-the-art fishing equipment. You can find more information about the boat and equipment slightly below on this page.
                   </p>                  
-                </div>
+                </div> 
               </div>
             </div>
           </section>

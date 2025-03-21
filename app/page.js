@@ -14,9 +14,7 @@ import Night1 from '@/public/images/downtown/night1.jpeg';
 import Link from 'next/link';
 import logoBlack from '@/public/assets/logoBlack.png';
 import logoWhite from '@/public/assets/logoWhite.png';
-
 import logoBlue from '@/public/assets/logoBlue.png';
-
 
 const activities = [
   { name: 'Private Excursions', 
@@ -51,7 +49,6 @@ const activities = [
   }
 ];
 
-
 export default function Home() {
   return (
     
@@ -66,29 +63,66 @@ export default function Home() {
             objectFit="cover"
             className="scale-[1.2] translate-x-[10%]"
           />
+          {/* Darker overlay for better text readability - increased opacity from 50% to 65% */}
+          <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         </div>
-        <div className="absolute inset-0 bg-black bg-opacity-35 flex flex-col items-center text-white px-4 py-28 lg:px-24">
-          {/* Logo on the left */}
-          <div className="pb-8 md:mb-8">
+        <div className="absolute inset-0 flex flex-col items-center text-white px-4 py-24 lg:px-24">
+          {/* Logo - made even smaller */}
+          <div className="pb-4 md:mb-4">
             <Image
               src={logoWhite}
               alt="Nervous Marlin Logo"
-              className="object-contain w-[250px] md:w-[350px]"
+              className="object-contain w-[150px] md:w-[200px]"
             />
           </div>
           
-          {/* Text on the right */}
-          <div className="text-center ">
-            <h1 className="text-4xl font-bold mb-4">Discover Exceptional Blue Marlin Fishing in Bahia, Brazil</h1>
-            <p className="text-lg mb-8">Experience the world-renowned fishing coast of Brazil</p>
-            <div className="flex justify-center space-x-4">
-              <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300">
-                Contact Us
-              </a>
-              <a href="/book-now" className="bg-white border-2 border-transparent text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-800 hover:border-sky-200 transition duration-300">
-                Book Now
-              </a>
-            </div>
+        
+          
+          {/* Two feature squares */}
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 w-full max-w-5xl mb-8">
+            {/* Fishing Square - with link to /fishing */}
+            <Link href="/fishing" className="w-full md:w-1/2">
+              <div className="aspect-square md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+                <Image
+                  src={Fishing7}
+                  alt="Blue Marlin Fishing"
+                  fill={true}
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil's coast</p>
+                </div>
+              </div>
+            </Link>
+            
+            {/* Non-Angler Activities Square - with link to /activities */}
+            <Link href="/activities" className="w-full md:w-1/2">
+              <div className="aspect-square md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+                <Image
+                  src={Paragliding1}
+                  alt="Non-Angler Activities"
+                  fill={true}
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
+                </div>
+              </div>
+            </Link>
+          </div>
+          
+          {/* Buttons centered below the squares */}
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300">
+              Contact Us
+            </a>
+            <a href="/book-now" className="bg-white border-2 border-transparent text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-800 hover:border-sky-200 transition duration-300">
+              Book Now
+            </a>
           </div>
         </div>
       </section>
@@ -96,7 +130,7 @@ export default function Home() {
       {/* Blue Marlin Fishing Section */}
       <section id="blue-marlin-fishing" className="py-16 bg-gray-200 text-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Blue Marlin Fishing on the coast of Bahia</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Learn more about our Blue Marlin Fishing</h2>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <p className="text-xl mb-8">Experience the thrill of catching the majestic Blue Marlin in the waters of Bahia, Brazil. Our expert guides and state-of-the-art equipment ensure a memorable fishing adventure.</p>
@@ -125,7 +159,12 @@ export default function Home() {
       {/* Activities Section */}
       <section className="py-16 bg-white text-gray-800">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Everyone</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Non-Anglers</h2>
+              <p className="text-lg text-center max-w-4xl mx-auto mb-8 text-gray-700">
+                We've curated a diverse range of activities to ensure everyone has an unforgettable experience in Bahia. 
+                Whether you're traveling with family, friends, or partners who prefer adventures beyond fishing, our non-angler activities provide the perfect complement to our world-class fishing excursions.
+                Activities will be catered to your preferences.
+              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {activities.map((activity, index) => (
                   <Link href={`/activities/${activity.slug}`} key={index}>
@@ -141,8 +180,8 @@ export default function Home() {
                       </div>
                       <div className="p-6 text-gray-800">
                         <h3 className="text-xl font-bold mb-2 transition-colors duration-300 group-hover:text-blue-800">{activity.name}</h3>
-                        <p className="text-lg font-semibold transition-opacity duration-300 line-clamp-3">
-                          {activity.description}
+                        <p className="text-lg italic transition-opacity duration-300 line-clamp-3">
+                          Learn more
                         </p>
                       </div>
                     </div>

@@ -180,9 +180,7 @@ export default function Home() {
                       </div>
                       <div className="p-6 text-gray-800">
                         <h3 className="text-xl font-bold mb-2 transition-colors duration-300 group-hover:text-blue-800">{activity.name}</h3>
-                        <p className="text-lg italic transition-opacity duration-300 line-clamp-3">
-                          Learn more
-                        </p>
+                        
                       </div>
                     </div>
                   </Link>

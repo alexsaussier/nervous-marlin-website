@@ -92,7 +92,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
                   <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
-                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil's coast</p>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil&apos;s coast</p>
                 </div>
               </div>
             </Link>
@@ -161,8 +161,8 @@ export default function Home() {
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Non-Anglers</h2>
               <p className="text-lg text-center max-w-4xl mx-auto mb-8 text-gray-700">
-                We've curated a diverse range of activities to ensure everyone has an unforgettable experience in Bahia. 
-                Whether you're traveling with family, friends, or partners who prefer adventures beyond fishing, our non-angler activities provide the perfect complement to our world-class fishing excursions.
+                We&apos;ve curated a diverse range of activities to ensure everyone has an unforgettable experience in Bahia. 
+                Whether you are traveling with family, friends, or partners who prefer adventures beyond fishing, our non-angler activities provide the perfect complement to our world-class fishing excursions.
                 Activities will be catered to your preferences.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -82,7 +82,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 w-full max-w-5xl mb-8">
             {/* Fishing Square - with link to /fishing */}
             <Link href="/fishing" className="w-full md:w-1/2">
-              <div className="aspect-square md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
                 <Image
                   src={Fishing7}
                   alt="Blue Marlin Fishing"
@@ -91,15 +91,15 @@ export default function Home() {
                   className="group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
-                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil&apos;s coast</p>
+                  <h2 className="text-xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
+                  <p className="text-white text-xs md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil&apos;s coast</p>
                 </div>
               </div>
             </Link>
             
             {/* Non-Angler Activities Square - with link to /activities */}
             <Link href="/activities" className="w-full md:w-1/2">
-              <div className="aspect-square md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
                 <Image
                   src={Paragliding1}
                   alt="Non-Angler Activities"
@@ -108,19 +108,19 @@ export default function Home() {
                   className="group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
-                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
+                  <h2 className="text-xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
+                  <p className="text-white text-xs md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
                 </div>
               </div>
             </Link>
           </div>
           
           {/* Buttons centered below the squares */}
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="#contact" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300">
+          <div className="flex flex-row justify-center space-x-2 w-full max-w-5xl">
+            <a href="#contact" className="bg-transparent border-2 border-white text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full text-sm sm:text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300 text-center">
               Contact Us
             </a>
-            <a href="/book-now" className="bg-white border-2 border-transparent text-sky-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-sky-200 hover:text-sky-800 hover:border-sky-200 transition duration-300">
+            <a href="/book-now" className="bg-white border-2 border-transparent text-sky-900 px-4 py-2 sm:px-6 sm:py-3 rounded-full text-sm sm:text-lg font-semibold hover:bg-sky-200 hover:text-sky-800 hover:border-sky-200 transition duration-300 text-center">
               Book Now
             </a>
           </div>
@@ -244,6 +244,65 @@ export default function Home() {
           </div>
 
           
+        </div>
+      </section>
+
+      {/* Quick Links Section */}
+      <section className="py-16 bg-white text-gray-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-10 text-center">Discover More</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* About Us Square */}
+            <Link href="/about-us">
+              <div className="aspect-square relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/20">
+                <Image
+                  src={MarlinPhoto2}
+                  alt="About Us"
+                  fill={true}
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">About Us</h2>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">Learn about our team and experience</p>
+                </div>
+              </div>
+            </Link>
+            
+            {/* Location Square */}
+            <Link href="/location">
+              <div className="aspect-square relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/20">
+                <Image
+                  src={Beach2}
+                  alt="Location"
+                  fill={true}
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Location</h2>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">Explore beautiful Bahia, Brazil</p>
+                </div>
+              </div>
+            </Link>
+            
+            {/* Packages Square */}
+            <Link href="/packages">
+              <div className="aspect-square relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/20">
+                <Image
+                  src={Fishing6}
+                  alt="Packages"
+                  fill={true}
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white group-hover:text-blue-200 transition">Packages</h2>
+                  <p className="text-white text-sm md:text-base group-hover:text-blue-50">View our all-inclusive options</p>
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </section>
 

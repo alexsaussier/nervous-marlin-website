@@ -61,7 +61,7 @@ export default function Home() {
             alt="Hero Image"
             fill={true}
             objectFit="cover"
-            className="scale-[1.2] translate-x-[10%] brightness-[1.1] contrast-[0.4] saturate-[0.9]"
+            className="scale-[1.2] translate-x-[10%] brightness-[1.2] contrast-[0.4] saturate-[0.9]"
           />
         </div>
         <div className="relative z-10 flex flex-col items-center text-white px-4 py-24 lg:px-24 min-h-[120vh]">
@@ -87,8 +87,8 @@ export default function Home() {
                   className="group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
-                  <h2 className="text-xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
-                  <p className="text-white text-xs md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil&apos;s coast</p>
+                  <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Blue Marlin & Big Game Fishing in Brazil</h2>
+                  <p className="text-white text-md md:text-base group-hover:text-blue-50">World-class fishing experience on Brazil&apos;s coast</p>
                 </div>
               </div>
             </Link>
@@ -104,8 +104,8 @@ export default function Home() {
                   className="group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
-                  <h2 className="text-xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
-                  <p className="text-white text-xs md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
+                  <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
+                  <p className="text-white text-md md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
                 </div>
               </div>
             </Link>

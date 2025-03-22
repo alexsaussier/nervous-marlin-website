@@ -54,20 +54,18 @@ export default function Home() {
     
     <div className="font-sans">
       {/* Hero Section */}
-      <section className="relative h-screen">
-        <div className="relative w-full h-full overflow-hidden">
+      <section className="relative min-h-[120vh]">
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
           <Image
             src={MarlinPhoto}
             alt="Hero Image"
             fill={true}
             objectFit="cover"
-            className="scale-[1.2] translate-x-[10%]"
+            className="scale-[1.2] translate-x-[10%] brightness-[1.1] contrast-[0.4] saturate-[0.9]"
           />
-          {/* Darker overlay for better text readability - increased opacity from 50% to 65% */}
-          <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         </div>
-        <div className="absolute inset-0 flex flex-col items-center text-white px-4 py-24 lg:px-24">
-          {/* Logo - made even smaller */}
+        <div className="relative z-10 flex flex-col items-center text-white px-4 py-24 lg:px-24 min-h-[120vh]">
+          {/* Logo */}
           <div className="pb-4 md:mb-4">
             <Image
               src={logoWhite}
@@ -76,15 +74,13 @@ export default function Home() {
             />
           </div>
           
-        
-          
-          {/* Two feature squares */}
+          {/* Two feature squares with enhanced shadow for better visibility */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 w-full max-w-5xl mb-8">
             {/* Fishing Square - with link to /fishing */}
             <Link href="/fishing" className="w-full md:w-1/2">
-              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30 shadow-lg">
                 <Image
-                  src={Fishing7}
+                  src={MarlinPhoto}
                   alt="Blue Marlin Fishing"
                   fill={true}
                   objectFit="cover"
@@ -97,9 +93,9 @@ export default function Home() {
               </div>
             </Link>
             
-            {/* Non-Angler Activities Square - with link to /activities */}
+            {/* Non-Angler Activities Square with same enhancements */}
             <Link href="/activities" className="w-full md:w-1/2">
-              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+              <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30 shadow-lg">
                 <Image
                   src={Paragliding1}
                   alt="Non-Angler Activities"
@@ -116,7 +112,7 @@ export default function Home() {
           </div>
           
           {/* Buttons centered below the squares */}
-          <div className="flex flex-row justify-center space-x-2 w-full max-w-5xl">
+          <div className="flex flex-row justify-center space-x-4 w-full max-w-5xl">
             <a href="#contact" className="bg-transparent border-2 border-white text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full text-sm sm:text-lg font-semibold hover:bg-white hover:text-sky-800 transition duration-300 text-center">
               Contact Us
             </a>

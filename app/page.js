@@ -157,7 +157,7 @@ export default function Home() {
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center transition-transform duration-300">Exciting Activities for Non-Anglers</h2>
               <p className="text-lg text-center max-w-4xl mx-auto mb-8 text-gray-700">
-                We&apos;ve curated a diverse range of activities to ensure everyone has an unforgettable experience in Bahia. 
+                We&apos;ve curated a diverse range of activities for family and friendsto ensure everyone has an unforgettable experience in Bahia. 
                 Whether you are traveling with family, friends, or partners who prefer adventures beyond fishing, our non-angler activities provide the perfect complement to our world-class fishing excursions.
                 Activities will be catered to your preferences.
               </p>

@@ -97,7 +97,7 @@ export default function Home() {
             <Link href="/activities" className="w-full md:w-1/2">
               <div className="h-[200px] md:h-auto md:aspect-[4/3] relative rounded-xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30 shadow-lg">
                 <Image
-                  src={Paragliding1}
+                  src={BeachBiking1}
                   alt="Non-Angler Activities"
                   fill={true}
                   objectFit="cover"
@@ -105,6 +105,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
                   <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
+                  <p className="text-white text-md md:text-base group-hover:text-blue-50">For family and friends!</p>
+
                   <p className="text-white text-md md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
                 </div>
               </div>

@@ -104,10 +104,9 @@ export default function Home() {
                   className="group-hover:scale-105 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 group-hover:from-black/90 group-hover:via-black/50 transition-all duration-300">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Non-Angler Activities</h2>
-                  <p className="text-white text-md md:text-base group-hover:text-blue-50">For family and friends!</p>
+                  <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2 text-white group-hover:text-blue-200 transition">Activities for Family & Friends</h2>
 
-                  <p className="text-white text-md md:text-base group-hover:text-blue-50">Paragliding, spa treatments, beach excursions & more</p>
+                  <p className="text-white text-md md:text-base group-hover:text-blue-50">Non-Angler activities: paragliding, spa treatments, beach excursions & more</p>
                 </div>
               </div>
             </Link>

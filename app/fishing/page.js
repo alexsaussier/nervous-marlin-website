@@ -3,31 +3,30 @@ import Image from "next/image";
 import ContactUs from '@/components/ContactUs';
 import MarlinPhoto from '../../public/images/marlin-photo.jpg';
 import Fishing0 from '@/public/images/activities/fishing1.jpg';
-import Fishing1 from '@/public/images/fishing/fishing1.jpg';
-import Fishing2 from '@/public/images/fishing/fishing2.jpg';
-import Fishing3 from '@/public/images/fishing/fishing3.jpg';
-import Fishing4 from '@/public/images/fishing/fishing4.jpg';
-import Fishing5 from '@/public/images/fishing/fishing5.jpg';
-import Fishing6 from '@/public/images/fishing/fishing6.jpg';
-import Fishing7 from '@/public/images/fishing/fishing7.jpg';
+
 import Boat1 from '@/public/images/fishing/boat1.jpg';
 import Boat2 from '@/public/images/fishing/boat2.jpg';
 import Boat3 from '@/public/images/fishing/boat3.jpg';
 import RoyalCharlotteBank from '../../public/images/fishing/royalCharlotteBank.jpg'; 
 import Hero from '@/components/Hero';
 import PhotoGallery from '@/components/PhotoGallery';
+import { IMAGES } from '@/utils/images';
 
-// Define the fishingPhotos array
+// Define the fishingPhotos array - all from S3
 const fishingPhotos = [
-  { src: Fishing6, alt: "Fishing Photo 6" },
-  { src: Fishing7, alt: "Fishing Photo 7" },
-  { src: Fishing1, alt: "Fishing Photo 1" },
-  { src: Fishing2, alt: "Fishing Photo 2" },
-  { src: Fishing3, alt: "Fishing Photo 3" },
-  { src: Fishing4, alt: "Fishing Photo 4" },
-  { src: Fishing5, alt: "Fishing Photo 5" },
+  { src: IMAGES.fishing[5], alt: "Fishing Photo 6" }, // S3 fishing6.jpg
+  { src: IMAGES.fishing[6], alt: "Fishing Photo 7" }, // S3 fishing7.jpg
+  { src: IMAGES.fishing[0], alt: "Fishing Photo 1" }, // S3 fishing1.jpg
+  { src: IMAGES.fishing[1], alt: "Fishing Photo 2" }, // S3 fishing2.jpg
+  { src: IMAGES.fishing[2], alt: "Fishing Photo 3" }, // S3 fishing3.jpg
+  { src: IMAGES.fishing[3], alt: "Fishing Photo 4" }, // S3 fishing4.jpg
+  { src: IMAGES.fishing[4], alt: "Fishing Photo 5" }, // S3 fishing5.jpg
+  { src: IMAGES.fishing[7], alt: "Fishing Photo 8" }, // S3 fishing8.jpg
+  { src: IMAGES.fishing[8], alt: "Fishing Photo 9" }, // S3 fishing9.jpg
+  { src: IMAGES.fishing[9], alt: "Fishing Photo 10" }, // S3 fishing10.jpg
+  { src: IMAGES.fishing[10], alt: "Fishing Photo 11" } // S3 fishing11.jpg
   
-  // Add more photos as needed
+  // All fishing photos now loaded from S3 bucket
 ];
 
 export default function Fishing() {
@@ -69,7 +68,7 @@ export default function Fishing() {
                 <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
                   <div className="relative w-full h-0 pb-[66.67%]"> {/* 2:3 aspect ratio */}
                     <Image
-                      src={Fishing7}
+                      src={IMAGES.fishing[6]}
                       alt="Blue Marlin Fishing"
                       layout="fill"
                       objectPosition="left 20%"

@@ -112,5 +112,19 @@ export const IMAGES = {
     pool: [
       '/images/new-house/house-outside.jpeg', // Using outside image as placeholder
     ],
-  }
+  },
+
+  fishing: [
+    `${S3_BASE_URL}/fishing/fishing1.jpg`,
+    `${S3_BASE_URL}/fishing/fishing2.jpg`,
+    `${S3_BASE_URL}/fishing/fishing3.jpg`,
+    `${S3_BASE_URL}/fishing/fishing4.jpg`,
+    `${S3_BASE_URL}/fishing/fishing5.jpg`,
+    `${S3_BASE_URL}/fishing/fishing6.jpg`,
+    `${S3_BASE_URL}/fishing/fishing7.jpg`,
+    `${S3_BASE_URL}/fishing/fishing8.jpg`,
+    `${S3_BASE_URL}/fishing/fishing9.jpg`,
+    `${S3_BASE_URL}/fishing/fishing10.jpg`,
+    `${S3_BASE_URL}/fishing/fishing11.jpg`,
+  ]
 };

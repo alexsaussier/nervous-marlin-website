@@ -91,5 +91,26 @@ export const IMAGES = {
       `${S3_BASE_URL}/small-groups/small-house-bathroom1.jpeg`,
       `${S3_BASE_URL}/small-groups/small-house-bathroom2.jpeg`,
     ],
+  },
+
+  newHouse: {
+    outside: [
+      '/images/new-house/house-outside.jpeg',
+    ],
+    bedrooms: [
+      '/images/new-house/bedroom.jpeg',
+    ],
+    living: [
+      '/images/new-house/house-outside.jpeg', // Using outside image as placeholder
+    ],
+    kitchen: [
+      '/images/new-house/house-outside.jpeg', // Using outside image as placeholder
+    ],
+    bathrooms: [
+      '/images/new-house/bedroom.jpeg', // Using bedroom image as placeholder
+    ],
+    pool: [
+      '/images/new-house/house-outside.jpeg', // Using outside image as placeholder
+    ],
   }
 };

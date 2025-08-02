@@ -10,8 +10,6 @@ import logoBlue from '../public/assets/logoBlue.png';
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobileAccommodationOpen, setIsMobileAccommodationOpen] = useState(false);
-  const [isDesktopAccommodationOpen, setIsDesktopAccommodationOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -93,36 +91,13 @@ export default function Header() {
                 </div>
               </li>
             ))}
-            {/* Accommodation dropdown */}
-            <li className="relative">
-              <button
-                onClick={() => setIsDesktopAccommodationOpen(!isDesktopAccommodationOpen)}
-                className="px-2 py-2 hover:bg-sky-800 hover:text-white rounded-md flex items-center gap-1 text-base xl:text-lg font-semibold"
-              >
-                Accommodation
-                <span className={`transform transition-transform duration-200 ${isDesktopAccommodationOpen ? 'rotate-180' : ''}`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-4 h-4">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                  </svg>
-                </span>
-              </button>
-              {/* Dropdown menu */}
-              <ul className={`absolute bg-blue-200 rounded-md mt-1 w-full overflow-hidden transition-all duration-200 ${
-                isDesktopAccommodationOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
-              }`}>
-                <li>
-                  <a href="/accommodation/" 
-                     className="block px-3 py-2 text-sky-800 text-sm xl:text-base hover:bg-sky-800 hover:text-white">
-                    Large Groups (8+)
-                  </a>
-                </li>
-                <li>
-                  <a href="/accommodation/small-groups" 
-                     className="block px-3 py-2 text-sky-800 text-sm xl:text-base hover:bg-sky-800 hover:text-white">
-                    Smaller Groups
-                  </a>
-                </li>
-              </ul>
+            {/* Lodge item */}
+            <li>
+              <div className="px-2 py-2 hover:bg-sky-800 hover:text-white rounded-md">
+                <a href="/lodge" className="text-base xl:text-lg font-semibold">
+                  Lodge
+                </a>
+              </div>
             </li>
             {/* Packages item */}
             <li>
@@ -160,42 +135,15 @@ export default function Header() {
               </a>
             </li>
           ))}
-          {/* Accommodation dropdown */}
-          <li className="relative">
-            <button
-              onClick={() => setIsMobileAccommodationOpen(!isMobileAccommodationOpen)}
-              className="w-full text-left py-2 text-lg font-semibold text-sky-800 hover:text-white transition duration-300 flex items-center justify-between"
+          {/* Lodge item */}
+          <li>
+            <a
+              href="/lodge"
+              onClick={handleMenuItemClick}
+              className="block py-2 text-lg font-semibold text-sky-800 hover:text-white transition duration-300"
             >
-              Accommodation
-              <span className={`transform transition-transform duration-200 ${isMobileAccommodationOpen ? 'rotate-180' : ''}`}>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-4 h-4">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                </svg>
-              </span>
-            </button>
-            {/* Dropdown menu */}
-            <ul className={`bg-blue-200 overflow-hidden transition-all duration-200 ${
-              isMobileAccommodationOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
-            }`}>
-              <li>
-                <a 
-                  href="/accommodation/"
-                  onClick={handleMenuItemClick}
-                  className="block px-4 py-2 text-sky-800 hover:bg-sky-800 hover:text-white"
-                >
-                  Large Groups (8+)
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="/accommodation/small-groups"
-                  onClick={handleMenuItemClick}
-                  className="block px-4 py-2 text-sky-800 hover:bg-sky-800 hover:text-white"
-                >
-                  Smaller Groups
-                </a>
-              </li>
-            </ul>
+              Lodge
+            </a>
           </li>
           {/* Packages item */}
           <li>

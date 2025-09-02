@@ -18,11 +18,11 @@ export async function POST(request) {
   // Compose the email
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_TO, // Replace with your email address
+    to: ['leo@nervousmarlin.com', 'sales@nervousmarlin.com'], // Send to both Leo and Sales
     bcc: process.env.EMAIL_BCC, // Add this line for BCC (hidden CC)
     subject: 'New Enquiry from Nervous Marlin Website',
     text: `
-      New booking enquiry received fron the webpage:
+      New booking enquiry received from the webpage:
       Type of request: ${formData.type_of_request.toString()}
       
       Name: ${formData.name}

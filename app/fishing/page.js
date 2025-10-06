@@ -2,7 +2,7 @@
 import Image from "next/image";
 import ContactUs from '@/components/ContactUs';
 import MarlinPhoto from '../../public/images/marlin-photo.jpg';
-import Fishing0 from '@/public/images/activities/fishing1.jpg';
+import MaxPhoto from '@/public/assets/Max.jpg';
 
 import Boat1 from '@/public/images/fishing/boat1.jpg';
 import Boat2 from '@/public/images/fishing/boat2.jpg';
@@ -66,12 +66,12 @@ export default function Fishing() {
               <h2 className="text-3xl font-bold mb-8 text-center">Expert-Led Blue Marlin Fishing</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
-                  <div className="relative w-full h-0 pb-[66.67%]"> {/* 2:3 aspect ratio */}
+                  <div className="relative w-full h-0 pb-[125%]"> {/* 4:5 portrait aspect ratio */}
                     <Image
-                      src={IMAGES.fishing[6]}
-                      alt="Blue Marlin Fishing"
+                      src={MaxPhoto}
+                      alt="Captain Maximilian A. Michowski"
                       layout="fill"
-                      objectPosition="left 20%"
+                      objectPosition="center center"
                       className="absolute top-0 left-0 w-full h-full object-cover"
                     />
                   </div>
@@ -79,7 +79,7 @@ export default function Fishing() {
                 <div className="space-y-4">
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     You will be fishing with captain Maximilian A. Michowski . He is a licensed Master Captain from New Jersey, bringing years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
-                    He's fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia — targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
+                    He&apos;s fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia — targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We are conscious of the need to conserve the fish that we love to pursue. In line with the
@@ -91,7 +91,7 @@ export default function Fishing() {
                   </p>
                   <div className="mt-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
                     <p className="text-lg italic text-blue-800">
-                      "My plan is to obviously become proficient and learn the methods/techniques of Brazilian fishing, while also incorporating outside strategies I have learned in my years into the fishing spread. I find the Royal Charlotte Bank to be an exceptionally fascinating place to fish because it is a relatively new fishing hotspot, with few boats fishing it. Most of the boats in this region are targeting giant blue marlin which is exhilarating, but I feel there is more potential in other species as well. The best part about fishing offshore banks and canyons is that you never know what monsters lurk below and I feel there is a lot to be discovered which is why I am so excited to try different techniques/strategies in targeting these amazing fish including wahoo, marlin, tuna, and swordfish."
+                      &quot;My plan is to obviously become proficient and learn the methods/techniques of Brazilian fishing, while also incorporating outside strategies I have learned in my years into the fishing spread. I find the Royal Charlotte Bank to be an exceptionally fascinating place to fish because it is a relatively new fishing hotspot, with few boats fishing it. Most of the boats in this region are targeting giant blue marlin which is exhilarating, but I feel there is more potential in other species as well. The best part about fishing offshore banks and canyons is that you never know what monsters lurk below and I feel there is a lot to be discovered which is why I am so excited to try different techniques/strategies in targeting these amazing fish including wahoo, marlin, tuna, and swordfish.&quot;
                     </p>
                     <p className="text-sm text-blue-600 mt-2 font-semibold">- Captain Maximilian A. Michowski</p>
                   </div>                  

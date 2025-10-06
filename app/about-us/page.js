@@ -91,10 +91,10 @@ export default function AboutUs() {
                     <p className="text-center italic mt-2">Captain Maximilian A. Michowski</p>
                   </div>
                   <div className="space-y-4">
-                    <p className="text-lg">
-                      We're excited to have Captain Maximilian A. Michowski on the Nervous Marlin team. A licensed Master Captain from New Jersey, Max brings years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
-                      He's fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia, targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
-                    </p>
+                      <p className="text-lg">
+                        We&apos;re excited to have Captain Maximilian A. Michowski on the Nervous Marlin team. A licensed Master Captain from New Jersey, Max brings years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
+                        He&apos;s fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia, targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
+                      </p>
                   </div>
                 </div>
               </div>

@@ -78,10 +78,8 @@ export default function Fishing() {
                 </div>
                 <div className="space-y-4">
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    Our local team boasts decades of combined experience in the waters off Bahia, Brazil.
-                    Your captain will be Robson, he has been living in Arraial d&apos;Ajuda for 32 years and fishing Blue Marlin for 26 years.
-                    He is greatly experienced and has a lot of stories to tell about his adventures.
-                    His team&apos;s knowledge of the region&apos;s marine ecosystem and Blue Marlin behavior is unique in the region.
+                    You will be fishing with captain Maximilian A. Michowski . He is a licensed Master Captain from New Jersey, bringing years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
+                    He's fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia — targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We are conscious of the need to conserve the fish that we love to pursue. In line with the
@@ -90,7 +88,13 @@ export default function Fishing() {
                   </p>
                   <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
                     We provide the finest, state-of-the-art fishing equipment. You can find more information about the boat and equipment slightly below on this page.
-                  </p>                  
+                  </p>
+                  <div className="mt-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
+                    <p className="text-lg italic text-blue-800">
+                      "My plan is to obviously become proficient and learn the methods/techniques of Brazilian fishing, while also incorporating outside strategies I have learned in my years into the fishing spread. I find the Royal Charlotte Bank to be an exceptionally fascinating place to fish because it is a relatively new fishing hotspot, with few boats fishing it. Most of the boats in this region are targeting giant blue marlin which is exhilarating, but I feel there is more potential in other species as well. The best part about fishing offshore banks and canyons is that you never know what monsters lurk below and I feel there is a lot to be discovered which is why I am so excited to try different techniques/strategies in targeting these amazing fish including wahoo, marlin, tuna, and swordfish."
+                    </p>
+                    <p className="text-sm text-blue-600 mt-2 font-semibold">- Captain Maximilian A. Michowski</p>
+                  </div>                  
                 </div> 
               </div>
             </div>

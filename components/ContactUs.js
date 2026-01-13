@@ -17,6 +17,10 @@ export default function ContactUs({ type_of_request = 'Information' }) {
     message: '',
     type_of_request: type_of_request,
     agreeToContact: false,
+    // Honeypot field - bots will fill this, humans won't see it
+    website: '',
+    // Timestamp to detect instant submissions
+    _formLoadedAt: Date.now(),
   })
 
   const handleChange = (e) => {
@@ -49,6 +53,8 @@ export default function ContactUs({ type_of_request = 'Information' }) {
           message: '',
           type_of_request: type_of_request,
           agreeToContact: false,
+          website: '',
+          _formLoadedAt: Date.now(),
         })
       } else if (response.status === 400) {
         alert('Please fill in your name, email, and phone number.')
@@ -74,6 +80,18 @@ export default function ContactUs({ type_of_request = 'Information' }) {
                 value={formData.name}
                 onChange={handleChange}
               />
+
+              {/* Honeypot field - hidden from humans, bots will fill it */}
+              <div className="absolute left-[-9999px]" aria-hidden="true">
+                <input
+                  type="text"
+                  name="website"
+                  value={formData.website}
+                  onChange={handleChange}
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
+              </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <InputField

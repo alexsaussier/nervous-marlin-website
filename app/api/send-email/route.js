@@ -4,6 +4,19 @@ import nodemailer from 'nodemailer';
 export async function POST(request) {
   const formData = await request.json();
 
+  // Anti-spam: Honeypot check - if website field is filled, it's a bot
+  if (formData.website) {
+    // Silently pretend success to not alert the bot
+    return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
+  }
+
+  // Anti-spam: Time-based check - reject submissions faster than 3 seconds
+  const formLoadedAt = formData._formLoadedAt;
+  if (formLoadedAt && Date.now() - formLoadedAt < 3000) {
+    // Too fast, likely a bot - silently pretend success
+    return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
+  }
+
   // Create a transporter using SMTP
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com", // Replace with your SMTP host

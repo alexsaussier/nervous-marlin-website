@@ -60,45 +60,6 @@ export default function Fishing() {
         </div>
       </section>
 
-      {/* Fishing Service Section */}
-      <section className="py-16 bg-white text-gray-800">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-8 text-center">Expert-Led Blue Marlin Fishing</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div className="group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl max-w-lg mx-auto w-full"> {/* Added max-w-md and mx-auto */}
-                  <div className="relative w-full h-0 pb-[125%]"> {/* 4:5 portrait aspect ratio */}
-                    <Image
-                      src={MaxPhoto}
-                      alt="Captain Maximilian A. Michowski"
-                      layout="fill"
-                      objectPosition="center center"
-                      className="absolute top-0 left-0 w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    You will be fishing with captain Maximilian A. Michowski . He is a licensed Master Captain from New Jersey, bringing years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
-                    He&apos;s fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia — targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
-                  </p>
-                  <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    We are conscious of the need to conserve the fish that we love to pursue. In line with the
-                    regulations here in Brazil, we release all of the marlin caught; no marlins caught are
-                    killed.
-                  </p>
-                  <p className="text-lg transition-opacity duration-300 group-hover:opacity-80">
-                    We provide the finest, state-of-the-art fishing equipment. You can find more information about the boat and equipment slightly below on this page.
-                  </p>
-                  <div className="mt-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
-                    <p className="text-lg italic text-blue-800">
-                      &quot;My plan is to obviously become proficient and learn the methods/techniques of Brazilian fishing, while also incorporating outside strategies I have learned in my years into the fishing spread. I find the Royal Charlotte Bank to be an exceptionally fascinating place to fish because it is a relatively new fishing hotspot, with few boats fishing it. Most of the boats in this region are targeting giant blue marlin which is exhilarating, but I feel there is more potential in other species as well. The best part about fishing offshore banks and canyons is that you never know what monsters lurk below and I feel there is a lot to be discovered which is why I am so excited to try different techniques/strategies in targeting these amazing fish including wahoo, marlin, tuna, and swordfish.&quot;
-                    </p>
-                    <p className="text-sm text-blue-600 mt-2 font-semibold">- Captain Maximilian A. Michowski</p>
-                  </div>                  
-                </div> 
-              </div>
-            </div>
-          </section>
 
            {/* RCB Section */}
       <section className="py-16 bg-gray-200 text-gray-800">

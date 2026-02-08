@@ -1,12 +1,12 @@
 'use client';
 
 import HeroSection from '@/components/Hero';
-import { useState } from 'react';
+// import { useState } from 'react'; // UNUSED - kept for reference if re-enabling multi-package display
 import Hero from '@/components/Hero';
 import Pitinga from '@/public/images/activities/beach6.jpg';
 import ContactUs from '@/components/ContactUs';
 
-import { Fish, Users, Calendar } from 'lucide-react'
+import { Fish, Users, Calendar, User } from 'lucide-react'
 
 import { Button } from "@/components/Button"
 import {
@@ -22,6 +22,12 @@ import { CheckIcon, CrossIcon } from '@/components/CheckIcon'
 
 
 export default function Packages() {
+    // Currently displaying only: 4 anglers, 3 fishing days
+    const displayedPrice = 3570;
+    const displayedAnglers = 4;
+    const displayedDays = 3;
+
+    /* UNUSED - Full pricing table kept for reference
     const [selectedAnglers, setSelectedAnglers] = useState(2)
     const anglerPrices = {
         2: {
@@ -40,6 +46,7 @@ export default function Packages() {
           6: 4980,
         },
       }
+    */
 
     return(
     <div className='font-sans'>
@@ -71,7 +78,7 @@ export default function Packages() {
                 </CardHeader>
                 <CardContent className="grid gap-4">
                   <div className="flex items-center gap-2">
-                    <span className="text-2xl font-bold">$499</span>
+                    <span className="text-2xl font-bold">$350</span>
                     <span className="text-gray-500">per person/day</span>
                   </div>
                   <div className="grid gap-2">
@@ -85,7 +92,7 @@ export default function Packages() {
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckIcon />
-                      Breakfast, and all meals and drinks (soft drinks, local beer, sodas, water)
+                      Breakfast, lunch, dinner and drinks (soft drinks, local beer, wine, sodas, water)
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckIcon />
@@ -127,6 +134,47 @@ export default function Packages() {
             {/*Angler Packages*/}
             <TabsContent value="angler" className="mt-6">
               <div className="grid gap-6">
+                {/* Single package display: 4 anglers, 3 fishing days */}
+                <div className="flex justify-center">
+                  <Card className="max-w-md w-full">
+                    <CardHeader>
+                      <CardTitle className="flex text-gray-800 items-center gap-2">
+                        <Calendar className="h-5 w-5" />
+                        {displayedDays} Fishing Days Package | {displayedDays + 2} nights
+                      </CardTitle>
+                      <CardDescription className="flex items-center gap-2 text-lg">
+                        <span className="flex gap-1">
+                          <User className="h-5 w-5" />
+                          <User className="h-5 w-5" />
+                          <User className="h-5 w-5" />
+                          <User className="h-5 w-5" />
+                        </span>
+                        For {displayedAnglers} anglers/boat
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent className="grid gap-4">
+                      <div className="flex flex-col items-center justify-between">
+                        <span className="text-2xl font-bold">
+                          ${displayedPrice}
+                        </span>
+                        <span className="text-gray-500">
+                          per person
+                        </span>
+                      </div>
+                      <div className="text-center text-sm text-green-600 font-medium bg-green-50 rounded-md py-2 px-3">
+                        Includes 1 extra night FREE
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <Button className="w-full" onClick={() => window.location.href = '/book-now'}>Book Now</Button>
+                    </CardFooter>
+                  </Card>
+                </div>
+                <p className="text-center text-sm text-gray-600">
+                  Looking for a different package? <a href="#contact" className="text-blue-600 hover:underline">Contact us</a> for a custom stay.
+                </p>
+
+                {/* UNUSED - Original angler selector and multi-package display kept for reference
                 <div className="flex justify-center space-x-4">
                   <Button
                     variant={selectedAnglers === 2 ? "default" : "outline"}
@@ -176,6 +224,7 @@ export default function Packages() {
                     </Card>
                   ))}
                 </div>
+                */}
                 
                 {/*What's included*/}
                 <div className="mt-8 rounded-lg bg-white p-6 shadow-lg">
@@ -284,7 +333,7 @@ export default function Packages() {
 
         
         {/* Contact Form Section */}
-        <section className="bg-gray-200 text-gray-800 py-12">
+        <section id="contact" className="bg-gray-200 text-gray-800 py-12">
                 <div className="mx-auto">
                     <h2 className="text-3xl font-bold text-center">Contact Us</h2>
                     <ContactUs />

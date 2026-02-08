@@ -78,26 +78,7 @@ export default function AboutUs() {
                 <p className="text-center italic mt-2">Camilo and Leo</p>
               </div>
 
-              {/* Captain Max Section */}
-              <div className="mt-12 pt-8 border-t border-gray-300">
-                <h3 className="text-2xl font-bold mb-6">Meet Our Captain</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                  <div className="max-w-sm mx-auto">
-                    <Image
-                      src={MaxPhoto}
-                      alt="Captain Maximilian A. Michowski"
-                      className="rounded-lg shadow-lg object-cover aspect-[4/5] object-center"
-                    />
-                    <p className="text-center italic mt-2">Captain Maximilian A. Michowski</p>
-                  </div>
-                  <div className="space-y-4">
-                      <p className="text-lg">
-                        We&apos;re excited to have Captain Maximilian A. Michowski on the Nervous Marlin team. A licensed Master Captain from New Jersey, Max brings years of offshore experience from programs like Cast Strength Fishing and AccessWave Yacht Program.
-                        He&apos;s fished internationally across Costa Rica, the Dominican Republic, Mexico, Barbados, the Bahamas, and Australia, targeting everything from Sailfish to giant Marlin. Now based in Brazil for the season, Max is focused on learning local techniques while bringing a global perspective to the Royal Charlotte Bank.
-                      </p>
-                  </div>
-                </div>
-              </div>
+              
             </div>
       </section>
 

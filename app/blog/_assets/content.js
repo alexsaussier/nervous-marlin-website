@@ -129,6 +129,56 @@ const styles = {
 // All the blog articles data display in the /blog/[articleId].js pages.
 export const articles = [
   {
+    slug: "women-who-fish-why-nervous-marlin-is-the-perfect-destination-for-female-anglers",
+    title: "Women Who Fish: Why Nervous Marlin is the Perfect Destination for Female Anglers",
+    description: "Blog post about women who fish and why Nervous Marlin in Brazil is a welcoming destination for female anglers",
+    author: authors.find((author) => author.slug === authorSlugs.alex),
+    publishedAt: "2026-01-13",
+    
+    content: (
+      <>
+        <h1>Women Who Fish: Why Nervous Marlin is the Perfect Destination for Female Anglers</h1>
+
+<p>The world of sport fishing has long been associated with tradition, but today, more women than ever are discovering the thrill of battling a blue marlin or landing a trophy sailfish. At <a href="https://nervousmarlin.com" className="underline font-bold">Nervous Marlin</a> in Arraial d&apos;Ajuda, Bahia, Brazil, we&apos;re proud to welcome anglers of all backgrounds—and we&apos;ve become a favorite destination for women who fish.</p>
+
+<h3><strong>A Welcoming Environment for All Anglers</strong></h3>
+<p>Whether you&apos;re a seasoned angler or picking up a rod for the first time, Nervous Marlin offers an inclusive and supportive atmosphere. Our experienced guides are patient, knowledgeable, and passionate about sharing their love of fishing with everyone. There&apos;s no intimidation here—just the shared excitement of being on the water and the anticipation of what might strike next.</p>
+
+<h3><strong>Why More Women Are Choosing Sport Fishing</strong></h3>
+<p>Sport fishing offers a unique combination of adventure, skill, and connection with nature that appeals to women around the world. Here&apos;s why the community of female anglers is growing:</p>
+<ul>
+  <li><strong>Physical and Mental Challenge:</strong> Fighting a powerful marlin or tuna requires strength, strategy, and endurance—a rewarding full-body experience.</li>
+  <li><strong>Escape and Relaxation:</strong> Time on the water provides a peaceful escape from daily routines, surrounded by stunning ocean views.</li>
+  <li><strong>Bonding Experiences:</strong> Fishing trips create unforgettable memories with friends, family, or partners.</li>
+  <li><strong>Breaking Barriers:</strong> Women are proving that sport fishing isn&apos;t just a &quot;boys&apos; club&quot;—it&apos;s for anyone with a passion for adventure.</li>
+</ul>
+
+<h3><strong>World-Class Fishing in a Stunning Location</strong></h3>
+<p>Brazil&apos;s Bahia coast is home to some of the best blue marlin fishing in the Atlantic. The waters near Arraial d&apos;Ajuda offer incredible opportunities to target blue marlin, white marlin, sailfish, dorado, wahoo, and tuna. Our 30-foot fishing boats are equipped with top-quality gear, and our captains know exactly where to find the action.</p>
+
+<h3><strong>More Than Just Fishing</strong></h3>
+<p>What makes Nervous Marlin special is that it&apos;s not just about the fishing. Our lodge offers a complete vacation experience that&apos;s perfect for groups with mixed interests. While some members of your party are out chasing marlin, others can enjoy:</p>
+<ul>
+  <li>Paragliding over the stunning coastline</li>
+  <li>Scuba diving in crystal-clear waters</li>
+  <li>Relaxing spa treatments</li>
+  <li>Beach biking and ATV adventures</li>
+  <li>Exploring the charming streets of Arraial d&apos;Ajuda</li>
+  <li>Whale watching (seasonal)</li>
+</ul>
+<p>This makes Nervous Marlin ideal for couples, girlfriends&apos; trips, or family vacations where everyone can find their perfect adventure.</p>
+
+<h3><strong>Comfortable Accommodations and Genuine Hospitality</strong></h3>
+<p>After an exciting day on the water, return to our comfortable lodge where you&apos;ll be treated like family. Enjoy delicious Brazilian cuisine, cold drinks, and swap fishing stories with fellow guests. Our team takes care of every detail so you can focus on making memories.</p>
+
+<h3><strong>Join the Growing Community of Women Anglers</strong></h3>
+<p>There&apos;s never been a better time to try sport fishing or take your skills to the next level. At Nervous Marlin, we believe that the ocean belongs to everyone, and we&apos;re committed to creating an experience where women feel empowered, respected, and ready to reel in the catch of a lifetime.</p>
+
+<p>Ready to plan your fishing adventure? <a href="https://nervousmarlin.com/book-now" className="underline font-bold">Contact us</a> to learn more about our packages and start planning your trip to Brazil&apos;s premier fishing destination.</p>
+      </>
+    ),
+  },
+  {
     slug: "experience-the-best-fishing-charters-in-brazil-at-nervous-marlin",
     title: "Experience the Best Fishing Charters in Brazil at Nervous Marlin",
     description: "Blog post about fishing charters brazil",

@@ -1,0 +1,57 @@
+name: Daily Blog Post
+
+# ─── Triggers ─────────────────────────────────────────────────────────────────
+on:
+  # Run every day at 09:00 UTC (06:00 Brazil / BRT = UTC-3)
+  schedule:
+    - cron: "0 9 * * *"
+
+  # Allow a manual run from the Actions tab (useful for testing)
+  workflow_dispatch:
+
+# ─── Job ──────────────────────────────────────────────────────────────────────
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+
+    # The GITHUB_TOKEN needs write access to push the commit back
+    permissions:
+      contents: write
+
+    steps:
+      # 1. Check out the latest code on main
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git push works cleanly
+
+      # 2. Python runtime
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3. Install the Anthropic SDK (only dependency)
+      - name: Install dependencies
+        run: pip install anthropic
+
+      # 4. Generate the article — reads/writes content.js and topics_history.json
+      - name: Generate daily blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python utils/generate_blog_post.py
+
+      # 5. Commit the two changed files and push to main
+      #    `git diff --staged --quiet` exits 0 (skip commit) if nothing changed,
+      #    which protects against accidental empty commits.
+      - name: Commit and push changes
+        run: |
+          git config user.name  "Nervous Marlin Blog Bot"
+          git config user.email "blog-bot@nervousmarlin.com"
+          git add app/blog/_assets/content.js utils/topics_history.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit — skipping."
+          else
+            git commit -m "blog: add daily article $(date -u +%Y-%m-%d)"
+            git push origin main
+          fi

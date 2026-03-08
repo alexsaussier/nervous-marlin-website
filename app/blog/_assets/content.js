@@ -697,8 +697,8 @@ export const articles = [
 
   {
     slug: "top-10-best-blue-marlin-fishing-locations-for-an-unforgettable-adventure",
-    title: "Top 10 Best Blue Marlin Fishing Locations for an Unforgettable Adventure",
-    description: "Blog post about Best blue marlin fishing locations",
+    title: "Top 10 Best Blue Marlin Fishing Spots in the World (2026 Guide)",
+    description: "Discover the world's top blue marlin fishing destinations — from Cabo San Lucas to Madeira. Expert tips, best seasons, and what to expect at each spot.",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-12-19",
     
@@ -6679,7 +6679,7 @@ export const articles = [
   {
     slug: "discover-the-best-blue-marlin-fishing-locations-around-the-world",
     title: "Discover the Best Blue Marlin Fishing Locations Around the World",
-    description: "Blog post about Best blue marlin fishing locations",
+    description: "Discover the world's top blue marlin fishing destinations — from Cabo San Lucas to Madeira. Expert tips, best seasons, and what to expect at each spot.",
     author: authors.find((author) => author.slug === authorSlugs.alex),
     publishedAt: "2024-10-07",
     

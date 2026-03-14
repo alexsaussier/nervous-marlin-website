@@ -20,6 +20,10 @@ const geistMono = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://www.nervousmarlin.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: "Nervous Marlin | Blue Marlin Fishing Lodge in Brazil",
   description: "Experience world-class Blue Marlin fishing in Bahia, Brazil",
 };

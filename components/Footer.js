@@ -87,7 +87,11 @@ return (
             <a href="/terms-of-service" className="hover:text-gray-300">Terms of Service</a>
         </p>
         <p className="mt-2">
-            A <a href="https://www.brightbots.io" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 underline">BrightBots</a> project
+            <a href="https://www.brightbots.io" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 underline">BrightBots</a>
+            {' · '}
+            <a href="https://teamdesk.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 underline">TeamDesk</a>
+            {' · '}
+            <a href="https://alexandresaussier.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 underline">Alexandre Saussier</a>
         </p>
         <p className="text-transparent text-xs italic">Website created by <a href="https://www.batterseawebdesign.com">Battersea Web Design</a></p>
     </div>

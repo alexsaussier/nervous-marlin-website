@@ -31,7 +31,7 @@ const NavbarFloating = ({ alwaysDark = false }) => {
           </Link>
           <div className="flex items-center space-x-4">
             <ul className="hidden lg:flex space-x-8">
-              {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+              {['About Us', 'Location', 'Fishing', 'Activities', 'Lodge', 'Packages'].map((item) => (
                 <li key={item}>
                   <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-base xl:text-lg font-semibold text-white hover:text-red-400 transition duration-300">
                     {item}
@@ -61,7 +61,7 @@ const NavbarFloating = ({ alwaysDark = false }) => {
         } ${isFloating ? 'top-[115px] mr-16 rounded-b-3xl' : 'top-[80px]'}`}
       >
         <ul className={`py-2 ${isFloating ? 'pr-8 pl-4' : 'px-4'}`}>
-          {['About Us', 'Location', 'Fishing', 'Activities', 'Accomodation', 'Packages'].map((item) => (
+          {['About Us', 'Location', 'Fishing', 'Activities', 'Lodge', 'Packages'].map((item) => (
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase().replace(' ', '-')}`}
